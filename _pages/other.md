@@ -20,6 +20,4 @@ My other interests lie in:
 
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/2C54A80E-67ED-4B86-AFB5-9156008AA021.jpeg" alt="image">
 
-<img src="{{ site.url }}{{ site.baseurl }}/Photos/WhatsApp Image 2020-10-23 at 11.28.45.jpeg" alt="image">
-
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpeg" alt="image">
