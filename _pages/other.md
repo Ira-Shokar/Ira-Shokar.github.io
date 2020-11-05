@@ -6,7 +6,7 @@ header:
 ---
 My other interests lie in:
 
- - Python
+ - Python development
  - Unix Systems
  - Board Games
  - Quizzes
