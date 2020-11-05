@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Ira Shokar"
-  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/Photos/headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Postgraduate at the University of Cambridge"
   location         : "Cambridge, UK"
   email            : is500@cam.ac.uk
