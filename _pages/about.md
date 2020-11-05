@@ -1,5 +1,5 @@
 ---
-title: "Academ"
+title: "Academic"
 permalink: /academic/
 header:
   image: "/Photos/6B06A0CC-43BF-4969-976B-133D885888A7.jpeg"
