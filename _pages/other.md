@@ -6,9 +6,13 @@ header:
 ---
 My other interests lie in:
 
- - Python development
+ - Python Development
  - Unix-like Systems
+ - Maps
  - Board Games
  - Quizzes
  - Sport (Rugby, Squash, Tennis, Cricket, Korfball, Basketball, Cycling)
  - Animals
+
+Here's an image:
+<img src="{{ site.url }}{{ site.baseurl }}/photos/" alt="">
