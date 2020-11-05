@@ -11,8 +11,8 @@ header:
 
 # Education
 
-## <img align="left" width="29" height="32" src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest">    PhD, [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk)
-## [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk) [September 2020 - July 2024]
+### <img align="left" width="29" height="32" src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest">    PhD, [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk)
+### [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk) [September 2020 - July 2024]
 
 Currently completing an MRes in Physical Natural Science.
 
