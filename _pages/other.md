@@ -14,12 +14,12 @@ My other interests lie in:
  - Sport (Rugby, Squash, Tennis, Cricket, Korfball, Basketball, Cycling)
  - Animals
 
-<img src="{{ site.url }}{{ site.baseurl }}/photos/28628F03-39E7-4AFD-BC3F-6D290DA99152.jpeg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/Photos/28628F03-39E7-4AFD-BC3F-6D290DA99152.jpeg" alt="">
 
-<img src="{{ site.url }}{{ site.baseurl }}/photos/2C299A5D-E247-4976-83CE-76ED3E7BF1F2.jpeg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/Photos/2C299A5D-E247-4976-83CE-76ED3E7BF1F2.jpeg" alt="">
 
-<img src="{{ site.url }}{{ site.baseurl }}/photos/2C54A80E-67ED-4B86-AFB5-9156008AA021.jpeg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/Photos/2C54A80E-67ED-4B86-AFB5-9156008AA021.jpeg" alt="">
 
-<img src="{{ site.url }}{{ site.baseurl }}/photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpeg.jpeg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/Photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpeg.jpeg" alt="">
 
-<img src="{{ site.url }}{{ site.baseurl }}/photos/WhatsApp Image 2020-10-23 at 11.28.45.jpeg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/Photos/WhatsApp Image 2020-10-23 at 11.28.45.jpeg" alt="">
