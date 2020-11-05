@@ -6,3 +6,5 @@ main:
     url: /roles/
   - title: "Experience"
     url: /experience/
+  - title: "Other"
+    url: /other/
