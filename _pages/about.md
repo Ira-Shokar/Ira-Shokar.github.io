@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/zakim.jpg"
+  image: "/Photos/IMG_20201025_125746_Original.jpeg"
 ---
 
 ### Postgradute Student at the University of Cambridge as part of the Centre for Doctoral Study in the Application of Artificial Intellegence for Environmental Risk.
