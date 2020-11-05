@@ -7,7 +7,7 @@ header:
 My other interests lie in:
 
  - Python development
- - Unix Systems
+ - Unix-like Systems
  - Board Games
  - Quizzes
  - Sport (Rugby, Squash, Tennis, Cricket, Korfball, Basketball, Cycling)
