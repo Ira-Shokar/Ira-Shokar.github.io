@@ -1,10 +1,7 @@
 ---
 title: "About Me"
-date: 2018-01-28
-tags: [data wrangling, data science, messy data]
 header:
-  image: "/images/perceptron/percept.jpg"
-  excerpt: "Data Wrangling, Data Science, Messy Data"
-  mathjax: "true"
-  
+  image: "/Photos/6B06A0CC-43BF-4969-976B-133D885888A7.jpeg"
+  excerpt: "Welcome to my webpage. I am Postgradute Student at the University of Cambridge as part of the Centre for Doctoral Study in the Application of Artificial Intellegence for Environmental Risk."
+  mathjax: "true" 
 ---
