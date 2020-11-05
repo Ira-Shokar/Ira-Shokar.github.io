@@ -11,7 +11,7 @@ header:
 
 # Education
 
-## <img align="left" width="29" height="32" src="/Photos/pem.jpeg" alt="pem crest">    PhD, [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk)
+## <img align="left" width="29" height="32" src="/Photos/https://github.com/Ira-Shokar/Ira-Shokar.github.io/blob/master/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest">    PhD, [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk)
 ### [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk) [September 2020 - July 2024]
 
 Currently completing an MRes in Physical Natural Science.
@@ -59,7 +59,7 @@ Supervisor- Prof David Bowler.
 
 # Roles of Responsibility
 
-## <img align="left" width="29" height="32" src="/Photos/pem.jpeg" alt="pem crest">    Events Officer, [Graduate Parlour Committee](http://pemgp.soc.srcf.net/the-gpc/your-committee/)
+## <img align="left" width="29" height="32" src="/Photos/https://github.com/Ira-Shokar/Ira-Shokar.github.io/blob/master/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest">    Events Officer, [Graduate Parlour Committee](http://pemgp.soc.srcf.net/the-gpc/your-committee/)
 ### [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk) [September 2020- Present]  
 Elected to organise events, large and small, that will appeal to all aspects of the college community. This includes online events as well as following Covid protocols to ensure all in-person events are run safely and within guidelines.
 
