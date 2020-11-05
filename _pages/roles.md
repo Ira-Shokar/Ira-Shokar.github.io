@@ -26,12 +26,7 @@ Provided support and guidance to a group of first year students, by meeting week
 ### <img align="left" width="40" height="45"  src="/Photos/41349BA1-2C61-4EAA-AD1F-9A2004B0279F.png" alt="UOL crest">    Events Officer, JCR - [Nutford House](https://halls.london.ac.uk/nutford-house), [University of London](https://london.ac.uk) [Oct 2017- Jun 2018]  
 Chosen to organise events for fellow members in halls using a budget of £6,000. Events ranged from small events such as Tea & Cakes, to large events such as a Boat Ball.
 
-* * *
 
-# Experiance of Work
-
-### Data Science and Analytics Intern - [FTI Consulting](https://www.fticonsulting-emea.com/?rl=emea), London [Jul 2019- Aug 2018]
-Summer intern in the Forensic Litigations team; used various computational tools, such as network analysis and fuzzy token matching, to determine anomalous activity, fraud and money-laundering (```Python and SQL```).
 
 * * *
 
