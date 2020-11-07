@@ -32,8 +32,6 @@ Relevant Modules:
 - Computational Mathematics (```Mathematica```),
 - Mathematical Methods (I, II, III, for Physics and Astronomy, for Theoretical Physics).
 
-**Academic Projects**
-
 #### Final Year Research Project
 _'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_ ```(Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux)```.  
 Supervisor- Dr Chris Backhouse. [Report](Docs/Formal_Report.pdf)
@@ -45,6 +43,7 @@ Supervisor- Prof Ruben Saakyan. [Report](Docs/Final Report - Nuclear Forensics w
 #### 2nd Year Computational Project
 _'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_ (```Python```).  
 Supervisor- Prof David Bowler.
+
 
 **Activities and Societies:**  
 [UCL Men's Rugby 1st XV](https://www.instagram.com/p/BaHkn6LFzPK/?utm_source=ig_web_copy_link), [Physics Society](https://www.uclphysoc.com), [Data Science Society](https://www.ucldss.co.uk), [Technology Society](https://ucltechsoc.com).
