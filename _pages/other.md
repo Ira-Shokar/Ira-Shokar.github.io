@@ -13,6 +13,8 @@ My other interests lie in:
  - Quizzes
  - Sport (Rugby, Squash, Tennis, Cricket, Korfball, Basketball, Cycling)
  - Animals
+ 
+Here is a Bot to play the Board Game [We Rate Dogs](https://boardgamegeek.com/boardgame/266778/we-rate-dogs-card-game) for if you have less than 3 people: [Repository](https://github.com/Ira-Shokar/We-Rate-Dogs)
 
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/28628F03-39E7-4AFD-BC3F-6D290DA99152.jpeg" alt="image">
 
@@ -21,3 +23,5 @@ My other interests lie in:
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/2C54A80E-67ED-4B86-AFB5-9156008AA021.jpeg" alt="image">
 
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpeg" alt="image">
+
+
