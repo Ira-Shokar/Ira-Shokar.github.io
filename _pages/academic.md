@@ -38,7 +38,7 @@ Supervisor- [Dr Chris Backhouse](https://www.ucl.ac.uk/physics-astronomy/people/
 
 ####  Group project
 _'HPGe Detector Gamma Ray Spectroscopy'_ simulation of nuclear emission and subsequent detector interactions.(```C++: GEANT4; Cent OS```).  
-Supervisor- [Prof Ruben Saakyan](https://www.ucl.ac.uk/physics-astronomy/people/professor-ruben-saakyan).[Repository](https://github.com/Ira-Shokar/GEANT4_HPGe_Simulaton). [Report](../Docs/Final Report - Nuclear Forensics with Gamma Ray Spectroscopy.pdf).
+Supervisor- [Prof Ruben Saakyan](https://www.ucl.ac.uk/physics-astronomy/people/professor-ruben-saakyan).[Repository](https://github.com/Ira-Shokar/GEANT4_HPGe_Simulaton). [Report](../Docs/Final_Report_-_Nuclear_Forensics_with_Gamma_Ray_Spectroscopy.pdf)
 
 #### 2nd Year Computational Project
 _'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_ (```Python```).  
