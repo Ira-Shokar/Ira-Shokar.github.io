@@ -18,8 +18,6 @@ Currently completing an MRes in Physical Natural Science.
 Areas of specialisation:
 - Fluid Dynamics of the Climate
 - Machine Learning
-- Baysian Optimisation
-- Gaussian Processes
 
 
 ### <img align="left" width="40" height="45"  src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest">    BSc,Theoretical Physics - [University College](https://www.ucl.ac.uk), [University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk) [Sep 2017 - Jul 2020]
