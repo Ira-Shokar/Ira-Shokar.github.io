@@ -16,6 +16,8 @@ Summer intern in the Forensic Litigations team; used various computational tools
 
 # Hackathons
 
+```Section not added yet.```
+
 * * *
 
 # Academic Projects
