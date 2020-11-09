@@ -6,13 +6,13 @@ header:
 ---
 My other interests lie in:
 
- - Python Development
- - Unix-like Systems
- - Maps
- - Board Games
- - Quizzes
- - Sport (Rugby, Squash, Tennis, Cricket, Korfball, Basketball, Cycling)
- - Animals (Especially my family dogs: Joey and Bella- see below)
+ - Python Development.
+ - Unix-like Systems (Run Debaian on my PC as well as an Alphine Linux container using [ish.app](https://github.com/ish-app/ish) on my iPad which has become my main machine).
+ - Maps.
+ - Board Games.
+ - Quizzes.
+ - Sport (Rugby, Squash, Tennis, Cricket, Korfball, Basketball, Cycling).
+ - Animals (Especially my family dogs: Joey and Bella- see below).
  
 Here is a Bot to play the Board Game [We Rate Dogs](https://boardgamegeek.com/boardgame/266778/we-rate-dogs-card-game) for if you have less than 3 people: [Repository](https://github.com/Ira-Shokar/We-Rate-Dogs)
 
