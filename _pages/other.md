@@ -6,12 +6,11 @@ header:
 ---
 My other interests lie in:
 
- - Python Development.
  - Unix-like Systems (I run a [Debaian](https://www.debian.org) based system on my PC as well as an [Alphine Linux](https://alpinelinux.org/about/) using [ish.app](https://github.com/ish-app/ish) on my iPad which has now become my main machine).
  - Vim (by no means a Vim Wizard though).
  - Maps (A few of my favourites: [Cambridge](https://www.katherinebaxter.com/cambridge-university), [Greenground](https://helenilus.com/2020/01/29/london-greenground-map-with-distances/), [Alternate London Underground](https://www.whatdotheyknow.com/request/224813/response/560395/attach/3/London%20Connections%20Map.pdf)).
- - Board Games.
- - Quizzes.
+ - Board Games (From card games like [Skull King](https://boardgamegeek.com/boardgame/150145/skull-king) and [Exploding Kittens](https://explodingkittens.com) to strategy games such as [Settlers of Catan](https://www.catan.com/game/catan) and [Obsession] (https://boardgamegeek.com/boardgame/231733/obsession) to role play games like [Wereworlf](https://boardgamegeek.com/boardgame/25821/werewolves-millers-hollow)).
+ - Quizzes (Not to say I'm particularly good).
  - Sport (Rugby, Squash, Tennis, Cricket, Korfball, Basketball, Cycling).
  - Animals (Especially my family dogs: Joey and Bella- see below).
  
