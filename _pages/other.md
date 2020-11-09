@@ -8,6 +8,7 @@ My other interests lie in:
 
  - Python Development.
  - Unix-like Systems (I run a [Debaian](https://www.debian.org) based system on my PC as well as an [Alphine Linux](https://alpinelinux.org/about/) using [ish.app](https://github.com/ish-app/ish) on my iPad which has now become my main machine).
+ - Vim (by no means a Vim Wizard though)
  - Maps.
  - Board Games.
  - Quizzes.
