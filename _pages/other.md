@@ -7,7 +7,7 @@ header:
 My other interests lie in:
 
  - Python Development.
- - Unix-like Systems (Run Debaian on my PC as well as an Alphine Linux container using [ish.app](https://github.com/ish-app/ish) on my iPad which has become my main machine).
+ - Unix-like Systems (Run a [Debaian](https://www.debian.org) based system on my PC as well as an [Alphine Linux](https://alpinelinux.org/about/) container using [ish.app](https://github.com/ish-app/ish) on my iPad which has now become my main machine).
  - Maps.
  - Board Games.
  - Quizzes.
