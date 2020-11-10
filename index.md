@@ -1,36 +1,17 @@
-index
-
-
-
 ---
-layout: single
-author_profile: true
+title: "About"
+permalink: /
 header:
   image: "/Photos/6B06A0CC-43BF-4969-976B-133D885888A7.jpeg"
 ---
 
-<!DOCTYPE html>
-<html>  
-<head>
-  <meta name="google-site-verification" content="f3QXt6t5wXKKW2jOls0B8349e0Zjs_q-yn1SpW0AHlA" /> </head>
+** I am currently a Postgradute Research Student at the [University of Cambridge]("https://www.cam.ac.uk) as part of the [Centre for Doctoral Study]("https://www.cam.ac.uk) in the [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk) having previously completed a [BSc in Theoretical Physics](https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/theoretical-physics-bsc) .**
 
-<body>
-<h1>Welcome to my webpage.</h1>
+My research interests lie in:
+ - Deep Learning
+ - Atmospheric and Oceanic Dynamics
+ - Nonlinear and Chaotic Systems
+ - Adversarial Models
 
-<p>
-I am currently a Postgradute Student at the <a href="https://www.cam.ac.uk">University of Cambridge</a> as part of the <a href="https://epsrc.ukri.org/skills/students/centres/">Centre for Doctoral Study</a> in the <a href="https://ai4er-cdt.esc.cam.ac.uk">Application of Artificial Intelligence for Environmental Risk</a> having previously completed a <a href="https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/theoretical-physics-bsc">BSc in Theoretical Physics</a>. <br>
-<br>
-  
-My research interests lie in:<br>
- - Deep Learning<br>
- - Atmospheric and Oceanic Dynamics<br>
- - Nonlinear and Chaotic Systems<br>
- - Adversarial Models<br>
-<br>
-Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter!<br>  
-<br>  
-If you prefer a more traditional Academic CV (needs updating): <a href="/Docs/Ira_Shokar_CV_2020.pdf">CV </a>
-  
-</p>
-</body>
-</html>
+Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter! 
+If you prefer a more traditional Academic CV (needs updating): [CV](/Docs/Ira_Shokar_CV_2020.pdf)
