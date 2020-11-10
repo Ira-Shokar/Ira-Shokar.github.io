@@ -14,4 +14,5 @@ My research interests lie in:
  - Adversarial Models
 
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter! 
+
 If you prefer a more traditional Academic CV (needs updating): [CV](/Docs/Ira_Shokar_CV_2020.pdf)
