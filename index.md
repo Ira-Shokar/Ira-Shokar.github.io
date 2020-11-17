@@ -11,6 +11,24 @@ I am currently a Postgradute Research Student at the [University of Cambridge](h
  - Nonlinear and Chaotic Systems
  - Adversarial Models
 
+If you prefer a more traditional Academic CV (needs updating): [CV](/Docs/Ira_Shokar_CV_2020.pdf)
+
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter! 
 
-If you prefer a more traditional Academic CV (needs updating): [CV](/Docs/Ira_Shokar_CV_2020.pdf)
+<form
+  action="https://formspree.io/f/xzbkvkdo"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
