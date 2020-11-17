@@ -88,7 +88,7 @@ author:
   avatar           : "/Photos/headshot.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Postgraduate at the University of Cambridge | Artificial Intelligence"
   location         : "Cambridge, UK"
-  email            : "https://wwwira-shokar.co.uk/is500@cam.ac.uk"
+  email            : "https://www.ira-shokar.co.uk/is500@cam.ac.uk"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
