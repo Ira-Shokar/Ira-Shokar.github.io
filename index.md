@@ -28,7 +28,10 @@ Do reach out to me if you'd like to collaborate or just chat about any of the ab
     <textarea name="message"></textarea>
   </label>
 
-  <!-- your other form fields go here -->
+  <label>
+    Your file:
+    <input type="file" name="upload">
+  </label>
 
   <button type="submit">Send</button>
 </form>
