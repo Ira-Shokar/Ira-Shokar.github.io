@@ -10,13 +10,7 @@ header:
 # Experience of Work
 
 ### Data Science and Analytics Intern - [FTI Consulting](https://www.fticonsulting-emea.com/?rl=emea), London [Jul 2019- Aug 2018]
-Summer intern in the Forensic Litigations team; used various computational tools, such as network analysis and fuzzy token matching, to determine anomalous activity, fraud and money-laundering (```Python and SQL```).
-
-* * *
-
-# Hackathons
-
-```Section not added yet.```
+Summer intern in the Forensic Litigations team; used various computational tools, such as network analysis and fuzzy token matching, to determine anomalous activity, fraud and money-laundering [```Python, SQL```].
 
 * * *
 
@@ -33,3 +27,10 @@ Supervisor- [Prof Ruben Saakyan](https://www.ucl.ac.uk/physics-astronomy/people/
 #### 2nd Year Computational Project
 _'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_ [```Python```].  
 Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/professor-david-bowler). [Repository](https://github.com/Ira-Shokar/CA-Traffic).
+
+* * *
+
+# Hackathons
+
+```Section not added yet.```
+
