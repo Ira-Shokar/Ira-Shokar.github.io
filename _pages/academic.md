@@ -16,7 +16,7 @@ Areas of specialisation:
 
 **<img align="left" width="30" height="27"  src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest">    BSc,Theoretical Physics with 1st Class Honours - [University College](https://www.ucl.ac.uk), [University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk) [Sep 2017 - Jul 2020]**
 
-Relevant Modules:
+**Relevant Modules:**
 - Theory of Dynamical Systems and Chaos,
 - Computational Physics [I & II; ```Python```],
 - Computational Mathematics [```Mathematica```],
