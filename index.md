@@ -3,6 +3,7 @@ title: "About Me"
 permalink: /
 header:
   image: "/Photos/6B06A0CC-43BF-4969-976B-133D885888A7.jpeg"
+layout: single
 ---
 
 I am currently a Postgradute Research Student at the [University of Cambridge](https://www.cam.ac.uk) as part of the [Centre for Doctoral Study](https://epsrc.ukri.org/skills/students/centres/) in the [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk) having previously completed a [BSc in Theoretical Physics](https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/theoretical-physics-bsc). My research interests lie in:
