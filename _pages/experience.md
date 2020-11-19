@@ -11,7 +11,7 @@ Summer intern in the Forensic Litigations team; used various computational tools
 
 * * *
 
-# Academic Projects
+**Academic Projects**
 
 #### Final Year Research Project
 _'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_ [```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX```].  
