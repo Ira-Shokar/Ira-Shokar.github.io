@@ -2,9 +2,9 @@
 main:
   - title: "Academic"
     url: /academic/
-  - title: "Roles of Responsibility"
-    url: /roles/
   - title: "Experience"
     url: /experience/
+  - title: "Roles of Responsibility"
+    url: /roles/
   - title: "Other"
     url: /other/
