@@ -27,7 +27,7 @@ Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/p
 
 * * *
  
-# Hackathons
+### Hackathons
 
 ```Section not added yet.```
 
