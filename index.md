@@ -38,6 +38,13 @@ Do reach out to me if you'd like to collaborate or just chat about any of the ab
                 <input type="email" id="Email" name="Email" class="fcf-form-control" required>
             </div>
         </div>
+        
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Message Subject</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Subject" name="Subject" class="fcf-form-control" required>
+            </div>
+        </div>
 
         <div class="fcf-form-group">
             <label for="Message" class="fcf-label">Your message</label>
@@ -48,10 +55,6 @@ Do reach out to me if you'd like to collaborate or just chat about any of the ab
 
         <div class="fcf-form-group">
             <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-        </div>
-
-        <div class="fcf-credit" id="fcf-credit">
-        Simple HTML email form provided by: <a href="https://www.freecontactform.com" target="_blank">FreeContactForm.com</a>
         </div>
 
     </form>
