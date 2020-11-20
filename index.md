@@ -16,6 +16,5 @@ If you prefer a more traditional Academic CV (needs updating): [CV](/Docs/Ira_Sh
 
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter! 
 
-<script>
-<!-- www.123formbuilder.com script begins here --><script type="text/javascript" defer src="https://www.123formbuilder.com/embed/5728892.js" data-role="form" data-default-width="650px"></script><!-- www.123formbuilder.com script ends here -->
-</script>
+<script type="text/javascript" defer src="https://www.123formbuilder.com/embed/5728892.js" data-role="form" data-default-width="650px"></script>
+
