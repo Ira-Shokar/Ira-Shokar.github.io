@@ -2,7 +2,7 @@
 title: "Roles of Responsibilty"
 permalink: /roles/
 header:
-  image: "/Photos/6B06A0CC-43BF-4969-976B-133D885888A7.jpeg"
+  overlay_image:: "/Photos/6B06A0CC-43BF-4969-976B-133D885888A7.jpeg"
 layout: single
 ---
 ### <img align="left" width="40" height="45"  src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest">    Events Officer, [Graduate Parlour Committee](http://pemgp.soc.srcf.net/the-gpc/your-committee/) - [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk) [Sep 2020- Present]  
