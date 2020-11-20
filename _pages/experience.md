@@ -8,9 +8,27 @@ layout: single
 
 ## Internship Experience
 
-**Data Science and Analytics Intern - [FTI Consulting](https://www.fticonsulting-emea.com/?rl=emea), London [Jul 2019- Aug 2018]**
+**Data Science and Analytics Intern - [FTI Consulting](https://www.fticonsulting-emea.com/?rl=emea), City of London [Jul 2019- Aug 2018]**
 
 Summer intern in the Forensic Litigations team; used various computational tools, such as network analysis and fuzzy token matching, to determine anomalous activity, fraud and money-laundering [```Python, SQL```].
+
+
+
+## Hackathons
+
+```Section not added yet.```
+
+**UCL Hackathon Team - AI Messanger Hack - Developer Circles from Facebook, Fizrovia, London [Dec 2019]** 
+I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translatedtext from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask ```connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
+
+**Winning Hackathon Team - UCL Data Science Society Hackathon-  Microsoft Reactor, City of London [Nov 2019]**
+Hackathon hosted by Microsoft and American Express to look at providing insight from their credit card customer datasets. I was part of the winning team, where we produced a solution concluding that that product personalisation for customersubsets could increase credit card growth while assessing potential credit default and delinquency risk. We conducted exploratory analysis through k-means clustering and build decision tree and random forest models using ```Scikit-Learn```and the ```Azure API``` in ```Python```.
+
+**Winning Team - Applied Machine Learning Insight Challange - Arm Holdings, Cambridge [Nov 2019]**
+I was part of the winning team that completed a ```Python```debugging challenge applying an adaptive image filter to a webcamimage using a CNN during an insight into the research being conducted by ARM in the fields of computer vision and natural language processing for mobile devices
+
+**Hackathon Participant - Microsoft AI Mini Hack - Microsoft Reactor, City of London [Nov 2018]**
+ Made calls to Microsoft’s Cognitive ```Azure API``` to identify landmarks and animals and run a bot, by altering pre-build code,that played an image matching game against other participants.
 
 * * *
 
@@ -28,9 +46,6 @@ Supervisor- [Prof Ruben Saakyan](https://www.ucl.ac.uk/physics-astronomy/people/
 _'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_ [```Python```].  
 Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/professor-david-bowler). [Repository](https://github.com/Ira-Shokar/CA-Traffic).
 
-* * *
  
-## Hackathons
 
-```Section not added yet.```
 
