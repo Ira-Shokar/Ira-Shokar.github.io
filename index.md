@@ -16,7 +16,7 @@ If you prefer a more traditional Academic CV (needs updating): [CV](/Docs/Ira_Sh
 
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter!
 
-Send a message to Ira: [```is500@cam.ac.uk```](is500@cam.ac.uk).
+Send a message to Ira: [```is500@cam.ac.uk```](mailto:is500@cam.ac.uk).
 
 
 
