@@ -16,8 +16,6 @@ Summer intern in the Forensic Litigations team; used various computational tools
 
 ## Hackathons
 
-```Section not added yet.```
-
 **UCL Hackathon Team - AI Messanger Hack - Developer Circles from Facebook, Fizrovia, London [Dec 2019]** 
 I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translatedtext from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask ```connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
 
