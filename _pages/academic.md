@@ -2,7 +2,7 @@
 title: "Education"
 permalink: /academic/
 header:
-  overlay_image: "/Photos/6B06A0CC-43BF-4969-976B-133D885888A7.jpeg"
+  overlay_image: "/Photos/73D6BEE0-A525-4EA7-9AC9-776560A2F5E1.jpeg"
 layout: single
 ---
 <img align="left" width="40" height="45" src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest"> **PhD, [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk), [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk)  [Sep 2020 - Jul 2024]**
