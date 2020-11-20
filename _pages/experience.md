@@ -17,7 +17,7 @@ Summer intern in the Forensic Litigations team; used various computational tools
 ## Hackathons
 
 **UCL Hackathon Team - AI Messanger Hack - Developer Circles from Facebook, Fizrovia, London [Dec 2019]** 
-I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translatedtext from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask ```connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
+I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translatedtext from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask``` connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
 
 **Winning Hackathon Team - UCL Data Science Society Hackathon-  Microsoft Reactor, City of London [Nov 2019]**
 Hackathon hosted by Microsoft and American Express to look at providing insight from their credit card customer datasets. I was part of the winning team, where we produced a solution concluding that that product personalisation for customersubsets could increase credit card growth while assessing potential credit default and delinquency risk. We conducted exploratory analysis through k-means clustering and build decision tree and random forest models using ```Scikit-Learn```and the ```Azure API``` in ```Python```.
