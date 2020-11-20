@@ -6,7 +6,7 @@ header:
 layout: single
 ---
 
-## Experience of Work
+## Internship Experience
 
 **Data Science and Analytics Intern - [FTI Consulting](https://www.fticonsulting-emea.com/?rl=emea), London [Jul 2019- Aug 2018]**
 
