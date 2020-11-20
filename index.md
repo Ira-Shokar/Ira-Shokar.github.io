@@ -16,23 +16,6 @@ If you prefer a more traditional Academic CV (needs updating): [CV](/Docs/Ira_Sh
 
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter! 
 
-<form
-  action="https://formspree.io/f/xzbkvkdo"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-
-  <label>
-    Your file:
-    <input type="file" name="upload">
-  </label>
-
-  <button type="submit">Send</button>
-</form>
+<script>
+<!-- www.123formbuilder.com script begins here --><script type="text/javascript" defer src="https://www.123formbuilder.com/embed/5728892.js" data-role="form" data-default-width="650px"></script><!-- www.123formbuilder.com script ends here -->
+</script>
