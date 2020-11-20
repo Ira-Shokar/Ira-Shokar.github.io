@@ -14,7 +14,7 @@ Areas of specialisation:
 - Machine Learning
 
 
-## <img align="left" width="40" height="45"  src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest"> BSc,Theoretical Physics with 1st Class Honours  - [University College](https://www.ucl.ac.uk)  [Sep 2017 - Jul 2020][University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk)
+## <img align="left" width="40" height="45"  src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest"> BSc,Theoretical Physics with 1st Class Honours  [Sep 2017 - Jul 2020] [University College](https://www.ucl.ac.uk), [University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk)
 
 **Final Year Research Project**
 _'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_ [```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX```].  
