@@ -2,7 +2,7 @@
 title: "About"
 permalink: /
 header:
- overlay_image: "/Photos/6B06A0CC-43BF-4969-976B-133D885888A7.jpeg"
+ image: "/Photos/6B06A0CC-43BF-4969-976B-133D885888A7.jpeg"
 layout: single
 ---
 
