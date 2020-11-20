@@ -32,7 +32,7 @@ I was part of the winning team that completed a ```Python```debugging challenge 
 
 Made calls to Microsoft’s Cognitive ```Azure API``` to identify landmarks and animals and run a bot, by altering pre-build code,that played an image matching game against other participants.
 
-* * *
+
 
 ## Academic Projects
 
