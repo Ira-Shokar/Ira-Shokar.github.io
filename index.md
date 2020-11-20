@@ -2,7 +2,7 @@
 title: "About"
 permalink: /
 header:
- image: "/Photos/73D6BEE0-A525-4EA7-9AC9-776560A2F5E1.jpeg"
+ image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
 layout: single
 ---
 
