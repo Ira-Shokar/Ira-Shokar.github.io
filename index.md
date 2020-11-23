@@ -6,6 +6,8 @@ header:
 layout: single
 ---
 
+ <head> <link rel="icon" type="image/png"  href="/your_path_to_image/C8FDAD8D-115E-45A7-B68D-3E04EBC1C66E.png"> </head>
+
 I am currently a Postgradute Research Student at the [University of Cambridge](https://www.cam.ac.uk) as part of the [Centre for Doctoral Study](https://epsrc.ukri.org/skills/students/centres/) in the [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk) having previously completed a [BSc in Theoretical Physics](https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/theoretical-physics-bsc). My research interests lie in:
  - Deep Learning
  - Atmospheric and Oceanic Dynamics
