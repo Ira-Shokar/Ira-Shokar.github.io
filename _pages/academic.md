@@ -13,6 +13,7 @@ Areas of specialisation:
 - Fluid Dynamics of the Climate
 - Machine Learning
 
+***
 
 ### <img align="left" width="40" height="45"  src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest"> BSc, [Theoretical Physics](https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/theoretical-physics-bsc) with 1st Class Honours | [University College](https://london.ac.uk/ways-study/study-campus-london/member-institutions/ucl), [University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk)  [Sep 2017 - Jul 2020] 
 
