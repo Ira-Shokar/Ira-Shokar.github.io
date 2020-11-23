@@ -6,7 +6,17 @@ header:
 layout: single
 ---
 
-<head> <link rel="icon" type="image/png"  href="/Photos/C8FDAD8D-115E-45A7-B68D-3E04EBC1C66E.png"> </head>
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/Photos/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Photos/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Photos/favicon-16x16.png">
+<link rel="manifest" href="/Photos/site.webmanifest">
+<link rel="mask-icon" href="/Photos/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/Photos/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/Photos/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
 
 ### <img align="left" width="40" height="45"  src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest">    Events Officer, [Graduate Parlour Committee](http://pemgp.soc.srcf.net/the-gpc/your-committee/) | [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk) [Sep 2020- Present]  
 Elected to organise events, large and small, that will appeal to all aspects of the college community. This includes online events as well as following Covid protocols to ensure all in-person events are run safely and within guidelines.
