@@ -5,6 +5,9 @@ header:
   overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpegv"
 layout: single
 ---
+
+<head> <link rel="icon" type="image/png"  href="/Photos/C8FDAD8D-115E-45A7-B68D-3E04EBC1C66E.png"> </head>
+
 ### <img align="left" width="40" height="45"  src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest">    Events Officer, [Graduate Parlour Committee](http://pemgp.soc.srcf.net/the-gpc/your-committee/) | [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk) [Sep 2020- Present]  
 Elected to organise events, large and small, that will appeal to all aspects of the college community. This includes online events as well as following Covid protocols to ensure all in-person events are run safely and within guidelines.
 
