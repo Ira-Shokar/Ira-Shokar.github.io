@@ -5,6 +5,9 @@ header:
   overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
 layout: splash
 ---
+
+<head> <link rel="icon" type="image/png"  href="/Photos/C8FDAD8D-115E-45A7-B68D-3E04EBC1C66E.png"> </head>
+
 My other interests lie in:
 
  - Unix-like Systems (I run a [Debaian](https://www.debian.org) based system on my PC as well as an [Alphine Linux](https://alpinelinux.org/about/) using [ish.app](https://github.com/ish-app/ish) on my iPad which has now become my main machine).
