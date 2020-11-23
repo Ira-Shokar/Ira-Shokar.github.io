@@ -6,6 +6,8 @@ header:
 layout: single
 ---
 
+<head> <link rel="icon" type="image/png"  href="/Photos/C8FDAD8D-115E-45A7-B68D-3E04EBC1C66E.png"> </head>
+
 ## Internship Experience
 
 ### Data Science and Analytics Intern | [FTI Consulting](https://www.fticonsulting-emea.com/?rl=emea), City of London [Jul 2019- Aug 2018]
