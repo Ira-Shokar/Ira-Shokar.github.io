@@ -1,3 +1,23 @@
+---
+title: "Academic CV"
+permalink: /CV/
+header:
+  overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
+layout: single
+---
+
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/Photos/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Photos/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Photos/favicon-16x16.png">
+<link rel="manifest" href="/Photos/site.webmanifest">
+<link rel="mask-icon" href="/Photos/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/Photos/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/Photos/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
+
 ## Academic Projects
 
 2020:
@@ -17,13 +37,6 @@ Supervisor- [Prof Ruben Saakyan](https://www.ucl.ac.uk/physics-astronomy/people/
 - _'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_ [```Python```].  
 Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/professor-david-bowler). [Repository](https://github.com/Ira-Shokar/CA-Traffic).
 
-
-
-## Internship Experience
-
-### Data Science and Analytics Intern | [FTI Consulting](https://www.fticonsulting-emea.com/?rl=emea), City of London [Jul 2019- Aug 2018]
-
-Summer intern in the Forensic Litigations team; used various computational tools, such as network analysis and fuzzy token matching, to determine anomalous activity, fraud and money-laundering [```Python, SQL```].
 
 
 ## Hackathons
