@@ -56,7 +56,7 @@ layout: single
      - I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translated text from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask``` connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
      - [Repository](https://github.com/Ira-Shokar/Messenger-webserver)
 
- - **_'Providing insight from  credit card customer datasets - Hackathon'_**. Winning Hackathon Team - UCL Data Science Society Hackathon, hosted by [Microsoft](https://www.microsoft.com/en-us/research/) and [American Express](https://www.americanexpress.com/uk/)
+ - **_'Providing insight from  credit card customer datasets - Hackathon'_**. Winning Hackathon Team - UCL Data Science Society Hackathon, hosted by [Microsoft](https://www.microsoft.com/en-us/research/) and [American Express](https://www.americanexpress.com/uk/).
 
     - I was part of the winning team, where we produced a solution concluding that that product personalisation for customersubsets could increase credit card growth while assessing potential credit default and delinquency risk. We conducted exploratory analysis through k-means clustering and build decision tree and random forest models using ```Scikit-Learn```and the ```Azure API``` in ```Python```.
 
