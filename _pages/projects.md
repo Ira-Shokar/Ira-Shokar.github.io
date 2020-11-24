@@ -43,7 +43,8 @@ Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/p
 
 ### UCL Hackathon Team - AI Messanger Hack | [Developer Circles from Facebook](https://developers.facebook.com/developercircles/), Fizrovia, London [Dec 2019] 
 
-I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translatedtext from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask``` connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
+ - 'Chatbot to translate text in Facebook Messanger' [Python: Pytorch, Flask; Node.js]. UCL Hackathon Team - AI Messanger Hack at [Developer Circles from Facebook](https://developers.facebook.com/developercircles/). [Repository](https://github.com/Ira-Shokar/Messenger-webserver)
+ -I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translated text from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask``` connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
 
 ### Winning Hackathon Team - UCL Data Science Society Hackathon | [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/), City of London [Nov 2019] 
 
@@ -51,7 +52,7 @@ Hackathon hosted by [Microsoft](https://www.microsoft.com/en-us/research/) and [
 
 ### Winning Team - Applied Machine Learning Insight Challange | [Arm Holdings](https://www.arm.com/solutions/artificial-intelligence?utm_source=google&utm_medium=cpc&utm_campaign=2019_brand_solutions_mk30_search_bol_awa&utm_term=%2Barm%20%2Bmachine%20%2Blearning&gclid=CjwKCAiA7939BRBMEiwA-hX5J4mqgc5ms-4xxlZm4-oDQeERAsD0BTVBkRZYOneNbB1b43hjki8ZYBoCcvgQAvD_BwE), Cambridge [Nov 2019]
 
-I was part of the winning team that completed a ```Python```debugging challenge applying an adaptive image filter to a webcamimage using a CNN during an insight into the research being conducted by ARM in the fields of computer vision and natural language processing for mobile devices
+I was part of the winning team that completed a ```Python```debugging challenge applying an adaptive image filter to a webcamimage using a CNN during an insight into the research being conducted by ARM in the fields of computer vision and natural language processing for mobile devices.
 
 ### Hackathon Participant - Microsoft AI Mini Hack | [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/), City of London [Nov 2018]
 
