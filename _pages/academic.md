@@ -33,7 +33,7 @@ Currently completing a probationary MRes in Physical Natural Science before prog
 
 **Group Projects**
 
- - _'Quantifying the effecitiveness of natural hazard preventions using an LSTM for flood risk mitigation'_ [```Python```]
+ - _'Quantifying the effecitiveness of natural hazard preventions by using an LSTM to predict rainfall runoff in flood risk mitigation'_ [```Python```] [Repository](https://github.com/ai4er-cdt/flood_risk_shipston)
  - _'Bayesian optimisation in the Cloud'_ [```Python; AWS Services```]
 
 ***
