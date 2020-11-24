@@ -26,7 +26,7 @@ layout: single
 - Probabalistic Machine Learning and Inference,
 - Data Science,
 - Deep Learning, 
-- Generative and Adversarial Model,s,
+- Generative and Adversarial Models,
 - Cloud Computing.
 
 **Group Projects**
