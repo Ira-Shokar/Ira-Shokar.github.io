@@ -22,7 +22,7 @@ layout: single
 
 Currently completing a probationary MRes in Physical Natural Science before progressing to PhD research.
 
-**Relevant Modules:**
+**Areas of Study:**
 - Fluid Dynamics of the Climate 
 - Earth System Modelling
 - Probabalistic Machine Learning and Inference
