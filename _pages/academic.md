@@ -24,7 +24,7 @@ Currently completing an MRes in Physical Natural Science.
 
 Relevant Course Areas:
 - Fluid Dynamics of the Climate and 
-- Earth System Modeling
+- Earth System Modelling
 - Probabalistic Machine Learning and Inference
 - Data Science
 - Deep Learning 
