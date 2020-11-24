@@ -23,7 +23,7 @@ layout: single
 **Areas of Study:**
 - Fluid Dynamics of the Climate, 
 - Earth System Modelling,
-- Probabalistic Machine Learning and Inference,
+- Probabilistic Machine Learning and Inference,
 - Data Science,
 - Deep Learning, 
 - Generative and Adversarial Models,
