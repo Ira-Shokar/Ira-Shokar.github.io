@@ -22,7 +22,7 @@ layout: single
 
 Currently completing an MRes in Physical Natural Science.
 
-Relevant Modules:
+**Relevant Modules:**
 - Fluid Dynamics of the Climate 
 - Earth System Modelling
 - Probabalistic Machine Learning and Inference
