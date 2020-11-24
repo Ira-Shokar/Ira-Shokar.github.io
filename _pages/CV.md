@@ -18,6 +18,8 @@ layout: single
 <meta name="theme-color" content="#ffffff">
 </head>
 
+If you prefer a more traditional Academic CV (needs updating): [CV](/Docs/Ira_Shokar_CV_2020.pdf)
+
 ## Education
 
 ### <img align="left" width="40" height="45" src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest"> PhD, Application of Artificial Intelligence | [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk)  **[Sep 2020 - Jul 2024]**
