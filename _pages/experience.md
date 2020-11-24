@@ -53,11 +53,9 @@ Made calls to Microsoft’s Cognitive ```Azure API``` to identify landmarks and 
 - _'Bayesian Optimisation in the Cloud'_  [```Python; AWS Services```] (2020). 
 
 - _'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_ - **Bachelor's Thesis** [```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX```] (2020).
-
 Supervisor- [Dr Chris Backhouse](https://www.ucl.ac.uk/physics-astronomy/people/dr-christopher-backhouse). [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project). [Report](../Docs/Formal_Report.pdf).
 
-- _'HPGe Detector Gamma Ray Spectroscopy'_ simulation of nuclear emission and subsequent detector interactions.[```C++: GEANT4; Cent OS; LaTeX```]  (2020).  
-
+- _'HPGe Detector Gamma Ray Spectroscopy'_ simulation of nuclear emission and subsequent detector interactions.[```C++: GEANT4; Cent OS; LaTeX```] (2020).  
 Supervisor- [Prof Ruben Saakyan](https://www.ucl.ac.uk/physics-astronomy/people/professor-ruben-saakyan).[Repository](https://github.com/Ira-Shokar/GEANT4_HPGe_Simulaton). [Report](../Docs/Final_Report_-_Nuclear_Forensics_with_Gamma_Ray_Spectroscopy.pdf). 
 
 - _'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_ [```Python```] (2019).  
