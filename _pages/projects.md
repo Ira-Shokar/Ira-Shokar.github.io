@@ -28,6 +28,7 @@ layout: single
 - **_'Bayesian Optimisation in the Cloud'_**  [```Python; AWS Services```]. 
 
 - **_'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_** - **Bachelor's Thesis** [```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX```].
+     - Used a Domain-Adversarial Neural Network (DANN) to improve the performance of a Convolutional Neural Network (CNN) to classify neutrino interactions, for the analysis of neutrino oscillations. THis method looked to produce a model that is invariant to the differences in statistics between the input data (the labeled Monte Carlo simulations used to train the classifier) and the detector data.  
      - Supervisor- [Dr Chris Backhouse](https://www.ucl.ac.uk/physics-astronomy/people/dr-christopher-backhouse). 
      - [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project). 
      - [Report](../Docs/Formal_Report.pdf).
@@ -40,6 +41,7 @@ layout: single
 2019:
 
 - **_'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_** [```Python```].  
+     - Used a Cellular Automata model to simulate motorway traffic flows, in order to compare the similarities to the granular flow, turbulence and choked flow when traffic shockwaves arise. The model consisted of a few rules with the system was able to evolve over time with a stochastic element put in place to represent human decision making and irrationality, and was extended to contain different vehicles with different maximal speeds, blockages such as accidents or road closures to try and model a driverless car system.
      - Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/professor-david-bowler).
      - [Repository](https://github.com/Ira-Shokar/CA-Traffic).
 
