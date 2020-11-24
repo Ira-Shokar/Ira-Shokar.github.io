@@ -23,27 +23,27 @@ layout: single
 2020:
 
  - **_'Quantifying the effecitiveness of natural hazard preventions by using an LSTM to predict rainfall runoff in flood risk mitigation'_**. [Repository (https://github.com/ai4er-cdt/flood_risk_shipston).
-      - [```Python```].
+      - ```Python```.
        
 - **_'Bayesian Optimisation in the Cloud'._**
 
-     - [```Python, AWS Services```]. 
+     - ```Python, AWS Services```. 
 
 - **_'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_** - **Bachelor's Thesis**. [Report](../Docs/Formal_Report.pdf).
      - Used a Domain-Adversarial Neural Network (DANN) to improve the performance of a Convolutional Neural Network (CNN) to classify neutrino interactions, for the analysis of neutrino oscillations. THis method looked to produce a model that is invariant to the differences in statistics between the input data (the labeled Monte Carlo simulations used to train the classifier) and the detector data.  
      - Supervisor- [Dr Chris Backhouse](https://www.ucl.ac.uk/physics-astronomy/people/dr-christopher-backhouse). 
-     - [```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX```] [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project).  
+     - ```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX``` [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project).  
 
 - **_'HPGe Detector Gamma Ray Spectroscopy'_ simulation of nuclear emission and subsequent detector interactions.** [Report](../Docs/Final_Report_-_Nuclear_Forensics_with_Gamma_Ray_Spectroscopy.pdf).
      - Supervisor- [Prof Ruben Saakyan](https://www.ucl.ac.uk/physics-astronomy/people/professor-ruben-saakyan).
-     - [```C++: GEANT4; Cent OS; LaTeX```] [Repository](https://github.com/Ira-Shokar/GEANT4_HPGe_Simulaton).
+     - ```C++: GEANT4; Cent OS; LaTeX``` [Repository](https://github.com/Ira-Shokar/GEANT4_HPGe_Simulaton).
 
 2019:
 
 - **_'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_**.  
      - Used a Cellular Automata model to simulate motorway traffic flows, in order to compare the similarities to the granular flow, turbulence and choked flow when traffic shockwaves arise. The model consisted of a few rules with the system was able to evolve over time with a stochastic element put in place to represent human decision making and irrationality, and was extended to contain different vehicles with different maximal speeds, blockages such as accidents or road closures to try and model a driverless car system.
      - Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/professor-david-bowler).
-     - [```Python```] [Repository](https://github.com/Ira-Shokar/CA-Traffic).
+     - ```Python``` [Repository](https://github.com/Ira-Shokar/CA-Traffic).
 
 
 
