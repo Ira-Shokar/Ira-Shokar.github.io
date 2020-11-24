@@ -40,7 +40,8 @@ layout: single
 2019:
 
 - **_'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_** [```Python```].  
-     - Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/professor-david-bowler). [Repository](https://github.com/Ira-Shokar/CA-Traffic).
+     - Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/professor-david-bowler).
+     - [Repository](https://github.com/Ira-Shokar/CA-Traffic).
 
 
 
