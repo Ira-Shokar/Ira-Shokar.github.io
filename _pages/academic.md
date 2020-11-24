@@ -31,6 +31,11 @@ Relevant Modules:
 - Generative and Adversarial Models
 - Cloud Computing
 
+**Group Projects**
+'Quantifying the effecitiveness of natural hazard preventions using an LSTM in flood risk mitigation' [```Python```]
+
+'Bayesian optimisation in the Cloud' [```Python; AWS```]
+
 ***
 
 ### <img align="left" width="40" height="45"  src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest"> BSc, [Theoretical Physics](https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/theoretical-physics-bsc) with 1st Class Honours | [University College](https://london.ac.uk/ways-study/study-campus-london/member-institutions/ucl), [University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk)  [Sep 2017 - Jul 2020] 
@@ -39,7 +44,7 @@ Relevant Modules:
 _'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_ [```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX```].  
 Supervisor- [Dr Chris Backhouse](https://www.ucl.ac.uk/physics-astronomy/people/dr-christopher-backhouse). [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project). [Report](../Docs/Formal_Report.pdf).
 
-**Group project**
+**Group Project**
 _'HPGe Detector Gamma Ray Spectroscopy'_ simulation of nuclear emission and subsequent detector interactions.[```C++: GEANT4; Cent OS; LaTeX```].  
 Supervisor- [Prof Ruben Saakyan](https://www.ucl.ac.uk/physics-astronomy/people/professor-ruben-saakyan).[Repository](https://github.com/Ira-Shokar/GEANT4_HPGe_Simulaton). [Report](../Docs/Final_Report_-_Nuclear_Forensics_with_Gamma_Ray_Spectroscopy.pdf).
 
