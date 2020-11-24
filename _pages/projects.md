@@ -27,7 +27,7 @@ layout: single
        
 - **_'Bayesian Optimisation in the Cloud'._**
 
-         - [```Python, AWS Services```]. 
+     - [```Python, AWS Services```]. 
 
 - **_'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_** - **Bachelor's Thesis**. [Report](../Docs/Formal_Report.pdf).
      - Used a Domain-Adversarial Neural Network (DANN) to improve the performance of a Convolutional Neural Network (CNN) to classify neutrino interactions, for the analysis of neutrino oscillations. THis method looked to produce a model that is invariant to the differences in statistics between the input data (the labeled Monte Carlo simulations used to train the classifier) and the detector data.  
