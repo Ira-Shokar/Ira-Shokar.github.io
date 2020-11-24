@@ -26,6 +26,7 @@ layout: single
       - [```Python```].
        
 - **_'Bayesian Optimisation in the Cloud'._**
+
          - [```Python, AWS Services```]. 
 
 - **_'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_** - **Bachelor's Thesis**. [Report](../Docs/Formal_Report.pdf).
