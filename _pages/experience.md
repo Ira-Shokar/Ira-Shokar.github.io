@@ -52,7 +52,7 @@ Made calls to Microsoft’s Cognitive ```Azure API``` to identify landmarks and 
  
 - _'Bayesian Optimisation in the Cloud'_ [```Python; AWS Services```].
 
-- _'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_ - Undergradute Thesis [```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX```].
+- _'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_ - **Bachelor's Thesis** [```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX```].
 Supervisor- [Dr Chris Backhouse](https://www.ucl.ac.uk/physics-astronomy/people/dr-christopher-backhouse). [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project). [Report](../Docs/Formal_Report.pdf).
 
 - _'HPGe Detector Gamma Ray Spectroscopy'_ simulation of nuclear emission and subsequent detector interactions.[```C++: GEANT4; Cent OS; LaTeX```].  
