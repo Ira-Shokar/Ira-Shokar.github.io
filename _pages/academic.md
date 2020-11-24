@@ -28,7 +28,7 @@ Relevant Course Areas:
 - Probabalistic Machine Learning and Inference
 - Data Science
 - Deep Learning 
-- Generative Models
+- Generative and Adversarial Models
 - Cloud Computing
 
 ***
