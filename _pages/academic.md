@@ -20,7 +20,7 @@ layout: single
 
 ### <img align="left" width="40" height="45" src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest"> PhD, [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk) | [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk)  **[Sep 2020 - Jul 2024]**
 
-Currently completing an MRes in Physical Natural Science before progressing to PhD research.
+Currently completing a probationary MRes in Physical Natural Science before progressing to PhD research.
 
 **Relevant Modules:**
 - Fluid Dynamics of the Climate 
@@ -35,7 +35,7 @@ Currently completing an MRes in Physical Natural Science before progressing to P
 
 _'Quantifying the effecitiveness of natural hazard preventions using an LSTM in flood risk mitigation'_ [```Python```]
 
-_'Bayesian optimisation in the Cloud' [```Python; AWS```]_
+_'Bayesian optimisation in the Cloud'_ [```Python; AWS```]
 
 ***
 
