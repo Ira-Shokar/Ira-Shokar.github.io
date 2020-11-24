@@ -41,18 +41,16 @@ Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/p
 
 ## Hackathons
 
- - _'Chatbot to translate text in Facebook Messanger'_ [Python: Pytorch, Flask; Node.js]. UCL Hackathon Team - [Developer Circles from Facebook](https://developers.facebook.com/developercircles/) AI Messanger Hack . [Repository](https://github.com/Ira-Shokar/Messenger-webserver)
+2019:
+
+ - _'Chatbot to translate text in Facebook Messanger- Hackathon'_. UCL Technology Society Hackathon Team - [Developer Circles from Facebook](https://developers.facebook.com/developercircles/) AI Messanger Hack . [Repository](https://github.com/Ira-Shokar/Messenger-webserver)
  
      - I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translated text from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask``` connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
 
-### Winning Hackathon Team - UCL Data Science Society Hackathon | [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/), City of London [Nov 2019] 
+ - _'Providing insight from  credit card customer datasets - Hackathon'_. Winning Hackathon Team - UCL Data Science Society Hackathon, hosted by [Microsoft](https://www.microsoft.com/en-us/research/) and [American Express](https://www.americanexpress.com/uk/)
 
-Hackathon hosted by [Microsoft](https://www.microsoft.com/en-us/research/) and [American Express](https://www.americanexpress.com/uk/) to look at providing insight from their credit card customer datasets. I was part of the winning team, where we produced a solution concluding that that product personalisation for customersubsets could increase credit card growth while assessing potential credit default and delinquency risk. We conducted exploratory analysis through k-means clustering and build decision tree and random forest models using ```Scikit-Learn```and the ```Azure API``` in ```Python```.
+  - I was part of the winning team, where we produced a solution concluding that that product personalisation for customersubsets could increase credit card growth while assessing potential credit default and delinquency risk. We conducted exploratory analysis through k-means clustering and build decision tree and random forest models using ```Scikit-Learn```and the ```Azure API``` in ```Python```.
 
-### Winning Team - Applied Machine Learning Insight Challange | [Arm Holdings](https://www.arm.com/solutions/artificial-intelligence?utm_source=google&utm_medium=cpc&utm_campaign=2019_brand_solutions_mk30_search_bol_awa&utm_term=%2Barm%20%2Bmachine%20%2Blearning&gclid=CjwKCAiA7939BRBMEiwA-hX5J4mqgc5ms-4xxlZm4-oDQeERAsD0BTVBkRZYOneNbB1b43hjki8ZYBoCcvgQAvD_BwE), Cambridge [Nov 2019]
+ - _'Adaptive Image Filter '_. Winning Hackathon Team - Applied Machine Learning Insight Challange at [Arm Holdings](https://www.arm.com/solutions/artificial-intelligence?utm_source=google&utm_medium=cpc&utm_campaign=2019_brand_solutions_mk30_search_bol_awa&utm_term=%2Barm%20%2Bmachine%20%2Blearning&gclid=CjwKCAiA7939BRBMEiwA-hX5J4mqgc5ms-4xxlZm4-oDQeERAsD0BTVBkRZYOneNbB1b43hjki8ZYBoCcvgQAvD_BwE).
 
-I was part of the winning team that completed a ```Python```debugging challenge applying an adaptive image filter to a webcamimage using a CNN during an insight into the research being conducted by ARM in the fields of computer vision and natural language processing for mobile devices.
-
-### Hackathon Participant - Microsoft AI Mini Hack | [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/), City of London [Nov 2018]
-
-Made calls to Microsoft’s Cognitive ```Azure API``` to identify landmarks and animals and run a bot, by altering pre-build code,that played an image matching game against other participants.
+  - I was part of the winning team that completed a ```Python```debugging challenge applying an adaptive image filter to a webcamimage using a CNN during an insight into the research being conducted by ARM in the fields of computer vision and natural language processing for mobile devices.
