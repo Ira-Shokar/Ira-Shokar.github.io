@@ -2,8 +2,6 @@
 main:
   - title: "Academic"
     url: /academic/
-  - title: "Experience"
-    url: /experience/
   - title: "Roles of Responsibility"
     url: /roles/
   - title: "Other"
