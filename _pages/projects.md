@@ -43,7 +43,7 @@ Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/p
 
  - 'Chatbot to translate text in Facebook Messanger' [Python: Pytorch, Flask; Node.js]. UCL Hackathon Team - AI Messanger Hack at [Developer Circles from Facebook](https://developers.facebook.com/developercircles/). [Repository](https://github.com/Ira-Shokar/Messenger-webserver)
  
- -I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translated text from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask``` connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
+     - I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translated text from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask``` connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
 
 ### Winning Hackathon Team - UCL Data Science Society Hackathon | [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/), City of London [Nov 2019] 
 
