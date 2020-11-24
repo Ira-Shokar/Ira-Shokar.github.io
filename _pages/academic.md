@@ -22,9 +22,14 @@ layout: single
 
 Currently completing an MRes in Physical Natural Science.
 
-Areas of specialisation:
-- Fluid Dynamics of the Climate
-- Machine Learning
+Relevant Course Areas:
+- Fluid Dynamics of the Climate and 
+- Earth System Modeling
+- Probabalistic Machine Learning and Inference
+- Data Science
+- Deep Learning 
+- Generative Models
+- Cloud Computing
 
 ***
 
