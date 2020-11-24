@@ -21,13 +21,13 @@ layout: single
 ### <img align="left" width="40" height="45" src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest"> PhD, [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk) | [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk)  **[Sep 2020 - Jul 2024]**
 
 **Areas of Study:**
-- Fluid Dynamics of the Climate 
-- Earth System Modelling
-- Probabalistic Machine Learning and Inference
-- Data Science
-- Deep Learning 
-- Generative and Adversarial Models
-- Cloud Computing
+- Fluid Dynamics of the Climate, 
+- Earth System Modelling,
+- Probabalistic Machine Learning and Inference,
+- Data Science,
+- Deep Learning, 
+- Generative and Adversarial Model,s,
+- Cloud Computing.
 
 **Group Projects**
 
