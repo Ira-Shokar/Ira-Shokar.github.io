@@ -32,9 +32,10 @@ Relevant Modules:
 - Cloud Computing
 
 **Group Projects**
-'Quantifying the effecitiveness of natural hazard preventions using an LSTM in flood risk mitigation' [```Python```]
 
-'Bayesian optimisation in the Cloud' [```Python; AWS```]
+_'Quantifying the effecitiveness of natural hazard preventions using an LSTM in flood risk mitigation'_ [```Python```]
+
+_'Bayesian optimisation in the Cloud' [```Python; AWS```]_
 
 ***
 
