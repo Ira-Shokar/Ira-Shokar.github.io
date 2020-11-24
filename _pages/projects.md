@@ -22,7 +22,7 @@ layout: single
 
 2020:
 
- - _'Quantifying the effecitiveness of natural hazard preventions by using an LSTM to predict rainfall runoff in flood risk mitigation'_**. [Repository](https://github.com/ai4er-cdt/flood_risk_shipston).
+ - _'Quantifying the effecitiveness of natural hazard preventions by using an LSTM to predict rainfall runoff in flood risk mitigation'_. [Repository](https://github.com/ai4er-cdt/flood_risk_shipston).
       - ```Python```.
        
 - _'Bayesian Optimisation in the Cloud'._
