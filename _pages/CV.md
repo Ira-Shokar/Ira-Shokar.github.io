@@ -1,6 +1,6 @@
 ---
-title: "Education"
-permalink: /academic/
+title: "Academic CV"
+permalink: /CV/
 header:
   overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
 layout: single
@@ -18,7 +18,7 @@ layout: single
 <meta name="theme-color" content="#ffffff">
 </head>
 
-
+## Education
 
 ### <img align="left" width="40" height="45" src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest"> PhD, Application of Artificial Intelligence | [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk)  **[Sep 2020 - Jul 2024]**
 
@@ -34,8 +34,6 @@ Research student at the as part of the [Centre for Doctoral Study](https://epsrc
 - Cloud Computing.
 
 ### <img align="left" width="40" height="45"  src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest"> BSc, [Theoretical Physics](https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/theoretical-physics-bsc) (1st Class Hons) | [University College](https://london.ac.uk/ways-study/study-campus-london/member-institutions/ucl), [University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk)  [Sep 2017 - Jul 2020] 
-
-**Final Year Research Project**
 
 **Relevant Modules:**
 - Theory of Dynamical Systems and Chaos,
