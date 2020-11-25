@@ -63,3 +63,8 @@ layout: single
  - _'Adaptive Image Filter Challange'_. Winning Hackathon Team - Applied Machine Learning Insight Challange at [Arm Holdings](https://www.arm.com/solutions/artificial-intelligence?utm_source=google&utm_medium=cpc&utm_campaign=2019_brand_solutions_mk30_search_bol_awa&utm_term=%2Barm%20%2Bmachine%20%2Blearning&gclid=CjwKCAiA7939BRBMEiwA-hX5J4mqgc5ms-4xxlZm4-oDQeERAsD0BTVBkRZYOneNbB1b43hjki8ZYBoCcvgQAvD_BwE).
 
     - I was part of the winning team that completed a ```Python```debugging challenge applying an adaptive image filter to a webcamimage using a CNN during an insight into the research being conducted by ARM in the fields of computer vision and natural language processing for mobile devices.
+    
+  
+ - _'Image Matching Game Mini Hack'_.  Microsoft AI Mini Hackathon - [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/).
+
+    - Made calls to Microsoft’s Cognitive Azure APIto identify landmarks and animals and run a bot, by altering pre-build code,that played an image matching game against other participants. [Images](), [Images](), [Images]() 
