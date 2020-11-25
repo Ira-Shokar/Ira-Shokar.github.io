@@ -25,17 +25,21 @@ layout: single
  - _'Quantifying the effecitiveness of natural hazard preventions by using an LSTM to predict rainfall runoff in flood risk mitigation'_. [Repository](https://github.com/ai4er-cdt/flood_risk_shipston).
       - ```Python```.
        
+       
 - _'Bayesian Optimisation in the Cloud'_.
      - ```Python, AWS Services```. 
+
 
 - _'Deep Learning Robustness for Neutrino Event Detection using Adversarial Neural Networks'_ - **Bachelor's Thesis**. [Report](../Docs/Formal_Report.pdf).
      - Used a Domain-Adversarial Neural Network (DANN) to improve the performance of a Convolutional Neural Network (CNN) to classify neutrino interactions, for the analysis of neutrino oscillations. THis method looked to produce a model that is invariant to the differences in statistics between the input data (the labeled Monte Carlo simulations used to train the classifier) and the detector data.  
      - Supervisor- [Dr Chris Backhouse](https://www.ucl.ac.uk/physics-astronomy/people/dr-christopher-backhouse). 
      - ```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX```. [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project).  
 
+
 - _'HPGe Detector Gamma Ray Spectroscopy'_ simulation of nuclear emission and subsequent detector interactions. [Report](../Docs/Final_Report_-_Nuclear_Forensics_with_Gamma_Ray_Spectroscopy.pdf).
      - Supervisor- [Prof Ruben Saakyan](https://www.ucl.ac.uk/physics-astronomy/people/professor-ruben-saakyan).
      - ```C++: GEANT4; Cent OS; LaTeX```. [Repository](https://github.com/Ira-Shokar/GEANT4_HPGe_Simulaton).
+
 
 2019:
 
@@ -56,9 +60,11 @@ layout: single
      - [Image](/Photos/E99FFC73-752E-4A09-BAF4-0891194F2C3A.jpeg), [Image](/Photos/42F0E627-1E1E-4747-8E98-80BD4BEC034D.jpeg), [Image](/Photos/B2CE164B-B1F7-49BE-915C-69C52F8D5200.jpeg), [Image](/Photos/FE8D6ADC-BA78-4788-9190-B8D07B8D5A5C.jpeg), [Image](/Photos/B49E08B8-030D-4969-BBD1-06179471A7C4.jpeg).
       - [Repository](https://github.com/Ira-Shokar/Messenger-webserver).
 
+
  - _'Providing insight from  credit card customer datasets - Hackathon'_. Winning Hackathon Team - UCL Data Science Society Hackathon, hosted by [Microsoft](https://www.microsoft.com/en-us/research/) and [American Express](https://www.americanexpress.com/uk/).
 
     - I was part of the winning team, where we produced a solution concluding that that product personalisation for customersubsets could increase credit card growth while assessing potential credit default and delinquency risk. We conducted exploratory analysis through k-means clustering and build decision tree and random forest models using ```Scikit-Learn```and the ```Azure API``` in ```Python```. [Image](/Photos/8B38D714-6239-4196-B607-53CFB7E4103F.jpeg), [Image](/Photos/BEC7A065-BDF4-49C7-8303-6C0FBF90B5F3.jpeg), [Image](/Photos/D0672841-A4FC-4120-984E-5C65CC2FC32C.jpeg).
+
 
  - _'Adaptive Image Filter Challange'_. Winning Hackathon Team - Applied Machine Learning Insight Challange at [Arm Holdings](https://www.arm.com/solutions/artificial-intelligence?utm_source=google&utm_medium=cpc&utm_campaign=2019_brand_solutions_mk30_search_bol_awa&utm_term=%2Barm%20%2Bmachine%20%2Blearning&gclid=CjwKCAiA7939BRBMEiwA-hX5J4mqgc5ms-4xxlZm4-oDQeERAsD0BTVBkRZYOneNbB1b43hjki8ZYBoCcvgQAvD_BwE).
 
