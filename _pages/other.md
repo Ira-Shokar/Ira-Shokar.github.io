@@ -19,6 +19,8 @@ toc: True
 <meta name="theme-color" content="#ffffff">
 </head>
 
+## Interests
+
 My other interests lie in:
 
  - Unix-like Systems (I run a [Debaian](https://www.debian.org) based system on my PC  as well as an [Alphine Linux](https://alpinelinux.org/about/) using [ish.app](https://github.com/ish-app/ish) on my iPad which has now become my main machine).
@@ -29,14 +31,20 @@ My other interests lie in:
  - Sport (Rugby, Squash, Tennis, Cricket, Korfball, Basketball, Cycling).
  - Animals (Especially my family dogs: Joey and Bella- see below).
  
+ ## Images
+ 
 Here is a Bot to play the Board Game [We Rate Dogs](https://boardgamegeek.com/boardgame/266778/we-rate-dogs-card-game) for if you have less than 3 people: [Repository](https://github.com/Ira-Shokar/We-Rate-Dogs)
 
+St Anthony's Lighthouse, Cornwall:
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/28628F03-39E7-4AFD-BC3F-6D290DA99152.jpeg" alt="image">
 
-<img src="{{ site.url }}{{ site.baseurl }}/Photos/2C299A5D-E247-4976-83CE-76ED3E7BF1F2.jpeg" alt="image">
+Joey & Bella
+<img src="{{ site.url }}{{ site.baseurl }}/Photos/5A607744-7181-4B10-9285-348093B045A8.jpeg" alt="image">
 
+Windsor Great Park
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/2C54A80E-67ED-4B86-AFB5-9156008AA021.jpeg" alt="image">
 
+View to St Mawes, Cornwall
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpeg" alt="image">
 
 
