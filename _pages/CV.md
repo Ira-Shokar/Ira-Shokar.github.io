@@ -55,6 +55,6 @@ Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/p
 
 ## Work Experience
 
-**Data Science and Analytics Intern | [FTI Consulting](https://www.fticonsulting-emea.com/?rl=emea), City of London [Jul 2019- Aug 2018]**
+**Data Science and Analytics Intern \| [FTI Consulting](https://www.fticonsulting-emea.com/?rl=emea), City of London [Jul 2019- Aug 2018]**
 
 Summer intern in the Forensic Litigations team; used various computational tools, such as network analysis and fuzzy token matching, to determine anomalous activity, fraud and money-laundering [```Python, SQL```].
