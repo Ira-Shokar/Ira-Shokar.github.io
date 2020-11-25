@@ -67,4 +67,4 @@ layout: single
   
  - _'Image Matching Game Mini Hack'_.  Microsoft AI Mini Hackathon - [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/).
 
-    - Made calls to Microsoft’s Cognitive Azure APIto identify landmarks and animals and run a bot, by altering pre-build code,that played an image matching game against other participants. [Images](/Photos/33D7C79C-548C-450A-B11F-22E6F9422DF6.jpeg), [Images](/Photos/3FB0716F-F397-486B-AE44-A840BBF81482.jpeg), [Images](/Photos/6AD24BDA-1A12-4649-BCD0-409B9CBED352.jpeg).
+    - Made calls to Microsoft’s Cognitive Azure APIto identify landmarks and animals and run a bot, by altering pre-build code,that played an image matching game against other participants. [Image](/Photos/33D7C79C-548C-450A-B11F-22E6F9422DF6.jpeg), [Image](/Photos/3FB0716F-F397-486B-AE44-A840BBF81482.jpeg), [Image](/Photos/6AD24BDA-1A12-4649-BCD0-409B9CBED352.jpeg).
