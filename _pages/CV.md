@@ -4,9 +4,10 @@ permalink: /CV/
 header:
   overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
 layout: single
+toc: True
+  h_max =2
 ---
 
-% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=3 %
 
 <head>
 <link rel="apple-touch-icon" sizes="180x180" href="/Photos/apple-touch-icon.png">
