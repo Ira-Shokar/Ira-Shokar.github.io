@@ -24,7 +24,7 @@ If you prefer a more traditional Academic CV: [Ira Shokar CV](/Docs/Ira_Shokar_C
 
 ## Education
 
-<img align="left" width="40" height="45" src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest"> **PhD, Application of Artificial Intelligence | [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk) [Sep 2020 - Jul 2024]**
+<img align="left" width="40" height="45" src="/Photos/95DE945B-8BD7-428A-95B2-00DD322451A7.png" alt="pem crest"> **PhD, Application of Artificial Intelligence '|' [Pembroke College](https://www.pem.cam.ac.uk), [University of Cambridge](https://www.cam.ac.uk) [Sep 2020 - Jul 2024]**
 
 Research student at the as part of the [Centre for Doctoral Study](https://epsrc.ukri.org/skills/students/centres/) in the [Application of Artificial Intelligence for Environmental Risk](https://ai4er-cdt.esc.cam.ac.uk).
 
