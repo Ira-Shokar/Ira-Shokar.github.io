@@ -54,7 +54,7 @@ layout: single
  - _'Chatbot to translate text in Facebook Messanger- Hackathon'_. UCL Technology Society Hackathon Team - [Developer Circles from Facebook](https://developers.facebook.com/developercircles/) AI Messanger Hack . 
  
      - I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translated text from an image containing text in a different language. Used ```Node.js``` for the messenger front end, with ```Flask``` connecting to the ```Pytorch``` models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
-     - [Repository](https://github.com/Ira-Shokar/Messenger-webserver)
+     - [Image](/Photos/E99FFC73-752E-4A09-BAF4-0891194F2C3A.jpeg), [Image](/Photos/Image(/Photos/42F0E627-1E1E-4747-8E98-80BD4BEC034D.jpeg), [Image](/Photos/B2CE164B-B1F7-49BE-915C-69C52F8D5200.jpeg), [Image](/Photos/FE8D6ADC-BA78-4788-9190-B8D07B8D5A5C.jpeg), [Image](/Photos/B49E08B8-030D-4969-BBD1-06179471A7C4.jpeg), [Repository](https://github.com/Ira-Shokar/Messenger-webserver).
 
  - _'Providing insight from  credit card customer datasets - Hackathon'_. Winning Hackathon Team - UCL Data Science Society Hackathon, hosted by [Microsoft](https://www.microsoft.com/en-us/research/) and [American Express](https://www.americanexpress.com/uk/).
 
