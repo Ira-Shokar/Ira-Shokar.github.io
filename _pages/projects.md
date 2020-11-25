@@ -58,11 +58,11 @@ layout: single
 
  - _'Providing insight from  credit card customer datasets - Hackathon'_. Winning Hackathon Team - UCL Data Science Society Hackathon, hosted by [Microsoft](https://www.microsoft.com/en-us/research/) and [American Express](https://www.americanexpress.com/uk/).
 
-    - I was part of the winning team, where we produced a solution concluding that that product personalisation for customersubsets could increase credit card growth while assessing potential credit default and delinquency risk. We conducted exploratory analysis through k-means clustering and build decision tree and random forest models using ```Scikit-Learn```and the ```Azure API``` in ```Python```.
+    - I was part of the winning team, where we produced a solution concluding that that product personalisation for customersubsets could increase credit card growth while assessing potential credit default and delinquency risk. We conducted exploratory analysis through k-means clustering and build decision tree and random forest models using ```Scikit-Learn```and the ```Azure API``` in ```Python```. [Image](/Photos/14A514B1-8BB4-4882-97F3-03E2DE670639.jpeg), [Image](/Photos/BEC7A065-BDF4-49C7-8303-6C0FBF90B5F3.jpeg), [Image](/Photos/D0672841-A4FC-4120-984E-5C65CC2FC32C.jpeg).
 
  - _'Adaptive Image Filter Challange'_. Winning Hackathon Team - Applied Machine Learning Insight Challange at [Arm Holdings](https://www.arm.com/solutions/artificial-intelligence?utm_source=google&utm_medium=cpc&utm_campaign=2019_brand_solutions_mk30_search_bol_awa&utm_term=%2Barm%20%2Bmachine%20%2Blearning&gclid=CjwKCAiA7939BRBMEiwA-hX5J4mqgc5ms-4xxlZm4-oDQeERAsD0BTVBkRZYOneNbB1b43hjki8ZYBoCcvgQAvD_BwE).
 
-    - I was part of the winning team that completed a ```Python```debugging challenge applying an adaptive image filter to a webcamimage using a CNN during an insight into the research being conducted by ARM in the fields of computer vision and natural language processing for mobile devices.
+    - I was part of the winning team that completed a ```Python```debugging challenge applying an adaptive image filter to a webcamimage using a CNN during an insight into the research being conducted by ARM in the fields of computer vision and natural language processing for mobile devices.  [Image](/Photos/14A514B1-8BB4-4882-97F3-03E2DE670639.jpeg).
     
   
  - _'Image Matching Game Mini Hack'_.  Microsoft AI Mini Hackathon - [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/).
