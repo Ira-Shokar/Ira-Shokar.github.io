@@ -3,7 +3,7 @@ title: "Other Interests"
 permalink: /other/
 header:
   overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
-layout: Single
+layout: single
 toc: True
 ---
 
