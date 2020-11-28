@@ -42,7 +42,7 @@ St Anthony's Lighthouse, Cornwall:
 Joey & Bella
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/5A607744-7181-4B10-9285-348093B045A8.jpeg" alt="image">
 
-Windsor Great Park
+The Valley Gardens in Windsor Great Park
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/2C54A80E-67ED-4B86-AFB5-9156008AA021.jpeg" alt="image">
 
 View to St Mawes, Cornwall
