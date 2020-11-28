@@ -30,7 +30,7 @@ I am currently a Postgradute Research Student at the [University of Cambridge](h
 
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter!
 
-
+*The above photograph was one I took on an autumnal afternoon, overlooking the Bowling Green at Pembroke College, Cambridge.*
 
 
 
