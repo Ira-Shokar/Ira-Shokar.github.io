@@ -41,7 +41,7 @@ Research student at the as part of the [Centre for Doctoral Study](https://epsrc
 
  <img align="left" width="40" height="45"  src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest"> **BSc, [Theoretical Physics](https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/theoretical-physics-bsc) (1st Class Hons) \| [University College](https://london.ac.uk/ways-study/study-campus-london/member-institutions/ucl), [University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk)  [Sep 2017 - Jul 2020]** 
 
-**Thesis:** ‘Deep Learning Classifier Robustness for Neutrino Event Detection using Domain Adversarial Neural Networks’. Supervisor- [Dr Chris Backhouse](https://www.ucl.ac.uk/physics-astronomy/people/dr-christopher-backhouse). [Report](../Docs/Formal_Report.pdf). [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project).  
+**Thesis:** ‘Deep Learning Classifier Robustness for Neutrino Event Detection using Domain Adversarial Neural Networks’. [Report](../Docs/Formal_Report.pdf). [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project). Supervisor- [Dr Chris Backhouse](https://www.ucl.ac.uk/physics-astronomy/people/dr-christopher-backhouse).
 
 **Relevant Modules:**
 - Theory of Dynamical Systems and Chaos,
