@@ -41,6 +41,8 @@ Research student at the as part of the [Centre for Doctoral Study](https://epsrc
 
  <img align="left" width="40" height="45"  src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest"> **BSc, [Theoretical Physics](https://www.ucl.ac.uk/prospective-students/undergraduate/degrees/theoretical-physics-bsc) (1st Class Hons) \| [University College](https://london.ac.uk/ways-study/study-campus-london/member-institutions/ucl), [University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk)  [Sep 2017 - Jul 2020]** 
 
+**Thesis:** ‘Deep Learning Classifier Robustness for Neutrino Event Detection using Domain Adversarial Neural Networks’. Supervisor- [Dr Chris Backhouse](https://www.ucl.ac.uk/physics-astronomy/people/dr-christopher-backhouse). [Report](../Docs/Formal_Report.pdf). [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project).  
+
 **Relevant Modules:**
 - Theory of Dynamical Systems and Chaos,
 - Computational Physics [I & II; ```Python```],
@@ -49,7 +51,6 @@ Research student at the as part of the [Centre for Doctoral Study](https://epsrc
 
 **Activities and Societies:**  
 [UCL Men's Rugby 1st XV](https://www.instagram.com/p/BaHkn6LFzPK/?utm_source=ig_web_copy_link), [Physics Society](https://www.uclphysoc.com), [Data Science Society](https://www.ucldss.co.uk), [Technology Society](https://ucltechsoc.com).
-Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/professor-david-bowler). [Repository](https://github.com/Ira-Shokar/CA-Traffic).
 
 
 
