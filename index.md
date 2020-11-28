@@ -1,8 +1,9 @@
 ---
+title: "University of Cambridge"
 permalink: /
 header:
  image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
-layout: single
+layout: about
 ---
 
 <head>
@@ -15,6 +16,8 @@ layout: single
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/Photos/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+ 
+ 
 </head>
 
 ## About
