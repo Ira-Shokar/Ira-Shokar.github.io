@@ -28,6 +28,8 @@ I am currently a Postgradute Research Student at the [University of Cambridge](h
  - Nonlinear and Chaotic Systems
  - Adversarial Models
 
+Please find my Cambridge profile [here](https://www.c2d3.cam.ac.uk/directory/8481/mr-ira-shokar).
+
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter!
 
 *The above photograph was one I took on an autumnal afternoon, overlooking the Bowling Green at Pembroke College, Cambridge.*
