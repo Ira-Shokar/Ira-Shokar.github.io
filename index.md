@@ -28,7 +28,7 @@ I am currently a Postgradute Research Student at the [University of Cambridge](h
  - Nonlinear and Chaotic Systems
  - Adversarial Models
 
-Please find my Cambridge profile [here](https://www.c2d3.cam.ac.uk/directory/8481/mr-ira-shokar).
+Please find my University of Cambridge Centre for Data-Driven Discovery profile [here](https://www.c2d3.cam.ac.uk/directory/8481/mr-ira-shokar).
 
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter!
 
