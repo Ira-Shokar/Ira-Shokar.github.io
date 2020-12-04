@@ -2,7 +2,7 @@
 title: "Roles of Responsibilty"
 permalink: /roles/
 header:
-  overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
+  overlay_image: "/Photos/47E4260B-292D-429C-A7D2-E8EFE093B7B6.jpeg"
 layout: single
 toc: True
 toc_label: "On this page"
