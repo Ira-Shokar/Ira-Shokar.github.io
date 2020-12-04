@@ -38,6 +38,24 @@ Here is a Bot to play the Board Game [We Rate Dogs](https://boardgamegeek.com/bo
 
 ## Images
 
+gallery:
+  - url: /Photos/28628F03-39E7-4AFD-BC3F-6D290DA99152.jpeg
+    image_path: /Photos/28628F03-39E7-4AFD-BC3F-6D290DA99152.jpeg
+    alt: "placeholder image 1"
+    title: "St Anthony's Lighthouse, Cornwall."
+  - url: /Photos/5A607744-7181-4B10-9285-348093B045A8.jpeg
+    image_path: /Photos/5A607744-7181-4B10-9285-348093B045A8.jpeg
+    alt: "placeholder image 2"
+    title: "My dogs: Joey & Bella."
+  - url: /Photos/2C54A80E-67ED-4B86-AFB5-9156008AA021.jpeg
+    image_path: /Photos/2C54A80E-67ED-4B86-AFB5-9156008AA021.jpeg
+    alt: "placeholder image 3"
+    title: "The Valley Gardens in Windsor Great Park."
+  - url: Photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpe
+    image_path: Photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpe
+    alt: "placeholder image 4"
+    title: "View to St Mawes, Cornwall.n"
+
 St Anthony's Lighthouse, Cornwall.
 <img src="{{ site.url }}{{ site.baseurl }}/Photos/28628F03-39E7-4AFD-BC3F-6D290DA99152.jpeg" alt="image">
 
