@@ -2,7 +2,7 @@
 title: "Other Interests"
 permalink: /other/
 header:
-  overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
+  overlay_image: "/Photos/2F1562B7-30FF-4920-9677-BF0B1A052FAC.jpeg"
 layout: single
 toc: True
 toc_label: "On this page"
