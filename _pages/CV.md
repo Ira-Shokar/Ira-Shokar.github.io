@@ -2,7 +2,7 @@
 title: "Academic CV"
 permalink: /CV/
 header:
-  overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
+  overlay_image: "/Photos/573F43E0-28CC-4BB9-A7AA-5673E30F262F.jpeg"
 layout: single
 toc: True
 toc_label: "On this page"
