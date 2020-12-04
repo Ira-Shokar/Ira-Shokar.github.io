@@ -21,7 +21,7 @@ gallery:
     alt: "placeholder image 3"
     title: "The Valley Gardens in Windsor Great Park."
   - url: Photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpe
-    image_path: Photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpe
+    image_path: Photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpeg
     alt: "placeholder image 4"
     title: "View to St Mawes, Cornwall."
 
@@ -57,18 +57,4 @@ Here is a Bot to play the Board Game [We Rate Dogs](https://boardgamegeek.com/bo
 
 ## Photographs
 
-{% include gallery id="gallery" layout="half" caption="This is a half gallery layout example." %}
-
-St Anthony's Lighthouse, Cornwall.
-<img src="{{ site.url }}{{ site.baseurl }}/Photos/28628F03-39E7-4AFD-BC3F-6D290DA99152.jpeg" alt="image">
-
-Joey & Bella
-<img src="{{ site.url }}{{ site.baseurl }}/Photos/5A607744-7181-4B10-9285-348093B045A8.jpeg" alt="image">
-
-The Valley Gardens in Windsor Great Park
-<img src="{{ site.url }}{{ site.baseurl }}/Photos/2C54A80E-67ED-4B86-AFB5-9156008AA021.jpeg" alt="image">
-
-View to St Mawes, Cornwall.
-<img src="{{ site.url }}{{ site.baseurl }}/Photos/5CA5B094-90E7-4F64-9C3C-290CD0609573.jpeg" alt="image">
-
-
+{% include gallery id="gallery" layout="half" class="full" caption="This is a half gallery layout example." %}
