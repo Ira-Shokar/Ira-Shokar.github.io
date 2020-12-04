@@ -2,7 +2,7 @@
 title: "Projects"
 permalink: /projects/
 header:
-  overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
+  overlay_image: "/Photos/DE6B595B-EDD1-4EFE-AFFA-8F31C4D83956.jpeg"
 layout: single
 toc: True
 toc_label: "On this page"
