@@ -57,4 +57,4 @@ Here is a Bot to play the Board Game [We Rate Dogs](https://boardgamegeek.com/bo
 
 ## Photographs
 
-{% include gallery id="gallery" layout="half" class="full" caption="This is a half gallery layout example." %}
+{% include gallery id="gallery" class="full"%}
