@@ -29,7 +29,7 @@ toc_label: "On this page"
      - ```Python, AWS Services```. In progress.
 
 
- - _'Quantifying the effecitiveness of natural hazard preventions by using an LSTM to predict rainfall runoff in flood risk mitigation'_. [Repository](https://github.com/ai4er-cdt/flood_risk_shipston).
+ - _'Quantifying the effecitiveness of natural hazard preventions by using an LSTM to predict rainfall runoff in flood risk mitigation'_. Group Project. [Repository](https://github.com/ai4er-cdt/flood_risk_shipston).
       - ```Python```.
        
 
@@ -40,7 +40,7 @@ toc_label: "On this page"
      - ```Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux; LaTeX```. [Repository](https://github.com/Ira-Shokar/NOvA-CNN-Project).  
 
 
-- _'HPGe Detector Gamma Ray Spectroscopy'_ simulation of nuclear emission and subsequent detector interactions. [Report](../Docs/Final_Report_-_Nuclear_Forensics_with_Gamma_Ray_Spectroscopy.pdf).
+- _'HPGe Detector Gamma Ray Spectroscopy'_ simulation of nuclear emission and subsequent detector interactions. Group Project. [Report](../Docs/Final_Report_-_Nuclear_Forensics_with_Gamma_Ray_Spectroscopy.pdf).
      - Supervisor- [Prof Ruben Saakyan](https://www.ucl.ac.uk/physics-astronomy/people/professor-ruben-saakyan).
      - ```C++: GEANT4; Cent OS; LaTeX```. [Repository](https://github.com/Ira-Shokar/GEANT4_HPGe_Simulaton).
 
