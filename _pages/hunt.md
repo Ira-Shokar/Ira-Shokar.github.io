@@ -40,8 +40,7 @@ Who said don't worry ‘I gotcha’ And now their grandchildren play the fife.\
 Nine goddesses sit in a den\
 With men drunk, riding cats and Parisians made of dots\
 This house has loyal friends\
-The oldest in the world.
-*Where is this?*
+*Which university museum is this?*
 
 ### Riddle 4:
 Take me away from Oxbridge\
