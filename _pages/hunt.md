@@ -18,6 +18,8 @@ The links above will direct you to the messaging platform and if you need a hunt
 
 ## The Scavenger Hunt
 
+The scavenger hunt should take around 90 minutes to finish.
+
 **Firstly Start off at the Porters Lodge and here is your first riddle to solve:**
 
 ### Riddle 1:
