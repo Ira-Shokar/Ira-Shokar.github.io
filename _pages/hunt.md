@@ -21,7 +21,7 @@ The links above will direct you to the messaging platform and **if you need a hi
 
 The scavenger hunt should take around 90 minutes to finish - if you need to take a break at any time that is fine, just send me a message saying ```'Break'``` so that I know that you want to continue after, and that you haven't given up.
 
-*I also want to apologise in advance for some of the rhymes here, they were very forced.*
+*I also want to apologise in advance for some of the rhymes here - they were very forced.*
 
 ### Firstly Start off at the Porters Lodge and here is your first riddle to solve:
 
