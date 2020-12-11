@@ -14,7 +14,7 @@ header:
 When you are at the location, send a an message to me via:
 - [messanger](http://m.me/ira.shokar)
 - [whatsapp](https://wa.me/447389133468)
-- or via [email](is500@cam.ac.uk)
+- or via [email](mailto:is500@cam.ac.uk)
 If you need a hunt just ask.
 
 ## The Scavenger Hunt
