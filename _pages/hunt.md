@@ -1,5 +1,5 @@
--
-title: "Pembroke GP Scavenger Hunt"
+---
+title: 'Pembroke GP Scavenger Hunt'
 layout: single
 sitemap: false
 permalink: /hunt.html
