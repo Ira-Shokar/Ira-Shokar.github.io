@@ -14,7 +14,7 @@ When you are at the location for each riddge, send a message with your answer to
 - [whatsapp](https://wa.me/447389133468),
 - or just via [email](mailto:is500@cam.ac.uk).
 
-The links above will direct you to the messaging platform and if you need a hunt just ask!
+The links above will direct you to the messaging platform and **if you need a hint just ask!**
 
 If you could send me an inital message with your team name before you start that would be great!
 
