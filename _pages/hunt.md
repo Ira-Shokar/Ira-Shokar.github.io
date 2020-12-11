@@ -1,6 +1,6 @@
 ---
 title: 'Pembroke GP Scavenger Hunt'
-layout: single
+layout: splash
 sitemap: false
 permalink: /hunt/
 header:
@@ -27,77 +27,75 @@ At the end Four family crests mark achievements lifelong,\
 To whom did the saltire of shin bones belong?
 
 ### Riddle 2:
-There was an old farmer and his wife Who just couldn't produce another life So they went to a doctor
-Who said don't worry ‘I gotcha’ And now their grandchildren play the fife.
+There was an old farmer and his wife Who just couldn't produce another life So they went to a doctor\
+Who said don't worry ‘I gotcha’ And now their grandchildren play the fife.\
 Take a picture of the plaque that this riddle refers to.
 
 ### Riddle 3:
-Nine goddesses sit in a den
-With men drunk, riding cats and Parisians made of dots This house has loyal friends
-The oldest in the world
-Where is this?
-Fitzwilliam
+Nine goddesses sit in a den\
+With men drunk, riding cats and Parisians made of dots This house has loyal friends\
+The oldest in the world. Where is this?
 
 ### Riddle 4:
-Take me away from Oxbridge
-And you are left with nothing.
-A common beast.
-For I am old - I have seen many things.
-Many have crossed me but who dares understand me. I do not protect you from sharks and I know no trolls. But I am renowned for my sense of balance. Many have copied me, my brother lives in Oxford
+Take me away from Oxbridge\
+And you are left with nothing.\
+A common beast.\
+For I am old - I have seen many things.\
+Many have crossed me but who dares understand me. I do not protect you from sharks and I know no trolls. But I am renowned for my sense of balance. Many have copied me, my brother lives in Oxford\
 What am I?
 
 ### Riddle 5:
-There is a dance so simple,
-two step front and two step back Two dancers
-Entwining in perfect harmony
-A dance seen from the wings of a bird Find the bird
-And the secrets that you seek.
+There is a dance so simple,\
+two step front and two step back Two dancers\
+Entwining in perfect harmony\
+A dance seen from the wings of a bird Find the bird\
+And the secrets that you seek.\
 Which college am I?
 
 ### Riddle 6:
-This sensational disk and the monster above,
-Show the passing of time and the terror thereof.
-Looking down near the spot, a man who I’m told
+This sensational disk and the monster above,\
+Show the passing of time and the terror thereof.\
+Looking down near the spot, a man who I’m told\
 Had inssatiable lust - now what does he hold?
 
 ### Riddle 7:
-From the spot where you stand,
-Trace north to begin,
-Past Kings and the keys, down a street with holy meaning therein,
-At the colour of life, turn up and don’t veer,
+From the spot where you stand,\
+Trace north to begin,\
+Past Kings and the keys, down a street with holy meaning therein,\
+At the colour of life, turn up and don’t veer,\
 Now turn towards Christ, what college is here?
 
 
 ### Riddle 8:
-There was a bearded man from Shrewsbury Who was, let’s face it foolhardy
-Til one summer’s day
-He floated away
-On a canine known to be sea-worthy
+There was a bearded man from Shrewsbury Who was, let’s face it foolhardy\
+Til one summer’s day\
+He floated away\
+On a canine known to be sea-worthy\
 Where did he study?
 
 ### Riddle 9:
-There was an old man with a voice, so comforting to hear And he used to narrate About the extraordinary climate
-And said ‘in cindies, they have come here to breed’.
+There was an old man with a voice, so comforting to hear And he used to narrate About the extraordinary climate\
+And said ‘in cindies, they have come here to breed’.\
 Where did this old man study?
 
 ### Riddle 10:
 
-Don’t move or you’ll miss,
-Where you stand, a turn, is the answer to this,
-Portcullis portrayed, protecting their lot,
+Don’t move or you’ll miss,\
+Where you stand, a turn, is the answer to this,\
+Portcullis portrayed, protecting their lot,\
 Two angels beside, with a lute and a what?
 
 ### Riddle 11:
-Head North again, past the college famous for law,
-At the end on the left is a big door,
-Two males represent a country united,
-One wears a crown of questionable taste,
-What’s the other with chain about its waist?
+Head North again, past the college famous for law,\
+At the end on the left is a big door,\
+Two males represent a country united,\
+One wears a crown of questionable taste,\
+What’s the other with chain about its waist?\
 
 ### Riddle 12:
-Head to place where within 3 miles you must stay,
-From the top are great views, far and away,
-Once you are here your quest is complete,
+Head to place where within 3 miles you must stay,\
+From the top are great views, far and away,\
+Once you are here your quest is complete,\
 Have a great day, hopefully post-COVID we may meet.
 
-HOPE YOU HAD FUN!
+**HOPE YOU HAD FUN!**
