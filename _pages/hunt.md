@@ -36,7 +36,8 @@ What does the plaque that this riddle refers to say?.
 
 ### Riddle 3:
 Nine goddesses sit in a den\
-With men drunk, riding cats and Parisians made of dots This house has loyal friends\
+With men drunk, riding cats and Parisians made of dots\
+This house has loyal friends\
 The oldest in the world. Where is this?
 
 ### Riddle 4:
