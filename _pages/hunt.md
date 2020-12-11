@@ -9,7 +9,7 @@ header:
 
 **Thank you for signing up to our scavenger hunt that will take you all around the city.**
 
-When you are at the location for each riddge, send a message with your answer to me via:
+When you are at the location for each riddle, send a message with your answer to me via:
 - [messenger](http://m.me/ira.shokar),
 - [whatsapp](https://wa.me/447389133468),
 - or just via [email](mailto:is500@cam.ac.uk) *(replies may not be as quick as with the messaging services)*.
