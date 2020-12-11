@@ -20,7 +20,7 @@ The links above will direct you to the messaging platform and **if you need a hi
 
 If you could send me an inital message with your team name before you start that would be great!
 
-The scavenger hunt should take around 90 minutes to finish.
+The scavenger hunt should take around 90 minutes to finish - if you need to take a break at any time that is fine, just send me a message saying 'break' so that I know that you want to continue after, and that you haven't given up.
 
 **Firstly Start off at the Porters Lodge and here is your first riddle to solve:**
 
@@ -69,7 +69,6 @@ Past Kings and the keys, down a street with holy meaning therein,\
 At the colour of life, turn up and don’t veer,\
 Now turn towards Christ, what college is here?
 
-
 ### Riddle 8:
 There was a bearded man from Shrewsbury Who was, let’s face it foolhardy\
 Til one summer’s day\
@@ -83,7 +82,6 @@ And said ‘in cindies, they have come here to breed’.\
 Where did this old man study?
 
 ### Riddle 10:
-
 Don’t move or you’ll miss,\
 Where you stand, a turn, is the answer to this,\
 Portcullis portrayed, protecting their lot,\
@@ -102,4 +100,4 @@ From the top are great views, far and away,\
 Once you are here your quest is complete,\
 Have a great day, hopefully post-COVID we may meet.
 
-**HOPE YOU HAD FUN!**
+**HOPE YOU HAD FUN! Thank you for playing and I wish you a very Merry Christmas on behalf of all the GP! Make sure to keeo your eye out on the future GP events that we are running throughout the holiday period.**
