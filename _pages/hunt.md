@@ -9,7 +9,7 @@ header:
 
 # PEMBROKE GP SCAVENGER HUNT
 
-**Thank you for signing up to our scavenger hunt that will take you all around the city. Download this document to your phone so you can reference it as you answer the riddles.**
+**Thank you for signing up to our scavenger hunt that will take you all around the city.**
 
 When you are at the location, send a an message to me via:
 - [messanger](http://m.me/ira.shokar)
