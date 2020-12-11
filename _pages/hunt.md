@@ -28,7 +28,7 @@ To whom did the saltire of shin bones belong?
 ### Riddle 2:
 There was an old farmer and his wife Who just couldn't produce another life So they went to a doctor\
 Who said don't worry ‘I gotcha’ And now their grandchildren play the fife.\
-Take a picture of the plaque that this riddle refers to.
+What does the plaque that this riddle refers to say?.
 
 ### Riddle 3:
 Nine goddesses sit in a den\
