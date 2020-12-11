@@ -26,7 +26,7 @@ The scavenger hunt should take around 90 minutes to finish - if you need to take
 
 ### Riddle 1:
 Turn right, then right again at Botolph lane,\
-At the end Four family crests mark achievements lifelong,\
+At the end four family crests mark achievements lifelong,\
 To whom did the saltire of shin bones belong?
 
 ### Riddle 2:
