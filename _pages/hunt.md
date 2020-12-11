@@ -16,9 +16,9 @@ When you are at the location for each riddge, send a message with your answer to
 
 The links above will direct you to the messaging platform and **if you need a hint just ask!**
 
-If you could send me an inital message with your team name before you start that would be great!
-
 ## The Scavenger Hunt
+
+If you could send me an inital message with your team name before you start that would be great!
 
 The scavenger hunt should take around 90 minutes to finish.
 
