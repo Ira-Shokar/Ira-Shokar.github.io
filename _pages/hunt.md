@@ -7,8 +7,6 @@ header:
   overlay_image: "/Photos/3D8FD454-FC12-4D2E-982E-6CF089E65E5B.jpeg"
 ---
 
-# PEMBROKE GP SCAVENGER HUNT
-
 **Thank you for signing up to our scavenger hunt that will take you all around the city.**
 
 When you are at the location, send a an message to me via:
