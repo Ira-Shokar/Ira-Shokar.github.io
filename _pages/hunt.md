@@ -23,7 +23,7 @@ The scavenger hunt should take around 90 minutes to finish - if you need to take
 
 *I also want to apologise in advance for some of the rhymes here - they were very forced.*
 
-### Firstly Start off at the Porters Lodge and here is your first riddle to solve:
+### Firstly, start off at the Porters Lodge and here is your first riddle to solve:
 
 ### Riddle 1:
 Turn right, then right again at Botolph lane,\
