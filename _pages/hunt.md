@@ -101,4 +101,6 @@ From the top are great views, far and away,\
 Once you are here your quest is complete,\
 Have a great day, hopefully post-COVID we may meet.
 
-**HOPE YOU HAD FUN! Thank you for playing and I wish you a very Merry Christmas on behalf of all the GP! Make sure to keeo your eye out on the future GP events that we are running throughout the holiday period.**
+**HOPE YOU HAD FUN!**
+
+**Thank you for playing and I wish you a very Merry Christmas on behalf of all the GP! Make sure to keep your eye out on the future GP events that we are running throughout the holiday period.**
