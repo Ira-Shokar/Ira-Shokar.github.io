@@ -16,4 +16,8 @@ When you are at the location for each riddle, send a message with your answer to
 
 The links above will direct you to the messaging platform and **if you need a hint just ask!**
 
-## At 14.00 the clues will be released on this webpage, so check back then!
+**If you could send me an inital message with your team name before you start that would be great!**
+
+The scavenger hunt should take around 90 minutes to finish - if you need to take a break at any time that is fine, just send me a message saying ```'Break'``` so that I know that you want to continue after, and that you haven't given up.
+
+## The start point is the porter's lodge at Pembroke and at 14.00 the clues will be released on this webpage, so check back then!
