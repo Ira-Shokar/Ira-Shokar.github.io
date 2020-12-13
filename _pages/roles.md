@@ -41,7 +41,7 @@ Organised events for residents of hall as well as the wider University of London
 
 
 
-<img align="left" width="40" height="45" src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest"> **Transition Mentor \| [University College](https://www.ucl.ac.uk), [University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk)  [Sep 2018- Jan 2020]**
+<img align="left" width="40" height="45" src="/Photos/B297ABFE-FB8C-438E-91FF-E9A4ECCA22FD.png" alt="ucl crest"> **Academic Mentor \| [University College](https://www.ucl.ac.uk), [University of London](https://london.ac.uk) [(UCL)](https://www.ucl.ac.uk)  [Sep 2018- Jan 2020]**
 
 Provided support and guidance to a group of first year students, by meeting weekly and preparing sessions to aid in their adaptation to university life and the physics course.
 
