@@ -47,7 +47,7 @@ toc_label: "On this page"
 
 2019:
 
-- _'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_.  
+- _'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’_. [Report](../Docs/Formal_Report_CA_Traffic.pdf).
      - Used a Cellular Automata model to simulate motorway traffic flows, in order to compare the similarities to the granular flow, turbulence and choked flow when traffic shockwaves arise. The model consisted of a few rules with the system was able to evolve over time with a stochastic element put in place to represent human decision making and irrationality, and was extended to contain different vehicles with different maximal speeds, blockages such as accidents or road closures to try and model a driverless car system.
      - Supervisor- [Prof David Bowler](https://www.ucl.ac.uk/physics-astronomy/people/professor-david-bowler).
      - ```Python```. [Repository](https://github.com/Ira-Shokar/CA-Traffic).
