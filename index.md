@@ -31,7 +31,7 @@ I am currently a Postgradute Research Student at the [University of Cambridge](h
 
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter!
 
-*The above photograph was one I took on an autumnal afternoon, overlooking the Bowling Green at Pembroke College, Cambridge.*
+<a href="https://10fastfingers.com/typing-test/english"><img src="http://img.10fastfingers.com/badge/typing-test_1_AR.png" alt="Typing Test" /></a><p>Visit the <a href="https://10fastfingers.com/typing-test/english">Typing Test</a> and try!</p>
 
 
 
