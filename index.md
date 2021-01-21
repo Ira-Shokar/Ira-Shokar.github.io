@@ -33,7 +33,7 @@ Do reach out to me if you'd like to collaborate or just chat about any of the ab
 
 External Profiles:
 * [University of Cambridge Centre for Data-Driven Discovery](https://www.c2d3.cam.ac.uk/directory/8481/mr-ira-shokar),
-* [Research Gate](reasearchgate.ira.shokar.uk ),
+* [Research Gate](http://reasearchgate.ira.shokar.uk),
 * [Academica.edu](https://cambridge.academia.edu/IraShokar),
 * [GitHub](http://github.ira.shokar.uk),
 * [LinkedIn](http://linkedin.ira.shokar.uk).
