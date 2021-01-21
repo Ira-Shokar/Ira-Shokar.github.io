@@ -26,10 +26,17 @@ I am currently a Postgradute Research Student at the [University of Cambridge](h
  - Atmospheric and Oceanic Dynamics
  - Nonlinear and Chaotic Systems
  - Adversarial Models
-
-[Please find my University of Cambridge Centre for Data-Driven Discovery profile here](https://www.c2d3.cam.ac.uk/directory/8481/mr-ira-shokar).
-
+ 
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter!
+
+External Profiles:
+* [University of Cambridge Centre for Data-Driven Discovery](https://www.c2d3.cam.ac.uk/directory/8481/mr-ira-shokar),
+* [Research Gate](reasearchgate.ira.shokar.uk ),
+* [Academica.edu](https://cambridge.academia.edu/IraShokar),
+* [GitHub](http://github.ira.shokar.uk),
+* [LinkedIn](http://linkedin.ira.shokar.uk).
+
+
 
 
 
