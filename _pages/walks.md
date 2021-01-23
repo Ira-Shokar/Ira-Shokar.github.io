@@ -1,7 +1,7 @@
 ---
 title: "GPC Recommended Walks"
 permalink: /walks/
-layout: single
+layout: splash
 ---
  
  <iframe frameborder="0" scrolling="no"
