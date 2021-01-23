@@ -1,4 +1,4 @@
- ---
+---
 title: "GPC Recommended Walks"
 permalink: /walks/
 layout: single
