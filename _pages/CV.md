@@ -20,7 +20,7 @@ toc_label: "On this page"
 <meta name="theme-color" content="#ffffff">
 </head>
 
-[If you prefer a more traditional Academic CV](/Ira_Shokar_CV.pdf).
+[If you prefer a more traditional CV format](/Ira_Shokar_CV.pdf).
 
 ## Education
 
