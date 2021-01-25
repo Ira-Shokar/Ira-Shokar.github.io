@@ -17,12 +17,18 @@ layout: splash
         from browser import document, alert
         import random
         
+        myFunc(x):
+            if x == '':
+              return False
+            else:
+              return True
+        
         def random_():
             list_ = []
-            #for i in range(10):
-            #    list_.append(document["name-box-{}".format(i+1)].value)
+            for i in range(10):
+                list_.append(document["name-box-{}".format(i+1)].value))
             list_.append(document["name-box-1"].value)
-            lis = filter(None, list_)
+            lis = filter(myFunc, list_)
             
             random.shuffle(lis)
             choice = lis[0]
@@ -40,7 +46,7 @@ layout: splash
             
         def greet(event):
             i=0
-            alert("Hello {}!".format(document["name-box-{}".format(i+1)].value))
+            alert("Hello {}!".format(i)
         document["greet-button"].bind("click", greet)
     </script>
 
