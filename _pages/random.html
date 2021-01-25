@@ -11,6 +11,9 @@ layout: splash
     </script>
 </head>
 
+<header>
+Insert up to 10 options:
+</header>
 
 <body onload=brython()>
     <script type="text/python">
@@ -35,6 +38,8 @@ layout: splash
                     choice = "Kieran"
 
             alert('I have choesn {}!'.format(choice))
+        document["greet-button"].bind("click", greet)
+        
         document["greet-button"].bind("click", greet)
     </script>
 
