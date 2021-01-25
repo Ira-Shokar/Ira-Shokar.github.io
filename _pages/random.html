@@ -15,9 +15,8 @@ layout: single
 <body onload=brython()>
     <script type="text/python">
         from browser import document, alert
-        def greet(event):
-            for i in range(2):
-                alert("Hello " + document["name-box-{}".format(i)].value + "!")
+        def greet(event)
+            alert("Hello " + document["name-box-{}".format(i)].value + "!")
         document["greet-button"].bind("click", greet)
     </script>
 
