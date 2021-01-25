@@ -28,12 +28,22 @@ layout: splash
             
             for i in range(5):
                 list_.append(document["name-box-{}".format(i+1)].value))
-            list_.append(document["name-box-1"].value)
             
-            #lis = filter(myFunc, list_)
-            lis = list_
+            lis = filter(myFunc, list_)
             random.shuffle(lis)
             choice = lis[0]
+
+            if 'Ira' in lis or 'Ira ' in lis:
+                if "Kieran" in lis:
+                    choice = "Kieran"
+                elif "kieran" in lis:
+                    choice = "kieran"
+                elif "kieran " in lis:
+                    choice = "kieran"
+                elif "Kieran " in lis:
+                    choice = "Kieran"
+            return choice
+        
             
             return choice
             
