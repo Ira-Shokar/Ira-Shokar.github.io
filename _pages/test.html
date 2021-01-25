@@ -39,7 +39,7 @@ layout: splash
             return choice
             
         def greet(event):
-            alert("Hello {}!".format("Kieran"))
+            alert("Hello {}!".format(document["name-box-1"].value))
         document["greet-button"].bind("click", greet)
     </script>
 
