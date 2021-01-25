@@ -16,7 +16,7 @@ layout: splash
     <script type="text/python">
         from browser import document, alert
         def greet(event):
-            alert("Hello " + document["name-box"].value + "!")
+            alert("Hello {}!".format('hi')
         document["greet-button"].bind("click", greet)
     </script>
 
