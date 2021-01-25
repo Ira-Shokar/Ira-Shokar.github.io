@@ -39,7 +39,8 @@ layout: splash
             return choice
             
         def greet(event):
-            alert("Hello {}!".format(document["name-box-1"].value))
+            i=0
+            alert("Hello {}!".format(document["name-box-{}".format(i+1)].value))
         document["greet-button"].bind("click", greet)
     </script>
 
@@ -53,5 +54,5 @@ layout: splash
     <input id="name-box-8" placeholder="Enter option 8">
     <input id="name-box-9" placeholder="Enter option 9">
     <input id="name-box-10" placeholder="Enter option 10">
-    <button id="greet-button">Generate button nb</button>
+    <button id="greet-button">Generate button i</button>
 </body>
