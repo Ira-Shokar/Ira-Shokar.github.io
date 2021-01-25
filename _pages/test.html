@@ -43,7 +43,7 @@ layout: splash
             return choice
             
         def greet(event):
-            alert("I choose {}!".format(random.randint(0, 10)))
+            alert("I choose {}!".format(random_()))
         document["greet-button"].bind("click", greet)
     </script>
 
@@ -57,5 +57,5 @@ layout: splash
     <input id="name-box-8" placeholder="Enter option 8">
     <input id="name-box-9" placeholder="Enter option 9">
     <input id="name-box-10" placeholder="Enter option 10">
-    <button id="greet-button">Generate button std</button>
+    <button id="greet-button">Generate button</button>
 </body>
