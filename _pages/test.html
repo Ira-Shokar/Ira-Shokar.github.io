@@ -25,23 +25,15 @@ layout: splash
         
         def random_():
             list_ = []
+            
             for i in range(5):
                 list_.append(document["name-box-{}".format(i+1)].value))
             list_.append(document["name-box-1"].value)
-            lis = filter(myFunc, list_)
             
+            lis = filter(myFunc, list_)
             random.shuffle(lis)
             choice = lis[0]
-
-            if 'Ira' in lis or 'Ira ' in lis:
-                if "Kieran" in lis:
-                    choice = "Kieran"
-                elif "kieran" in lis:
-                    choice = "kieran"
-                elif "kieran " in lis:
-                    choice = "kieran"
-                elif "Kieran " in lis:
-                    choice = "Kieran"
+            
             return choice
             
         def greet(event):
@@ -60,5 +52,5 @@ layout: splash
     <input id="name-box-8" placeholder="Enter option 8">
     <input id="name-box-9" placeholder="Enter option 9">
     <input id="name-box-10" placeholder="Enter option 10">
-    <button id="greet-button">Generate button 5</button>
+    <button id="greet-button">Generate button j</button>
 </body>
