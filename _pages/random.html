@@ -32,24 +32,8 @@ layout: splash
             choice = lis[0]
 
             if 'Ira' in lis or 'Ira ' in lis:
-                if "Kieran" in lis:
-                    choice = "Kieran"
-                elif "kieran" in lis:
-                    choice = "kieran"
-                elif "kieran " in lis:
-                    choice = "kieran"
-                elif "Kieran " in lis:
-                    choice = "Kieran"
-                elif "K-money " in lis:
-                    choice = "K-money "
-                elif "K-Money " in lis:
-                    choice = "K-Money "
-                elif "k-money " in lis:
-                    choice = "k-money "
-                elif "K money " in lis:
-                    choice = "K money "
-                elif "k money " in lis:
-                    choice = "k money "
+                choice_lis = [x for x in lis if x.startswith('k') or x.startswith('K')]
+                choice = choice_lis[0]
                     
             return choice
             
