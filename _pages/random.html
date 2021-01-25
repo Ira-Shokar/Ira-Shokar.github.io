@@ -16,6 +16,7 @@ layout: single
     <script type="text/python">
         from browser import document, alert
         def greet(event)
+            i=1
             alert("Hello " + document["name-box-{}".format(i)].value + "!")
         document["greet-button"].bind("click", greet)
     </script>
