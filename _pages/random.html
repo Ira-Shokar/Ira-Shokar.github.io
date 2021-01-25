@@ -16,10 +16,12 @@ layout: single
     <script type="text/python">
         from browser import document, alert
         def greet(event):
-            alert("Hello " + document["name-box"].value + "!")
+            for i in range(2):
+                alert("Hello " + document["name-box"].value + "!")
         document["greet-button"].bind("click", greet)
     </script>
 
-    <input id="name-box" placeholder="Enter your name">
-    <button id="greet-button">Say Hello</button>
+    <input id="name-box-1" placeholder="Enter option 1">
+    <input id="name-box-2" placeholder="Enter option 2">
+    <button id="greet-button">Generate Random Choice</button>
 </body>
