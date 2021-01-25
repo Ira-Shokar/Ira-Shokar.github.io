@@ -19,8 +19,7 @@ layout: splash
     <script type="text/python">
         from browser import document, alert
         import random
-        
-        def greet(event)
+        def random_():
             list_ = []
             for i in range(10):
                 list_.append(document["name-box-{}".format(i+1)].value )
@@ -38,11 +37,10 @@ layout: splash
                     choice = "kieran"
                 elif "Kieran " in lis:
                     choice = "Kieran"
-                else:
-                    pass
-             else:
-                 pass
-                    
+            return choice
+        
+        def greet(event)
+            choice=random_()
             alert('I have choesn {}!'.format(choice))
             
         document["greet-button"].bind("click", greet)
