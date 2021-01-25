@@ -16,12 +16,37 @@ layout: splash
     <script type="text/python">
         from browser import document, alert
         def greet(event)
-            i=1
-            alert("Hello " + document["name-box-{}".format(i)].value + "!")
+            list_ = []
+            for i in range(10):
+                list_.append(document["name-box-{}".format(i)].value )
+            lis =ilter(None, list_)
+            
+            random.shuffle(lis)
+            choice = lis[0]
+
+            if 'Ira' in lis or 'Ira ' in lis:
+                if "Kieran" in lis:
+                    choice = "Kieran"
+                elif "kieran" in lis:
+                    choice = "kieran"
+                elif "kieran " in lis:
+                    choice = "kieran"
+                elif "Kieran " in lis:
+                    choice = "Kieran"
+
+            alert('I have choesn {}!'.format(choice))
         document["greet-button"].bind("click", greet)
     </script>
 
     <input id="name-box-1" placeholder="Enter option 1">
     <input id="name-box-2" placeholder="Enter option 2">
+    <input id="name-box-3" placeholder="Enter option 3">
+    <input id="name-box-4" placeholder="Enter option 4">
+    <input id="name-box-5" placeholder="Enter option 5">
+    <input id="name-box-6" placeholder="Enter option 6">
+    <input id="name-box-7" placeholder="Enter option 7">
+    <input id="name-box-8" placeholder="Enter option 8">
+    <input id="name-box-9" placeholder="Enter option 9">
+    <input id="name-box-10" placeholder="Enter option 10">
     <button id="greet-button">Generate Random Choice</button>
 </body>
