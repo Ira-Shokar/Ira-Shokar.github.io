@@ -19,6 +19,7 @@ layout: splash
 <body onload=brython()>
     <script type="text/python">
         from browser import document, alert
+        import random
         def greet(event)
             list_ = []
             for i in range(10):
@@ -39,8 +40,6 @@ layout: splash
                     choice = "Kieran"
 
             alert('I have choesn {}!'.format(choice))
-        document["greet-button"].bind("click", greet)
-        
         document["greet-button"].bind("click", greet)
     </script>
 
