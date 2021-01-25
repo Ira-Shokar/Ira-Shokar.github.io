@@ -19,9 +19,9 @@ layout: splash
         
         def random_():
             list_ = []
-            for i in range(10):
-                list_.append(document["name-box-{}".format(i+1)].value )
-                print(lis)
+            #for i in range(10):
+            #    list_.append(document["name-box-{}".format(i+1)].value)
+            list_.append(document["name-box-1".format(i+1)].value)
             lis = filter(None, list_)
             
             random.shuffle(lis)
@@ -54,5 +54,5 @@ layout: splash
     <input id="name-box-8" placeholder="Enter option 8">
     <input id="name-box-9" placeholder="Enter option 9">
     <input id="name-box-10" placeholder="Enter option 10">
-    <button id="greet-button">Generate button K</button>
+    <button id="greet-button">Generate button 1</button>
 </body>
