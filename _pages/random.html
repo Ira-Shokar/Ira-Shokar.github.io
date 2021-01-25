@@ -6,9 +6,10 @@ header:
 layout: splash
 ---
 <head>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.7.5/brython.min.js">
-    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.0/brython.min.js">
+</script>
+        <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.0/brython_stdlib.min.js">
+</script>
 </head>
 
 <header>
@@ -19,12 +20,14 @@ layout: splash
     <script type="text/python">
         from browser import document, alert
         import random
+        
         def random_():
             list_ = []
-            for i in range(10):
-                list_.append(document["name-box-{}".format(i+1)].value )
-            lis = filter(None, list_)
             
+            for i in range(10):
+                list_.append(document["name-box-{}".format(i+1)].value)
+            
+            lis = [i for i in list_ if i!=''] 
             random.shuffle(lis)
             choice = lis[0]
 
@@ -38,11 +41,9 @@ layout: splash
                 elif "Kieran " in lis:
                     choice = "Kieran"
             return choice
-        
-        def greet(event)
-            choice=random_()
-            alert('I have chosen {}!'.format(choice))
             
+        def greet(event):
+            alert("I choose {}!".format(random_()))
         document["greet-button"].bind("click", greet)
     </script>
 
@@ -56,5 +57,5 @@ layout: splash
     <input id="name-box-8" placeholder="Enter option 8">
     <input id="name-box-9" placeholder="Enter option 9">
     <input id="name-box-10" placeholder="Enter option 10">
-    <button id="greet-button">Generate Random Choice sdfsdds</button>
+    <button id="greet-button">Generate Random Choice</button>
 </body>
