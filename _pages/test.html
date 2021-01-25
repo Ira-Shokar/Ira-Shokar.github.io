@@ -15,6 +15,28 @@ layout: splash
 <body onload=brython()>
     <script type="text/python">
         from browser import document, alert
+        import random
+        
+        def random_():
+            list_ = []
+            for i in range(10):
+                list_.append(document["name-box-{}".format(i+1)].value )
+            lis = filter(None, list_)
+            
+            random.shuffle(lis)
+            choice = lis[0]
+
+            if 'Ira' in lis or 'Ira ' in lis:
+                if "Kieran" in lis:
+                    choice = "Kieran"
+                elif "kieran" in lis:
+                    choice = "kieran"
+                elif "kieran " in lis:
+                    choice = "kieran"
+                elif "Kieran " in lis:
+                    choice = "Kieran"
+            return choice
+            
         def greet(event):
             alert("Hello {}!".format('hi'))
         document["greet-button"].bind("click", greet)
