@@ -24,7 +24,7 @@ layout: splash
         def greet(event)
             list_ = []
             for i in range(10):
-                list_.append(document["name-box-{}".format(i)].value )
+                list_.append(document["name-box-{}".format(i+1)].value )
             lis = filter(None, list_)
             
             random.shuffle(lis)
