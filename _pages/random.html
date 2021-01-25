@@ -19,7 +19,7 @@ layout: splash
             list_ = []
             for i in range(10):
                 list_.append(document["name-box-{}".format(i)].value )
-            lis =ilter(None, list_)
+            lis = filter(None, list_)
             
             random.shuffle(lis)
             choice = lis[0]
