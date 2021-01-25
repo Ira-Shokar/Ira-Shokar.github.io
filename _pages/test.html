@@ -38,7 +38,8 @@ layout: splash
             return choice
             
         def greet(event):
-            alert("Hello {}!".format('hi'))
+            choice = random_()
+            alert("Hello {}!".format(choice))
         document["greet-button"].bind("click", greet)
     </script>
 
