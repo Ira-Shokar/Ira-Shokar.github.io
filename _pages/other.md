@@ -53,6 +53,8 @@ My other interests lie in:
  
 Here is a Bot to play the Board Game [We Rate Dogs](https://boardgamegeek.com/boardgame/266778/we-rate-dogs-card-game) for if you have less than 3 people: [Repository](https://github.com/Ira-Shokar/We-Rate-Dogs)
 
+Here is a [python random choice generator embedded into a webpage](/random)
+
 *The above photograph was one I took on Cartlon Hill, Edinburgh.*
 
 ## Photographs
