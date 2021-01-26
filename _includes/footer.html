@@ -1,1 +1,18 @@
-
+<div class="page__footer-follow">
+  <ul class="social-icons">
+      {% if site.data.ui-text[site.locale].follow_label %}
+            <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+                {% endif %}
+                    {% if site.author.github %}
+                          <li><a href="https://github.com/Ira-Shokar"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+                              {% endif %}
+                                  {% if site.author.linkedin %}
+                                        <li><a href="https://linkedin.com/in/ira-shokar"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+                                            {% endif %}
+                                                {% if site.author.email %}
+                                                      <li><a href="mailto:ira.shokar@pem.cam.ac.uk"><i aria-hidden="true"></i> email: ira.shokar@pem.cam.ac.uk</a></li>
+                                                          {% endif %}
+                                                               <li><a href="https://goo.gl/maps/eX1FrkGFrQN2FVo16"><i aria-hidden="true"></i> Cambridge, UK</a></li>
+                                                                 </ul>
+                                                                 </div>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Hosted on" }} <a href="https://pages.github.com" rel="nofollow">GitHub Pages</a> using the <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a> theme.</div>
