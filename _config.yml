@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Generator"
+title                    : "Ira Shokar"
 title_separator          : "-"
-name                     : "Generator"
+name                     : "Ira Shokar"
 description              : "My Personal Website"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
