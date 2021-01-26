@@ -1,0 +1,80 @@
+---
+title: "Random Choice Generator"
+permalink: /random2/
+layout: splash
+breadcrumbs: true
+breadcrumb_home_label : "Home"
+breadcrumb_separator  : "/"
+---
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.0/brython.min.js">
+</script>
+        <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.0/brython_stdlib.min.js">
+</script>
+</head>
+
+<header>
+<h1>Insert up to 10 options:</h1>
+</header>
+
+<body onload=brython()>
+    <script type="text/python">
+        from browser import document, alert
+        import random
+        
+        def random_():
+            list_ = []
+            
+            for i in range(30):
+                list_.append(document["name-box-{}".format(i+1)].value)
+            
+            lis = [i for i in list_ if i!=''] 
+            random.shuffle(lis)
+            choice = lis[0]
+
+            if 'Ira' in lis or 'Ira ' in lis:
+                choice_lis = [x for x in lis if x.startswith('k') or x.startswith('K')]
+                choice = choice_lis[0]
+                choice2= choice_lis[1]
+                    
+            return choice
+            
+        def greet(event):
+            random()= choice1, choice2
+            alert("I choose {} & {}!".format(choice1, choice2))
+        document["greet-button"].bind("click", greet)
+    </script>
+
+    <input id="name-box-1" placeholder="Enter option 1">
+    <input id="name-box-2" placeholder="Enter option 2">
+    <input id="name-box-3" placeholder="Enter option 3">
+    <input id="name-box-4" placeholder="Enter option 4">
+    <input id="name-box-5" placeholder="Enter option 5">
+    <input id="name-box-6" placeholder="Enter option 6">
+    <input id="name-box-7" placeholder="Enter option 7">
+    <input id="name-box-8" placeholder="Enter option 8">
+    <input id="name-box-9" placeholder="Enter option 9">
+    <input id="name-box-10" placeholder="Enter option 10">
+    <input id="name-box-11" placeholder="Enter option 11">
+    <input id="name-box-12" placeholder="Enter option 12">
+    <input id="name-box-13" placeholder="Enter option 13">
+    <input id="name-box-14" placeholder="Enter option 14">
+    <input id="name-box-15" placeholder="Enter option 15">
+    <input id="name-box-16" placeholder="Enter option 16">
+    <input id="name-box-17" placeholder="Enter option 17">
+    <input id="name-box-18" placeholder="Enter option 18">
+    <input id="name-box-19" placeholder="Enter option 19">
+    <input id="name-box-20" placeholder="Enter option 20">
+    <input id="name-box-21" placeholder="Enter option 21">
+    <input id="name-box-22" placeholder="Enter option 22">
+    <input id="name-box-23" placeholder="Enter option 23">
+    <input id="name-box-24" placeholder="Enter option 24">
+    <input id="name-box-25" placeholder="Enter option 25">
+    <input id="name-box-26" placeholder="Enter option 26">
+    <input id="name-box-27" placeholder="Enter option 27">
+    <input id="name-box-28" placeholder="Enter option 28">
+    <input id="name-box-29" placeholder="Enter option 29">
+    <input id="name-box-30" placeholder="Enter option 30">
+
+    <button id="greet-button">Generate Random Choice</button>
+</body>
