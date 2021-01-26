@@ -51,9 +51,11 @@ My other interests lie in:
  - Sport (Rugby, Squash, Tennis, Cricket, Korfball, Basketball, Cycling).
  - Animals (Especially my family dogs: Joey and Bella- see below).
  
-Here is a Bot to play the Board Game [We Rate Dogs](https://boardgamegeek.com/boardgame/266778/we-rate-dogs-card-game) for if you have less than 3 people: [Repository](https://github.com/Ira-Shokar/We-Rate-Dogs)
-
-Here is a [python random choice generator embedded into a webpage](/random)
+Other bits:
+- Here is a Bot to play the Board Game [We Rate Dogs](https://boardgamegeek.com/boardgame/266778/we-rate-dogs-card-game) for if you have less than 3 people: [Repository](https://github.com/Ira-Shokar/We-Rate-Dogs)
+- Here is a [python random choice generator embedded into a webpage](/random).
+- Here is a [list of walks and cycles](http://camwalks.pemgp.ira.shokar.uk/) around Cambrdige that was produced for the Pembroke graduate community during lockdown.
+- Here is a [scavenger hunt](https://ira.shokar.uk/hunt/) that takes you around Cambridge- designed for the Pembroke graduate community - the clues were take from various scavenger hunts I've taken part in.
 
 *The above photograph was one I took on Cartlon Hill, Edinburgh.*
 
