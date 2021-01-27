@@ -25,7 +25,6 @@ I am currently a Postgradute Research Student at the [University of Cambridge](h
  - Deep Learning
  - Atmospheric and Oceanic Dynamics
  - Nonlinear and Chaotic Systems
- - Adversarial Models
  
 Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter!
 
