@@ -1,1 +1,10 @@
+---
+title: "Pembroke GP Quiz"
+permalink: /quiz/
+layout: splash
+breadcrumbs: true
+breadcrumb_home_label : "Home"
+breadcrumb_separator  : "/"
+---
+
 <iframe src="https://universityofcambridgecloud-my.sharepoint.com/personal/is500_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={46637e5d-29a3-46be-8d35-7cc52e4c8270}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
