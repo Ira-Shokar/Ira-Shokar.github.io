@@ -1,0 +1,52 @@
+<html>
+<!-- this project is not maintained -->
+<head>
+	<title>Webterm</title>
+	<script src="js/jquery-min.js"></script>
+	<script src="js/underscore-min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="js/des.js"></script>
+	<script src="js/base64.js"></script>
+	<script src="js/uievents.js"></script>
+	<script src="js/RFB.js"></script>
+	<script src="js/RFBCanvas.js"></script>
+	<script src="js/VNCClient.js"></script>
+	<script src="JSTCP/jstcp.js"></script>
+</head>
+<script>
+
+
+ $(document).ready(function() {
+	var host = "localhost";
+	var port = 5900;
+
+    var canvas = document.getElementById("vnc-canvas");
+    var vnc = new VNCClient(canvas);
+    vnc.connect(host, port);
+
+    var parseKeyAndSend = function(evt) {
+       var data = parseKeyEvent(evt);
+       vnc.send(data);
+       return false;
+    };
+
+    var parseMouseAndSend = function(evt) {
+       var data = parseMouseEvent(evt);
+       vnc.send(data);
+       return false;
+    };
+
+	 $(document).keydown (parseKeyAndSend);
+	 $(document).keyup   (parseKeyAndSend);
+	//      $(document).keypress(parseKeyAndSend);
+
+	// $(document).click(parseMouseAndSend);
+ });
+
+</script>
+<body>
+    <div id="vnc-container">
+        <canvas id="vnc-canvas">Unable to render VNC Client</canvas>
+    </div>
+</body>
+</html>
