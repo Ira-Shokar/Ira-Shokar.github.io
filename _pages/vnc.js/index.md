@@ -1,12 +1,11 @@
 ---
-title: "VNC"
 permalink: /vnc/
 ---
 
 <html>
 <!-- this project is not maintained -->
 <head>
-	<title>Webterm</title>
+	<title>VNC</title>
 	<script src="js/jquery-min.js"></script>
 	<script src="js/underscore-min.js"></script>
 	<script src="/socket.io/socket.io.js"></script>
