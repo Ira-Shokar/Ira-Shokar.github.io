@@ -1,3 +1,12 @@
+---
+title: "VNC"
+permalink: /vnc/
+layout: splash
+breadcrumbs: true
+breadcrumb_home_label : "Home"
+breadcrumb_separator  : "/"
+---
+
 <html>
 <!-- this project is not maintained -->
 <head>
