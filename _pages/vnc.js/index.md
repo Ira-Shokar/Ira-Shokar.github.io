@@ -26,8 +26,8 @@ breadcrumb_separator  : "/"
 
 
  $(document).ready(function() {
-	var host = "localhost";
-	var port = 5900;
+	var host = "ira@86.25.186.238";
+	var port = 5997;
 
     var canvas = document.getElementById("vnc-canvas");
     var vnc = new VNCClient(canvas);
