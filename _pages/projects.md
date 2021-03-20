@@ -22,6 +22,11 @@ toc_label: "On this page"
 
 ## Academic Projects
 
+2021:
+
+- _'Assessing Temporal Change In The Exposure Of Informal Settlements Through Repeat Satellite Observation'_. Group Project. [Repository](https://github.com/ai4er-cdt/gtc-exposure).
+      - ```Python```.
+
 2020:
 
  - _'Quantifying the effecitiveness of natural hazard preventions by using an LSTM to predict rainfall runoff in flood risk mitigation'_. Group Project. [Repository](https://github.com/ai4er-cdt/flood_risk_shipston).
