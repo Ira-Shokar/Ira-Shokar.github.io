@@ -24,7 +24,7 @@ toc_label: "On this page"
 
 2021:
 
-- _'Assessing Temporal Change In The Exposure Of Informal Settlements Through Repeat Satellite Observation'_. Group Project. [Repository](https://github.com/ai4er-cdt/gtc-exposure).
+- _'Assessing Temporal Change In The Exposure Of Informal Settlements Through Repeat Satellite Observation'_. Group Project. [Report](https://drive.google.com/file/d/1eYCfZCaRkPdXVgs2PZuccc4DCk1VL52P/view?usp=sharing)[Repository](https://github.com/ai4er-cdt/gtc-exposure).
       - ```Python```.
 
 2020:
