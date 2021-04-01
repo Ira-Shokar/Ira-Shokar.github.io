@@ -25,13 +25,13 @@ toc_label: "On this page"
 2021:
 
 - _'Assessing Temporal Change In The Exposure Of Informal Settlements Through Repeat Satellite Observation'_. Group Project. [Report](https://drive.google.com/file/d/1eYCfZCaRkPdXVgs2PZuccc4DCk1VL52P/view?usp=sharing) [Repository](https://github.com/ai4er-cdt/gtc-exposure).
-      - Project to investigate the effectiveness of natural flood management interventions undertaken in the town of Shipston-on-Stour during
-2017 to 2020 using an LSTM model.
       - ```Python```.
 
 2020:
 
  - _'Quantifying the effecitiveness of natural hazard preventions by using an LSTM to predict rainfall runoff in flood risk mitigation'_. Group Project. [Repository](https://github.com/ai4er-cdt/flood_risk_shipston).
+      - Project to investigate the effectiveness of natural flood management interventions undertaken in the town of Shipston-on-Stour during
+2017 to 2020 using an LSTM model.
       - ```Python```.
        
 
