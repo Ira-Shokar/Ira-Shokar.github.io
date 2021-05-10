@@ -25,7 +25,6 @@ I am currently a Postgradute Research Student at the [University of Cambridge](h
  - Atmospheric and Oceanic Dynamics
  - Nonlinear and Chaotic Systems
 
-* [Here is my Department Webpage](https://www.damtp.cam.ac.uk/person/is500).
-* [If you prefer a more traditional CV format](/Ira_Shokar_CV.pdf).
+Here you can find my [Department Webpage](https://www.damtp.cam.ac.uk/person/is500), and a version of my [CV](/Ira_Shokar_CV.pdf).
 
 I use this website as a repository and to document the projects I completed. Do reach out to me if you'd like to collaborate or just chat about any of the above, or anything else for that matter!
