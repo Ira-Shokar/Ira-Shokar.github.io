@@ -1,0 +1,260 @@
+\documentclass[10pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}      
+
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+
+% adjust the page margins
+\usepackage[scale=0.84]{geometry}
+\usepackage{multicol}
+
+\usepackage{import}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{marvosym}
+
+\usepackage{hyperref}
+
+\hypersetup{
+  linkcolor  = blue,
+  citecolor  = blue,
+  urlcolor   = blue,
+  colorlinks = true,
+}
+
+
+\definecolor{codegray}{gray}{0.9}
+
+\name{\href{https://www.ira-shokar.co.uk/CV/}{Ira Shokar}}{}
+
+  
+\newcommand*{\customcventry}[7][.20em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #4}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\bfseries #5}
+  \end{tabular} \\
+  \begin{tabular}{@{}l} 
+    {\itshape #3}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #2}
+  \end{tabular}
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\customcvproject}[4][.25em]{
+%   \vfill\noindent
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #3}
+  \end{tabular}
+  \ifx&#4
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#4%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\cvref}[3][.25em]{
+%   \vfill\noindent
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \ifx&#3
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#3%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+  
+
+\setlength{\tabcolsep}{10pt}
+
+
+\begin{document}
+
+\makecvtitle
+\vspace*{-14mm}
+
+\begin{center}
+\begin{tabular}{ c c c}
+ \enspace\enspace\enspace\enspace\enspace\enspace \Mundus~\enspace\href{https://www.ira-shokar.co.uk}{ira-shokar.co.uk} \enspace \enspace \enspace \enspace \enspace \enspace \enspace \enspace 
+\faEnvelopeO\enspace\href{mailto:ira.shokar@pem.cam.ac.uk}{ira.shokar@pem.cam.ac.uk} \enspace \enspace \enspace \enspace \enspace  \enspace \enspace
+ \faGithub\enspace \href{https://github.com/Ira-Shokar}{github.com/Ira-Shokar}  
+\end{tabular}
+\end{center}
+
+\vspace*{-5mm}
+
+\section{\href{https://www.ira-shokar.co.uk}{Profile}}{
+\textbf{Postgraduate Research Student at the University of Cambridge's} Centre for Doctoral Study in the Application of Artificial Intelligence for Environmental Risk having previously completed a BSc in Theoretical Physics.}
+
+[\href{https://www.ira-shokar.co.uk}{Text in blue are links}].
+
+\vspace*{-2mm}
+
+\section{\href{https://www.ira-shokar.co.uk/CV/}{Education}}
+
+{\customcventry{Sept 2017 -- Present}{PhD. Artificial Intelligence}{Pembroke College, University of Cambridge}{Cambridge}{}
+{\begin{itemize}
+    \item Student at the Centre for Doctoral Training in the Application of Artificial Intelligence to the study of Environmental Risks. My research interests lie in using machine learning methods for parametrisation and statistical downscaling of global circulation models to improve climate model predictions and those relating to extreme weather events..
+    \vspace*{1.0mm}
+    \item \textbf{Areas of specialisation:}
+          {\begin{itemize} \item Fluid Dynamics of the Climate,
+\item Earth System Modelling,
+\item Probabilistic Machine Learning and Inference,
+\item Data Science,
+\item Deep Learning,
+\item Generative and Adversarial Models,
+\item Cloud Computing.
+         \end{itemize}}
+         \vspace*{1.5mm}
+  \end{itemize}}}
+
+{\customcventry{Sept 2017 -- Present}{BSc. Theoretical Physics with 1st Class Honours}{University College, University of London}{Bloomsbury, London}{}
+{\begin{itemize}
+        \vspace*{1mm} \item \textbf{Thesis:} \href{https://www.ira-shokar.co.uk/Docs/Formal_Report.pdf}{‘Deep Learning Classifier Robustness for Neutrino Event Detection using Domain Adversarial Neural Networks’}.
+        \vspace*{1mm}
+        \item \textbf{Relevant Modules:}  {\begin{itemize} 
+                          \item  Theory of Dynamical Systems and Chaos, Computational Physics (I & II; \textbf{Python}), Computational Mathematics (\textbf{Mathematica}), Mathematical Methods (I, II, III, for Physics and Astronomy, for Theoretical Physics).
+         \end{itemize}}
+         \vspace*{1.5mm}
+  \end{itemize}}
+}
+
+% {\customcventry{}{}{Tiffin Schooll}{Kingston-Upon-Thames, Surrey}{}
+
+\textbf{Tiffin School \enspace \enspace  \enspace  \enspace  \enspace  \enspace  \enspace  \enspace \enspace  
+\enspace \enspace  \enspace  \enspace  \enspace  \enspace  \enspace  \enspace \enspace \enspace  \enspace  
+\enspace \enspace  \enspace  \enspace  \enspace  \enspace  \enspace  \enspace \enspace  \enspace  \enspace
+\enspace \enspace  \enspace  \enspace  \enspace  \enspace  \enspace  \enspace \enspace  \enspace  \enspace
+\enspace \enspace  \enspace  \enspace  \enspace  \enspace  \enspace  \enspace \enspace  \enspace  \enspace
+\enspace \enspace  \enspace  \enspace  \enspace  \enspace  \enspace   Kingston-Upon-Thames, Surrey}
+{\begin{itemize}
+    \item \textbf{4 A-Levels } -  \textbf{A*} in Mathematics and Further Mathematics;  \textbf{A} in Economics and Physics. 
+    \item \textbf{6 AS-Levels} -  \textbf{A} in Mathematics, Further Mathematics, Economics, Physics, History and Physical Education. 
+    \item \textbf{11 GCSEs} - \textbf{A* }in English Language, Further Mathematics, Latin, Mathematics, Physics and Religion \& Philosophy;  \enspace  \textbf{A} in Biology, Chemistry, English Literature and History;  \textbf{B} in French.	
+    \end{itemize}}
+    
+\section{\href{https://www.ira-shokar.co.uk/projects/}{Research Experience}}
+
+{\begin{itemize} \item \textbf{Final Year Research Project}- \href{https://www.ira-shokar.co.uk/Docs/Formal_Report.pdf}{'Deep Learning Classifier Robustness for Neutrino Event Detection using Domain Adversarial Neural Networks'} {\begin{itemize} \item Project applying a Domain-Adversarial Neural Network (DANN) to improve the performance of a Convolutional Neural Network (CNN) to classify neutrino interactions, for the analysis of neutrino oscillations. 
+    \item The approach is looking to produce a model that is invariant to the differences in statistics between the input data (the labeled Monte Carlo simulations used to train the classifier) and the detector data.
+    \item Supervisor- Dr Chris Backhouse [\textbf{Python: Keras, Tensorflow; C++: Root, NOvAsoft; Scientific Linux}].
+    \end{itemize}}
+                            \item \textbf{Group project}- \href{https://www.ira-shokar.co.uk/Docs/Final_Report_-_Nuclear_Forensics_with_Gamma_Ray_Spectroscopy.pdf}{'HPGe Detector Gamma Ray Spectroscopy'} simulation of nuclear emission and detector interactions.
+                     {\begin{itemize}       \item Supervisor- Prof Ruben Saakyan [\textbf{C++: GEANT4; Cent OS}].
+                     \end{itemize}}
+                            \item \textbf{2nd Year Computational Project}- \href{https://github.com/Ira-Shokar/CA-Traffic}{'Cellular Automata Model to Simulate Traffic Flow's Similarities to Granular Flow’}  {\begin{itemize} \item Project involved building a Cellular Automata to simulate motorway traffic flows, in order to compare the similarities granular when traffic shockwaves arise.
+    \item The model consisted of a few rules with the system was able to evolve over time with a stochastic element put in place to represent human decision making and irrationality, and was extended to contain different vehicles with different maximal speeds, blockages such as accidents or road closures to try and model a driver-less car system.​
+    \item Supervisor- Prof David Bowler [\textbf{Python}].
+      \end{itemize}}
+\end{itemize}}
+  
+\section{\href{https://www.ira-shokar.co.uk/CV/}{Work Experience}}
+  
+ {\customcventry{July 2019 -- August 2019}{Data Science \& Analytics Summer Intern\enspace (kyle.johnson@fticonsulting.com)}{FTI Consulting}{Aldersgate St, City of London}{}
+{\begin{itemize}
+\item An 8-week summer internship applying data science pipelines in the form of: data wrangling and data cleaning (dynamic and static web-scraping, parsing structured data and regular expressions), storing large data sets, data mining and querying using \textbf{SQL} and applying analysis to search for anomalous activity, fraud and money-laundering.
+\item My main project involved creating a relationship and transaction graph network using  [\textbf{Python }] and  [\textbf{Neo4j}], applying various network analysis metrics to determine key players and clusters that may require extra investigation. These were then queried and visualised using \textbf{Python} and \textbf{Cypher}. This was used in conjunction with bank records in implementing fuzzy token matching as well as with anomaly detection models.
+  \end{itemize}}  
+
+\section{\href{https://www.ira-shokar.co.uk/projects/}{Machine Learning Hackathons}}
+
+ {\customcventry{ December 2019}{\href{https://www.ira-shokar.co.uk/Photos/B49E08B8-030D-4969-BBD1-06179471A7C4.jpeg}{UCL Hackathon Team} (president@ucltechsoc.com)}{Developer Circles from Facebook}{Rathbone Square, Fitzrovia, London}{}
+{\begin{itemize}
+\item I was selected to represent UCL at the AI for Messenger Hackathon where we created a chatbot that returned the translated text from an image containing text in a different language.
+\item Used  \textbf{Node.js} for the messenger front end, with  \textbf{Flask }connecting to the  \textbf{Pytorch} models, which comprised of a CNN to determine the locations of the words, an OCR CNN to recognise the text, and a translation neural network.
+  \end{itemize}}
+  \vspace*{2mm}
+  
+  {\customcventry{November 2019}{\href{https://www.ira-shokar.co.uk/Photos/BEC7A065-BDF4-49C7-8303-6C0FBF90B5F3.jpeg}{Winning Hackathon Team} (su-datascience@ucl.ac.uk)}{UCL Data Science Society Hackathon}{Microsoft Reactor, City of London}{}
+{\begin{itemize}
+\item Hackathon hosted by Microsoft and American Express to look at providing insight from their credit card customer datasets.
+\item I was part of the winning team, where we produced a solution concluding that that product personalisation for customer subsets could increase credit card growth while assessing potential credit default and delinquency risk.
+\item We conducted exploratory analysis through k-means clustering and build decision tree and random forest models using \textbf{Scikit-Learn} and the \textbf{Azure API}. 
+  \end{itemize}}
+      \vspace*{2mm}
+      
+    {\customcventry{November 2019}{\href{https://www.ira-shokar.co.uk/Photos/14A514B1-8BB4-4882-97F3-03E2DE670639.jpeg}{Applied Machine Learning Insight Challenge} (shoko.ueda@arm.com)}{Arm Holdings}{Peterhouse Technology Park, Cambridge}{}
+{\begin{itemize}
+\item  I was part of the winning team that completed a \textbf{Python} debugging challenge applying an adaptive image filter to a webcam image using a CNN during an insight into the research being conducted by ARM in the fields of computer vision and natural language processing for mobile devices.
+  \end{itemize}}
+      
+  {\customcventry{November 2018}{ Hackathon Participant (president@ucltechsoc.com)}{Microsoft AI Mini Hack}{Microsoft Reactor, City of London}{}}
+{\begin{itemize}
+\item Made calls to \textbf{Microsoft's Cognitive Azure API} to identify landmarks and animals and run a bot, by altering pre-build code, that played an image matching game against other participants.
+  \end{itemize}}
+  
+ \section{\href{https://www.ira-shokar.co.uk/roles/}{Non-Technical Roles}}
+ 
+ {\customcventry{October 2020 -- Present}{Events Officer} {Pembroke College Graduate Parlour}{Pembroke College, Cambridge}{}
+ {\begin{itemize}
+    \item Elected to organise events, large and small, that will appeal to all aspects of the college community. This includes online events as well as following Covid protocols to ensure all in-person events are run safely and within guidelines.
+   \end{itemize}}
+   
+  {\customcventry{August 2019 -- August 20202}{Resident Advisor (Voluntary Role) (derrick.chong@london.ac.uk)}{University of London Halls}{Lillian-Penson Hall, Tyburnia}{}
+{\begin{itemize}
+\item My role as part of the Warden's team involves assisting the Warden in encouraging a supportive and harmonious living environment- promoting and monitoring residents’ personal, mental and social welfare, other pastoral care, dealing with disciplinary issues \& conflict resolution, and being in charge of organising the social life of the Hall.
+\item We organised events for residents of hall as well as the wider University of London halls and manage the Lillian-Penson JCR.
+\item Mental Health First Aid certified (MHFA),  Eating disorder and suicide prevention awareness trained (BEAT, Papyrus), Equality, Diversity and Inclusion trained (Definitely Able, All Sorts), Physical First Aid certified (British Red Cross), Fire Safety Awareness \& Fire Marshall trained (Health \& Safety, University of London).
+  \end{itemize}}
+  \vspace*{1mm}
+  
+  
+    {\customcventry{Sept 2018 -- Dec 2018}{Transition Mentor (a.owusu@ucl.ac.uk)}{Department of Physics and Astronomy}{University College London, Bloomsbury}{}
+{\begin{itemize}
+\item I provided support and guidance to a group of first year students, by meeting weekly and preparing sessions to aid in their adaptation to university life and the physics course.
+  \end{itemize}}
+  \vspace*{1mm}
+
+  {\customcventry{Sept 2017 -- June 2018}{JCR Committee (paul.phibbs@london.ac.uk)}{University of London Halls}{Nutford House, Marylebone}{}
+{\begin{itemize}
+\item Given responsibility as part of a team of four to organise events for fellow members in halls using a budget of £6,000.
+{\begin{itemize}
+\item Events ranged from small events such as Tea \& Cakes, to large events such a Boat Ball.
+ \end{itemize}}
+  \end{itemize}}
+  
+\setlength{\columnwidth}{\textwidth}
+\addtolength{\columnwidth}{-\columnsep}
+\setlength{\columnwidth}{.5\columnwidth}
+
+\setlength{\hintscolumnwidth}{0.175\columnwidth}
+\setlength{\separatorcolumnwidth}{0.025\columnwidth}
+%
+\renewcommand*{\recomputecvbodylengths}{%
+  % body lengths
+  \setlength{\maincolumnwidth}{\columnwidth-\leftskip-\rightskip-\separatorcolumnwidth-\hintscolumnwidth}%
+  \setlength{\listitemcolumnwidth}{\maincolumnwidth-\listitemsymbolwidth}%
+  \setlength{\doubleitemcolumnwidth}{\maincolumnwidth-\hintscolumnwidth-\separatorcolumnwidth-\separatorcolumnwidth}%
+  \setlength{\doubleitemcolumnwidth}{0.5\doubleitemcolumnwidth}%
+  \setlength{\listdoubleitemcolumnwidth}{\maincolumnwidth-\listitemsymbolwidth-\separatorcolumnwidth-\listitemsymbolwidth}%
+  \setlength{\listdoubleitemcolumnwidth}{0.5\listdoubleitemcolumnwidth}%
+  % regular lengths
+  \setlength{\parskip}{0pt}}
+\recomputecvbodylengths
+                    % 'publications' is the name of a BibTeX file
+\end{document}
+
+
+%% end of file `template.tex'.
