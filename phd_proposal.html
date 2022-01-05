@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ira Shokar - DAMTP - University of Cambridge</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-square">
+        <h1 class="text-light"><a href="index.html"><center>Ira Shokar</center></a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.maths.cam.ac.uk/person/is500" class="homepage"><i class="bx bx-home"></i></a>
+          <a href="https://github.com/Ira-Shokar" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://twitter.com/irashokar" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="mailto:I.J.S.Shokar@maths.cam.ac.uk" class="mail"><i class="bx bx-envelope"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bxs-user-account"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bxs-user-detail"></i> <span>About</span></a></li>
+          <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Projects</span></a></li>
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+      <div class="container">
+
+        <h3 style="color:white;"><br>-</h3>
+        
+
+        <div class="section-title">
+          <h2>Data-Driven Exploration of Parameterisation Schemes within Models of the Tropospheric Mid-Latitudes </h2>
+        </div>
+
+        <p align="justify" style="font-size:18px">Seasonal and longer-term prediction of mid-latitude weather and climate remains a major challenge due to the complexity of the mechanisms that drive the dynamics as well as their chaotic nature. This PhD project will extend <a href="https://ira.shokar.uk/Docs/is500_MRes_Project_Report.pdf">my previous study</a> which looked at encapsulating the dynamics of a simplified model of atmospheric circulation by using a neural network to find a reduced-order-model of the system. The MRes study highlighted the following research questions, that will form the basis for exploration during the PhD: (i) Can machine learning (ML) be used to better understand the variability exhibited in models of atmospheric circulation? (ii) Can ML be used to emulate improved stochastic parameterisation schemes?
+
+          <br><br>Naturally the two research questions are coupled, as the ability to accurately encapsulate the dynamics of a system will allow us to explore questions regarding its nature, variability, and the tendencies of the parameterisation due to how the model represents these processes, while understanding the variability will inform how best to produce a representation.
+          
+          <br><br>The project is motivated by the issue of Global Circulation Models (GCMs), that describe oceanic and atmospheric dynamics, being incredibly computationally expensive, and as a result not all scales can be simulated. Processes that take place on length scales smaller than the spatial resolution of the GCM, as well as fast scale dynamics, must be approximated, with these approximations known as sub-grid parameterisations. A large source of model uncertainty is a result of their parameterisation schemes, due to the chaotic nature of the dynamics, leading to questions regarding the fidelity of these models and thus their usefulness.
+          
+          <br><br>Due to the computational cost of GCMs, the project will focus on a simplified ‘toy’ model, that uses a beta-plane approximation to encapsulate rotational planetary motion, as well reducing the system to a 2-D plane by considering the atmosphere as shallow fluid layer when compared to the horizontal scale. The 2-D nature of the system results in a lack of turbulence and thus a stochastic forcing is required to parameterise the small-scale eddies. This quasi-2-D nature of planetary scale motions gives rise to dynamics of interest, including the formation of jet streams and cyclones.
+          
+          <br><br>We will focus on the evolution of these jets, that themselves play a fundamental role in the climate system, transporting geophysically-important quantities, such as momentum, heat, and tracers, including chemically and thermodynamically important quantities such as ozone and water vapour. Understanding how these vary in response to changes in concentrations of greenhouse gases is important in understanding the implications of climate change for regional weather patterns. There are outstanding questions regarding factors controlling the variability of these jets, including whether lower or higher resolution models effect the variability of a model as processes that occur at different length scales, such as energy transfers, are required to parameterised.
+          
+          <br><br>To explore the system variability due to the stochastic parameterisations, addressing (i), ML will be used to find a mapping between a system state and how stable the system is with regards to the attractor that is driving the system. By quantifying stability this way one can begin to understand the impact of the stochastic forcing on the dynamics of the system, and how observed phenomena are driven. This will also be compared to a stratified system to observe how the parameterisations drive the system compare with a system that exhibits its own internally generated turbulence.  We finally will look to develop emulations of stochastic parameterisations using Deep Learning (ii), with the goal of being able to utilise the computational speed-up of ML networks to include more complexity without increasing the time to run whole models- leading to better projections.</p>
+
+          <h3 style="color:white;">-</h3>
+      </div>
+
+    
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
