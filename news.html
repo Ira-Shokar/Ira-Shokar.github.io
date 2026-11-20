@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="scroll-smooth">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updates | Ira Shokar</title>
+    <meta name="description" content="Papers, talks and releases.">
+    <meta name="author" content="Ira Shokar">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Updates">
+    <meta property="og:description" content="Papers, talks and releases.">
+    <meta property="og:type" content="article">
+<meta property="og:url" content="https://ira-shokar.github.io/news.html">    <meta property="og:image" content="https://ira-shokar.github.io/static/social-card.jpg">
+<meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Ira Shokar, AI for Science &amp; Engineering, over a flow-field background">    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Updates">
+    <meta name="twitter:description" content="Papers, talks and releases.">
+<meta name="twitter:image" content="https://ira-shokar.github.io/static/social-card.jpg"><meta name="twitter:image:alt" content="Ira Shokar, AI for Science &amp; Engineering, over a flow-field background"><link rel="canonical" href="https://ira-shokar.github.io/news.html">    
+    <link rel="stylesheet" href="static/theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+    <link rel="icon" type="image/svg+xml" href="static/favicon.svg">
+    <script src="static/theme.js"></script>
+</head>
+<body class="antialiased bg-white dark:bg-slate-900 text-gray-900 dark:text-white">
+    <div class="elysian-background noise-texture"></div>
+<header class="fixed top-0 left-0 right-0 z-50">
+    <nav class="bg-white/80 dark:bg-slate-900/80 backdrop-blur-lg">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20 border-b border-gray-200/80 dark:border-gray-800/80">
+                <a href="./" class="text-xl font-bold heading text-gray-900 dark:text-white">Ira Shokar</a>
+                <div class="flex items-center gap-4">
+                    <ul class="hidden lg:flex items-center gap-6">
+                        <li><a href="./#bio"  class="text-sm font-medium transition-colors text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400">About</a></li>
+                        <li><a href="./#experience"  class="text-sm font-medium transition-colors text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400">Experience</a></li>
+                        <li><a href="publications.html"  class="text-sm font-medium transition-colors text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400">Publications</a></li>
+                        <li><a href="projects.html"  class="text-sm font-medium transition-colors text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400">Projects</a></li>
+                        <li><a href="talks.html"  class="text-sm font-medium transition-colors text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400">Talks</a></li>
+                        <li><a href="news.html"  class="text-sm font-medium transition-colors text-teal-600 dark:text-teal-400 font-semibold">Updates</a></li>
+                        <li><a href="static/Ira_Shokar_CV.pdf" target="_blank" rel="noopener" class="text-sm font-medium transition-colors text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400">CV</a></li>
+                    </ul>
+                    <button onclick="toggleDarkMode()" class="w-10 h-10 flex items-center justify-center rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
+                        <i id="theme-icon" class="fas fa-moon"></i>
+                    </button>
+                    <button onclick="toggleMobileMenu()" class="lg:hidden w-10 h-10 flex items-center justify-center rounded-full text-gray-600 dark:text-gray-300" aria-label="Open Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="mobile-menu" class="fixed inset-0 bg-white/95 dark:bg-slate-900/95 backdrop-blur-lg z-50 flex items-center justify-center
+                                opacity-0 invisible transition-opacity duration-300">
+        <button onclick="toggleMobileMenu()" class="absolute top-6 right-6 w-12 h-12 flex items-center justify-center text-gray-600 dark:text-gray-300" aria-label="Close Menu">
+            <i class="fas fa-times fa-lg"></i>
+        </button>
+        <ul class="text-center space-y-8">
+            <li><a href="./#bio"  onclick="toggleMobileMenu()" class="text-3xl heading text-gray-900 dark:text-white">About</a></li>
+            <li><a href="./#experience"  onclick="toggleMobileMenu()" class="text-3xl heading text-gray-900 dark:text-white">Experience</a></li>
+            <li><a href="publications.html"  onclick="toggleMobileMenu()" class="text-3xl heading text-gray-900 dark:text-white">Publications</a></li>
+            <li><a href="projects.html"  onclick="toggleMobileMenu()" class="text-3xl heading text-gray-900 dark:text-white">Projects</a></li>
+            <li><a href="talks.html"  onclick="toggleMobileMenu()" class="text-3xl heading text-gray-900 dark:text-white">Talks</a></li>
+            <li><a href="news.html"  onclick="toggleMobileMenu()" class="text-3xl heading text-gray-900 dark:text-white">Updates</a></li>
+            <li><a href="static/Ira_Shokar_CV.pdf" target="_blank" rel="noopener" onclick="toggleMobileMenu()" class="text-3xl heading text-gray-900 dark:text-white">CV</a></li>
+        </ul>
+    </div>
+</header>    <main>
+<div class="max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-20">
+    <div>
+        <h1 class="text-7xl lg:text-8xl heading text-gray-900 dark:text-white mb-8 reveal">Updates</h1>
+<div class="mb-8"></div><div class="prose-main max-w-4xl mb-14"><p>Papers, talks and releases.</p></div>
+
+
+        <div class="timeline-container">
+            <article class="timeline-item">
+    <div class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">November 2026</div>
+    
+    <div class="text-gray-700 dark:text-gray-300 mb-3">
+        <p>Ground-Wing, a parametric 3D wing-in-ground-effect dataset for benchmarking neural surrogate models, is on arXiv.</p>
+    </div>
+    
+    <div class="flex flex-wrap items-center gap-2 mt-3 publication-actions">
+        
+        <a href="https://arxiv.org/abs/2611.04571" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 border border-gray-200 dark:border-gray-700 rounded-full transition-all">
+<i class="fas fa-file-pdf text-red-500/70"></i>            PDF
+        </a>
+    </div>
+</article><article class="timeline-item">
+    <div class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">October 2026</div>
+    
+    <div class="text-gray-700 dark:text-gray-300 mb-3">
+        <p>Talk at ENGYS UGM 2026 on faster marine design with GPU-accelerated HELYX and AI surrogates.</p>
+    </div>
+    
+</article><article class="timeline-item timeline-item-highlight">
+    <div class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">September 2026</div>
+    
+    <div class="text-gray-700 dark:text-gray-300 mb-3">
+        <p>CANTO, CAD-native transformer operators that predict aerodynamics directly from CAD, is on arXiv.</p>
+    </div>
+    
+    <div class="flex flex-wrap items-center gap-2 mt-3 publication-actions">
+        
+        <a href="https://arxiv.org/abs/2609.36806" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 border border-gray-200 dark:border-gray-700 rounded-full transition-all">
+<i class="fas fa-file-pdf text-red-500/70"></i>            PDF
+        </a>
+        <a href="https://research.nvidia.com/labs/aie/canto/" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 border border-gray-200 dark:border-gray-700 rounded-full transition-all">
+<i class="fas fa-globe text-teal-600/70"></i>            Website
+        </a>
+    </div>
+</article><article class="timeline-item">
+    <div class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">July 2026</div>
+    
+    <div class="text-gray-700 dark:text-gray-300 mb-3">
+        <p>TESSERA v2, scaling pixel-wise Earth observation foundation models, is on arXiv.</p>
+    </div>
+    
+    <div class="flex flex-wrap items-center gap-2 mt-3 publication-actions">
+        
+        <a href="https://arxiv.org/abs/2607.03949" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 border border-gray-200 dark:border-gray-700 rounded-full transition-all">
+<i class="fas fa-file-pdf text-red-500/70"></i>            PDF
+        </a>
+        <a href="https://geotessera.org" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 border border-gray-200 dark:border-gray-700 rounded-full transition-all">
+<i class="fas fa-globe text-teal-600/70"></i>            Website
+        </a>
+    </div>
+</article><article class="timeline-item">
+    <div class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">March 2026</div>
+    
+    <div class="text-gray-700 dark:text-gray-300 mb-3">
+        <p>Workshop organiser and speaker at NVIDIA GTC San Jose.</p>
+    </div>
+    
+</article><article class="timeline-item timeline-item-highlight">
+    <div class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">January 2026</div>
+    
+    <div class="text-gray-700 dark:text-gray-300 mb-3">
+        <p>ATLAS, probabilistic medium-range weather forecasting, is on arXiv, with a model in Earth2Studio.</p>
+    </div>
+    
+    <div class="flex flex-wrap items-center gap-2 mt-3 publication-actions">
+        
+        <a href="https://arxiv.org/abs/2601.18111" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 border border-gray-200 dark:border-gray-700 rounded-full transition-all">
+<i class="fas fa-file-pdf text-red-500/70"></i>            PDF
+        </a>
+        <a href="https://nvidia.github.io/earth2studio/main/modules/generated/models/px/AtlasCRPS/?h=atlas" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 border border-gray-200 dark:border-gray-700 rounded-full transition-all">
+<i class="fas fa-code text-blue-500/70"></i>            Code
+        </a>
+    </div>
+</article><article class="timeline-item">
+    <div class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">June 2025</div>
+    
+    <div class="text-gray-700 dark:text-gray-300 mb-3">
+        <p>Workshop organiser and speaker at NVIDIA GTC Paris.</p>
+    </div>
+    
+    <div class="flex flex-wrap items-center gap-2 mt-3 publication-actions">
+        
+        <a href="https://www.nvidia.com/en-us/on-demand/session/gtcparis25-dlit1080/" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 border border-gray-200 dark:border-gray-700 rounded-full transition-all">
+<i class="fas fa-globe text-teal-600/70"></i>            Website
+        </a>
+    </div>
+</article><article class="timeline-item">
+    <div class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">May 2025</div>
+    
+    <div class="text-gray-700 dark:text-gray-300 mb-3">
+        <p>Passed my PhD viva, examined by Miles Cranmer and Pedram Hassanzadeh.</p>
+    </div>
+    
+    <div class="flex flex-wrap items-center gap-2 mt-3 publication-actions">
+        
+        <a href="https://www.repository.cam.ac.uk/items/c3ca3a94-ab9d-48da-8ded-76246ea80097" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 border border-gray-200 dark:border-gray-700 rounded-full transition-all">
+<i class="fas fa-globe text-teal-600/70"></i>            Website
+        </a>
+    </div>
+</article><article class="timeline-item">
+    <div class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">February 2025</div>
+    
+    <div class="text-gray-700 dark:text-gray-300 mb-3">
+        <p>Joined NVIDIA to work on AI for weather, climate and engineering.</p>
+    </div>
+    
+</article><article class="timeline-item">
+    <div class="text-sm font-semibold text-teal-600 dark:text-teal-400 mb-2">February 2025</div>
+    
+    <div class="text-gray-700 dark:text-gray-300 mb-3">
+        <p>New paper on arXiv: deep learning of the evolution operator enables forecasting of out-of-training dynamics in chaotic systems.</p>
+    </div>
+    
+    <div class="flex flex-wrap items-center gap-2 mt-3 publication-actions">
+        
+        <a href="https://arxiv.org/abs/2502.20603" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 border border-gray-200 dark:border-gray-700 rounded-full transition-all">
+<i class="fas fa-file-pdf text-red-500/70"></i>            PDF
+        </a>
+    </div>
+</article>
+        </div>
+    </div>
+</div></main>
+<footer class="bg-surface dark:bg-dark-surface mt-24">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-16">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
+            <p class="text-secondary dark:text-dark-secondary">© 2026 Ira Shokar</p>
+            <div class="flex justify-center gap-6 text-secondary dark:text-dark-secondary">
+<a href="https://github.com/Ira-Shokar" target="_blank" rel="noopener" aria-label="GitHub" class="hover:text-accent dark:hover:text-dark-accent transition-colors"><i class="fab fa-github fa-lg"></i></a><a href="https://scholar.google.com/citations?user=06GbGMoAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" class="hover:text-accent dark:hover:text-dark-accent transition-colors"><i class="fas fa-graduation-cap fa-lg"></i></a><a href="https://www.linkedin.com/in/ira-shokar" target="_blank" rel="noopener" aria-label="LinkedIn" class="hover:text-accent dark:hover:text-dark-accent transition-colors"><i class="fab fa-linkedin fa-lg"></i></a>                <a href="https://www.alphaxiv.org/@ira-shokar" target="_blank" rel="noopener" aria-label="alphaXiv" class="hover:text-accent dark:hover:text-dark-accent transition-colors"><span class="ax-icon" style="width:1.6em;height:1.6em" aria-hidden="true"></span></a>
+            </div>
+        </div>
+    </div>
+</footer><style>
+.publication-image{object-fit:cover!important;width:100%;height:100%}
+.ax-icon{position:relative;z-index:1;flex:none;display:inline-block;width:1.1em;height:1.1em;vertical-align:-.18em;background-color:currentColor;-webkit-mask:url(static/alphaxiv.png) center/contain no-repeat;mask:url(static/alphaxiv.png) center/contain no-repeat}
+/* Reading column: narrower measure, serif body, quieter links */
+.prose-bio{max-width:47rem!important;margin-left:0!important;margin-right:auto!important}
+.prose-bio p,.prose-bio li{font-family:"Source Serif 4",Georgia,"Times New Roman",serif;font-size:1.2rem;line-height:1.75;color:#374151}
+html.dark .prose-bio p,html.dark .prose-bio li{color:#cbd5e1}
+.prose-bio li{margin:.4rem 0}
+.prose-bio ul{padding-left:1.15rem}
+.prose-bio strong,.prose-bio b,.prose-bio em,.prose-bio a,.prose-bio span{font-family:inherit!important}
+.prose-bio strong,.prose-bio b{font-weight:600!important;color:inherit}
+.prose-bio a{font-weight:500!important;text-decoration:underline!important;text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:rgba(13,148,136,.45)}
+.prose-bio a:hover{text-decoration-color:currentColor}
+html.dark .prose-bio a{color:#5eead4!important;text-decoration-color:rgba(94,234,212,.45)}
+html.dark .prose-bio a:hover{text-decoration-color:currentColor}
+.prose-bio h2{margin-top:4rem;padding-top:2rem;border-top:1px solid rgba(148,163,184,.25)}
+.prose-bio h3{margin-top:2.5rem;margin-bottom:.75rem;font-size:1.3rem;line-height:1.35}
+.prose-bio h3 a{text-decoration:none!important}
+.prose-bio code{font-size:.9em}
+</style>
+<style>
+html.ira-rv-on .ira-rv{opacity:0;transform:translateY(14px);transition:opacity .55s cubic-bezier(.2,.8,.2,1),transform .55s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0ms)}
+html.ira-rv-on .ira-rv.ira-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.ira-rv-on .ira-rv{opacity:1;transform:none;transition:none}}
+</style>
+<script>
+/* Reveal content as it scrolls into view. Content stays visible if this fails. */
+(function(){
+  if(!('IntersectionObserver' in window)||(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)) return;
+  var main=document.querySelector('main'); if(!main) return;
+  var sel='h2,h3,p,li,article,figure,.publication-item,.project-card';
+  var els=[].slice.call(main.querySelectorAll(sel)).filter(function(e){
+    if(e.closest('.flow-hero')) return false;
+    var a=e.parentElement&&e.parentElement.closest('li,article,.publication-item,.project-card'); return !a;
+  });
+  if(!els.length) return;
+  document.documentElement.classList.add('ira-rv-on');
+  var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('ira-in');io.unobserve(x.target);}});},{threshold:0.08});
+  els.forEach(function(e){
+    var sib=[].indexOf.call(e.parentElement.children,e);
+    e.classList.add('ira-rv'); e.style.setProperty('--d',(Math.min(sib,4)*55)+'ms'); io.observe(e);
+  });
+  setTimeout(function(){els.forEach(function(e){e.classList.add('ira-in');});},6000);
+})();
+</script>
+</body>
+</html>
