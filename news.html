@@ -28,6 +28,7 @@
 </head>
 <body class="antialiased bg-white dark:bg-slate-900 text-gray-900 dark:text-white">
     <div class="elysian-background noise-texture"></div>
+    <canvas id="flow-field" aria-hidden="true"></canvas>
 <header class="fixed top-0 left-0 right-0 z-50">
     <nav class="bg-white/80 dark:bg-slate-900/80 backdrop-blur-lg">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
@@ -201,18 +202,98 @@
         </div>
     </div>
 </div></main>
-<footer class="bg-surface dark:bg-dark-surface mt-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-16">
-        <div class="flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
-            <p class="text-secondary dark:text-dark-secondary">© 2026 Ira Shokar</p>
-            <div class="flex justify-center gap-6 text-secondary dark:text-dark-secondary">
-<a href="https://github.com/Ira-Shokar" target="_blank" rel="noopener" aria-label="GitHub" class="hover:text-accent dark:hover:text-dark-accent transition-colors"><i class="fab fa-github fa-lg"></i></a><a href="https://scholar.google.com/citations?user=06GbGMoAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" class="hover:text-accent dark:hover:text-dark-accent transition-colors"><i class="fas fa-graduation-cap fa-lg"></i></a><a href="https://www.linkedin.com/in/ira-shokar" target="_blank" rel="noopener" aria-label="LinkedIn" class="hover:text-accent dark:hover:text-dark-accent transition-colors"><i class="fab fa-linkedin fa-lg"></i></a>                <a href="https://www.alphaxiv.org/@ira-shokar" target="_blank" rel="noopener" aria-label="alphaXiv" class="hover:text-accent dark:hover:text-dark-accent transition-colors"><span class="ax-icon" style="width:1.6em;height:1.6em" aria-hidden="true"></span></a>
+<footer class="ira-footer mt-24">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <h2 class="ira-contact-title">Contact</h2>
+        <div class="ira-contact-grid">
+            <div class="ira-contact-left">
+                <p class="ira-contact-text">For research collaborations, talks and open-source work, email is the best place to start.</p>
+                <p class="ira-contact-id">Ira Shokar &mdash; AI for Science &amp; Engineering &middot; NVIDIA &middot; London, UK</p>
+                <p class="ira-contact-id">ishokar at nvidia.com</p>
             </div>
+            <ul class="ira-contact-links">
+                <li><a href="#contact" class="ira-mail" data-u="ishokar" data-d="nvidia.com">Email<span aria-hidden="true">&#8599;</span></a></li>
+                <li><a href="https://scholar.google.com/citations?user=06GbGMoAAAAJ" target="_blank" rel="noopener">Google Scholar<span aria-hidden="true">&#8599;</span></a></li>
+                <li><a href="https://www.alphaxiv.org/@ira-shokar" target="_blank" rel="noopener">alphaXiv<span aria-hidden="true">&#8599;</span></a></li>
+                <li><a href="https://github.com/Ira-Shokar" target="_blank" rel="noopener">GitHub<span aria-hidden="true">&#8599;</span></a></li>
+                <li><a href="https://www.linkedin.com/in/ira-shokar" target="_blank" rel="noopener">LinkedIn<span aria-hidden="true">&#8599;</span></a></li>
+            </ul>
+        </div>
+        <div class="ira-footer-bottom">
+            <p>&copy; 2026 Ira Shokar</p>
+            <nav aria-label="Footer">
+                <a href="./">Home</a>
+                <a href="publications.html">Publications</a>
+                <a href="projects.html">Projects</a>
+                <a href="talks.html">Talks</a>
+                <a href="news.html">Updates</a>
+                <a href="static/Ira_Shokar_CV.pdf" target="_blank" rel="noopener">CV</a>
+            </nav>
         </div>
     </div>
-</footer><style>
+</footer>
+<style>
+.ira-footer{padding-top:5rem;padding-bottom:3rem}
+.ira-eyebrow{display:flex;align-items:center;gap:1rem;margin:0 0 1.5rem;font-family:Inter,system-ui,sans-serif;font-size:.8rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#334155}
+html.dark .ira-eyebrow{color:#e2e8f0}
+.ira-eyebrow-line{display:inline-block;width:2.5rem;height:2px;background:#0d9488}
+html.dark .ira-eyebrow-line{background:#5eead4}
+.ira-contact-title{font-family:"Playfair Display",Georgia,serif;font-weight:700;font-size:clamp(2.25rem,4vw,3rem);line-height:1.1;letter-spacing:-.01em;margin:0 0 2rem;color:#0f172a;text-wrap:balance}
+html.dark .ira-contact-title{color:#f8fafc}
+.ira-contact-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:2.5rem 6rem;align-items:start}
+.ira-contact-text{font-family:"Source Serif 4",Georgia,serif;font-size:1.2rem;line-height:1.65;margin:0 0 1.5rem;max-width:34rem;color:#334155}
+html.dark .ira-contact-text{color:#cbd5e1}
+.ira-contact-id{font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,Consolas,monospace;font-size:.85rem;letter-spacing:.02em;margin:0 0 .4rem;color:#475569}
+html.dark .ira-contact-id{color:#94a3b8}
+.ira-contact-links{list-style:none;margin:0;padding:0}
+.ira-contact-links li{border-bottom:1px solid var(--rule)}
+.ira-contact-links a{display:flex;justify-content:space-between;align-items:center;padding:.95rem .2rem;font-family:Inter,system-ui,sans-serif;font-size:1.05rem;font-weight:500;color:#0f172a;text-decoration:none;transition:color .2s,padding .2s}
+html.dark .ira-contact-links a{color:#f1f5f9}
+.ira-contact-links a span{font-size:.95rem;opacity:.7;transition:transform .2s}
+.ira-contact-links a:hover{color:#0d9488;padding-left:.5rem}
+html.dark .ira-contact-links a:hover{color:#5eead4}
+.ira-contact-links a:hover span{transform:translate(2px,-2px)}
+.ira-footer-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem 2rem;margin-top:4rem;padding-top:1.75rem;border-top:1px solid var(--rule);font-family:Inter,system-ui,sans-serif;font-size:.95rem;color:#475569}
+html.dark .ira-footer-bottom{color:#94a3b8}
+.ira-footer-bottom p{margin:0}
+.ira-footer-bottom nav{display:flex;flex-wrap:wrap;gap:.6rem 2rem}
+.ira-footer-bottom nav a{color:inherit;text-decoration:none}
+.ira-footer-bottom nav a:hover{color:#0d9488}
+html.dark .ira-footer-bottom nav a{color:#e2e8f0}
+html.dark .ira-footer-bottom nav a:hover{color:#5eead4}
+@media (max-width:820px){.ira-contact-grid{grid-template-columns:1fr}.ira-footer{padding-top:3.5rem}}
+</style>
+<script>
+/* Assemble the address only on click, so it never appears whole in the page source. */
+document.querySelectorAll('.ira-mail').forEach(function(a){
+  a.addEventListener('click',function(e){e.preventDefault();window.location.href='mai'+'lto:'+a.dataset.u+'@'+a.dataset.d;});
+});
+</script><style>
 .publication-image{object-fit:cover!important;width:100%;height:100%}
-.ax-icon{position:relative;z-index:1;flex:none;display:inline-block;width:1.1em;height:1.1em;vertical-align:-.18em;background-color:currentColor;-webkit-mask:url(static/alphaxiv.png) center/contain no-repeat;mask:url(static/alphaxiv.png) center/contain no-repeat}
+/* publication cards: keep text clear of the figure on desktop */
+@media (min-width:821px){
+  .publication-with-image{padding-right:calc(200px + 3.5rem)!important}
+  .publication-image-container{width:200px!important;max-width:200px!important}
+  .publication-image{width:100%;height:100%;object-fit:cover}
+}
+/* narrow screens: publication figure goes under the text instead of overlapping it */
+@media (max-width:820px){
+  .publication-with-image{padding-right:2rem!important}
+  .publication-image-container{position:relative!important;top:auto!important;right:auto!important;bottom:auto!important;width:100%!important;max-width:100%!important;height:12rem;margin-top:1.25rem}
+  .publication-image{width:100%;height:100%;object-fit:cover}
+  .publication-actions,.publication-with-image .publication-actions{flex-direction:row!important;flex-wrap:wrap!important;align-items:center!important;justify-content:flex-start!important}
+  main article.elysian-card{padding:1.5rem!important}
+  main article.elysian-card h3{font-size:1.45rem!important;line-height:1.25!important}
+}
+@media (max-width:640px){
+  .project-card>div.p-8{padding:1.5rem!important}
+  .ira-themes{gap:1.5rem}
+  main h1.heading{font-size:3.1rem!important;line-height:1.05!important}
+}
+.ax-icon{position:relative;z-index:1;flex:none;display:inline-block;width:1.1em;height:1.1em;vertical-align:-.18em;background-color:#374151;-webkit-mask:url(static/alphaxiv.png) center/contain no-repeat;mask:url(static/alphaxiv.png) center/contain no-repeat}
+html.dark .ax-icon{background-color:#f3f4f6}
+html .social-icon-link .ax-icon,html.dark .social-icon-link .ax-icon{background-color:currentColor}
+footer a:hover .ax-icon{background-color:#14b8a6!important}
 /* Reading column: narrower measure, serif body, quieter links */
 .prose-bio{max-width:47rem!important;margin-left:0!important;margin-right:auto!important}
 .prose-bio p,.prose-bio li{font-family:"Source Serif 4",Georgia,"Times New Roman",serif;font-size:1.2rem;line-height:1.75;color:#374151}
@@ -229,6 +310,24 @@ html.dark .prose-bio a:hover{text-decoration-color:currentColor}
 .prose-bio h3{margin-top:2.5rem;margin-bottom:.75rem;font-size:1.3rem;line-height:1.35}
 .prose-bio h3 a{text-decoration:none!important}
 .prose-bio code{font-size:.9em}
+</style>
+<style>
+:root{--veil:rgba(255,255,255,.86)}
+html.dark{--veil:rgba(15,23,42,.84)}
+main,footer{position:relative;z-index:1}
+/* the flow runs uniformly behind everything; no local veils */
+#flow-field{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.15;transition:opacity 1.8s ease}
+:root{--rule:rgba(100,116,139,.55)}
+html.dark{--rule:rgba(148,163,184,.62)}
+/* one colour everywhere: no tinted section bands, stronger lines between sections */
+main section[data-section]{background:transparent!important}
+main section[data-section]{position:relative}
+main section[data-section]:not(#bio)::before,footer::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(76rem,calc(100% - 3rem));border-top:1px solid var(--rule);pointer-events:none}
+footer,footer>div{background:transparent!important}
+.prose-bio h2{border-top-color:var(--rule)!important}
+.ira-themes{border-top-color:var(--rule)!important}
+.prose-bio{position:relative;isolation:isolate}
+.ira-statement{position:relative;isolation:isolate}
 </style>
 <style>
 html.ira-rv-on .ira-rv{opacity:0;transform:translateY(14px);transition:opacity .55s cubic-bezier(.2,.8,.2,1),transform .55s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0ms)}
@@ -253,6 +352,243 @@ html.ira-rv-on .ira-rv.ira-in{opacity:1;transform:none}
     e.classList.add('ira-rv'); e.style.setProperty('--d',(Math.min(sib,4)*55)+'ms'); io.observe(e);
   });
   setTimeout(function(){els.forEach(function(e){e.classList.add('ira-in');});},6000);
+})();
+</script>
+<script>
+/* Doubly periodic quasi-geostrophic (barotropic beta-plane) channel flow with a two-jet
+   dominant configuration. Pseudo-spectral (2/3 dealiased) vorticity equation
+     dq/dt + (U0+u).grad(q) + beta*v = -mu*(q - q_jet) - nu*k^2*q + weak stochastic forcing,
+   Heun time-stepping. The flow starts from a pre-computed statistically steady state (randomly
+   shifted east-west) and fades in. Moving the pointer spins up a tropical cyclone: a Gaussian
+   vortex injected into the vorticity field, which the jets then carry away. Decorative only. */
+(function(){
+  var cv=document.getElementById('flow-field'); if(!cv) return;
+  var ctx=cv.getContext('2d'), W=0,H=0,dpr=1,parts=[],raf=0,last=0,visible=true,frames=0;
+  var L=34, TAIL=12, R=0.6, SX=1, SY=1;     /* R: model time units per second */
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var DARK=['rgba(45,212,191,','rgba(56,189,248,','rgba(165,243,252,','rgba(186,230,253,'];
+  var LIGHT=['rgba(15,118,110,','rgba(3,105,161,','rgba(29,78,216,','rgba(67,56,202,'];
+  function rnd(a,b){return a+Math.random()*(b-a);}
+  var SNAP={MX:42,MY:21,NX:128,NY:64,scale:0.21510041428156182,b64:"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FgABAPn//P8YAPL/JAD5/wYA/f86AM//5v/s/x4A0P/s/9P/FQC8/wAAwv8+AOL/IQDO/yIAFwArAAEA7f8UAAAAGADs//H/7////wkA7v8CAPX/DwAJAAkAAgAKAP7/CgACAPv//P/+//b/AQAPAPX/DAARAPL/DQAJAOX/6P8BAAIA5P8wAAoABwAxAC4AAQD9/ygA7v8IABwAGQD+/zAACwAtAPf////5/w8A7/8HABgA8P/+//H/EwDc/ysAAgAJANn/QADr//v/5v9BAPj/8//S/0gA///+/7D/GgD4//v/1//f//b/+P8NAOn/AgD3/wsACAAHAAAA+f8DAAAACAD9//n//f8BAP//AgACAAEAAAD8/wIA+P/6/wIA9////wMAEgAJAAoAEgAFAA0A5/8FAOn/8P/s/+b/9//0//L/8v8SAOT/9P/6/wwA9f/7//n/DgD//+////8HAPz/7P/+//3/+/8AAPj/8//3/xYA9v/s/wIAHgAGAPD/+P8wABgA///o/ygADwAYAOf/EwD2/xMA6f/9//f/+v/8//D/AQD8/wYA+//+/wIAAAAGAAMA+f/7/wUA/f8BAAUABwACAAgABgD1/woA///k//T//P/y/+z/LADx/wcAKAAoAAAADgAqAAgA/v8IACQA+//+/w4AEwD4/wIABgAGAAcA/v8IAAkAFQABAPz/DQAOAPz/+v8NAPb/+//3/wsA4f/2//f////S/+3/8/8NAL7/7f/o/y8A1/8EAN3/KwAKABsA9f8DAB4ADQAQAO3/BAD4/wYA+//u//j/9/8HAAQACAAFAP7/+f8JAPf/8/8JAPX/+/8NAA8AAAAJABAA8P8DAPX/7P/p//X/8//f/wUA9v/3//D/DwD1//j/+P8JAPf/+//8/wIA+//2//n/+P/9//z/8f/3/wQAAwDz/wQACQADAPz/EwAFAAcABQAbAP3//P8IACYA///3//b/LgAAAPz/4P8VAP//AgDp//D/+/8CAAAA8f/9//z/BQAFAAIA/P8BAAcA/v8CAAIAAwAAAAQACAD+/wMA/P8BAPb/9f/2//f//P/v/xIA+v8IAA8AHAAGAAYAFQAJAAQA+/8OAAgA/f/8/woACAAAAP3/CQALAP///P8GAAYAAAD+//3/AAD///7/9P8AAAAAAAD0/wcAAQACAPv/DgAFAAEACQAZAAoA/f8GACYAEwACAPb/IQALABMA6v8RAPX/EQDp//z/9/////3/9f8EAPr/CwD8/wgA///6//7/AgD7//3/BwD7/wMADwADAAMACQANAOf/CQD8/+v/5f/+//T/4/////r/9//u/wcA/P/4//X/AgD8//r/8//9/wEA/P/0//7/BAD8//z/AgAFAPz/CAABAAMA/v8NAPn//v///wcA8P/6/wAA/P/r//f/AwDy/+L/8/8BAPz/1v/w//b/FQDf//3/6v8dAPv/EADy/wgAEAALAAcA9f8LAP7/DQABAAgAAAAHAAcA/v8HAAQA+//3//7//P/4/wUA9v8HAAYACgADAAwADAD+/woABQAHAPf/CQAEAAMA+v8IAAQABQD8/wUABAAFAPv/AQAEAAIA/P/+/wYA////////BQD+/wMAAgAAAAAABwAEAPz/AwAKAAEA+v8JAAsA///3/wkADwABAPf//f8QAAUA+v/w/wcABQD///f//P/+/wMABQD7//z/AwAFAP7//f8CAPr/AQD//wQA/v8GAAkAAQAGAAMADQDy/wYA/v/7/+z/AAD9//L/+v/9/wAA9f//////AAD2//7////+//j//v8AAP//+//9/wEAAAD///z/AQABAP//+v8BAAIA/v/9/wEAAQD9/wQAAgABAAAACQACAP//BgALAAMA/f8LABAACAD8/wgAGQAQAAMA/v8bAAwADwD0/xEA/P8KAPP//v/1//7/+f/1/wMABgAAAPv/BAACAPj//v/8//7/+v8LAPf/BAALAA0A/f8JABAAAQAEAAYACwD8/wUAAwAIAP3/BAACAAYA/f8CAAIABAD+/wAAAwABAAAAAAADAAEABAD//wAABAAEAP7///8FAP///f///wEA+f/9/wAA/P/3//7/AgD2//b//f8FAPL/8f/4/wYA9//q//T/AAAEAO3/+v/2/w4A+/8IAPf/CwAFAAwA/v/4/wIA//8DAP//BgADAAUABAD//wUA/P////v//P/1//z////2//j//f8DAPn//f///wMA/P//////AgD/////AAACAP///f8AAAEA///9/wAAAAD///////8AAAEAAQD+/wEAAwABAP//AgADAAAAAgACAAIA/v8DAAIA/v/7/wQAAwD7//j/AwAHAPv/9v/9/wgAAAD4//v/AQAFAP7//f/6/wYAAAD///z/+//7/wEA+v/4//7//v/7//v/CAD9/wIABgANAP//BQAMAAYAAAAEAAkAAQD//wEABQD/////AQACAP//AAAAAAAAAgABAAAAAQADAAEAAAACAAIAAAD//wEA/////////v/+///////8/wAAAQAAAP7/AgADAAEAAQAEAAMA//8IAAYABAD9/w4ACQAHAPv/DgAMAAoA/v8FAA0ABQAHAPj/DAD//wsA9f8IAP3/BAAEAAEAAQAEAAMA+/8DAP7//P/5/wAA+P/5/////P/5//v/BAD8//z//f8FAP3//f/+/wMA/v/+//7/AAD//////f///wAAAAD9/wAAAgAAAP//AQACAAAAAgAAAAEAAAACAP////8AAAEA/f/+/wEA///9//7/AwD8//3///8EAPj//f8AAAYA9v/9////BgD6//n/+/8CAAAA9v/7//v/AgD4//7/+f8AAPr/+v8CAP3//P/4/wYAAAABAP7/BwACAAEABQACAAIAAAAHAP//AAAAAAcA/////wAABQAAAP//AAADAAEAAAAAAAAAAQAAAAAA//8CAAAAAAD//wMAAAAAAAAAAgAAAAAAAQABAAAAAAABAP//AAAAAAAA/f8AAAEA/f/9/wEAAgD6//7/AgACAPr//v8BAAMA/P/6//3/AgD+//b/+v//////+P/9////BgD9/wUAAgAFAPn/BQAAAP7/+f8BAP//+f/+//7//v/6/wIA/f/+//v/AgD///7//f8BAAAA/v/9/wEAAQD+////AAABAP//AAD//wEA//8BAP7/AAAAAAAA/f8AAAEA///+/wAAAgD//wAAAgABAAAAAwACAAAAAgADAAEA/v8FAAIAAAD9/wcA//8AAP3/CAAAAAIA/P8HAAUABgD//wYACwAIAAEABQAKAPz////+/wIA+/8CAAEAAwD//wQABAAAAAMAAwADAP7/BAABAAEA//8DAAAAAAD//wMAAQAAAP//AgACAAAA//8CAAIAAAD//wEAAgAAAAAAAAABAAAAAQD//wAAAQABAP//AAABAAAA//8AAAEA/////wEAAAD+////AgD+////AQACAP3/AQACAAIA/f8BAAIAAgD8////AQADAPv//f/+/wMA/P/+//3/AgAEAAEAAAD5/wMAAAD///f/AQAAAP7/+v///wEA////////AAD//wEA//8AAP//AgD//////v8BAAAA///+/wEAAAD///7/AQABAAAA//8AAAEAAAAAAAAAAAAAAAAA//8AAAAAAAD/////AAAAAP////8BAP////8AAAEA//8AAAEAAQD//wAAAQAAAP7///8AAAAA+//9//7/AgD4//3//f8EAPn////+/wIAAAAEAP3/AwACAAUA/v8EAAMAAgD//wMAAgD//wAAAQABAP7/AQD//wEA//8BAP//AQD//wEAAAABAP//AQABAAEA//8AAAEAAQAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAEAAAAAAAEAAQAAAAAAAQAAAP//AQABAP////8CAAAA//8AAAEA////////AgAAAAAA/v8FAAEAAQD7/wgAAQABAPz/BwAAAAIA/P8AAP//AAD7////AAD///z///8BAP7//v///wEA//8AAP//AQD//wEAAAAAAAAAAQAAAAAAAAAAAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA//8AAAAA/////wAAAAD//wAAAAAAAP//AQABAAAAAAAAAAIAAQD//wAAAwABAP3/AAADAAIA/v8AAAIAAgD+/wIABAACAP//AgAGAAMA//8BAAQAAgAAAAAAAgABAAAAAAAAAAEAAAAAAP//AAAAAAAA//8AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQD//wAAAAAAAP//AAAAAAAA//8AAAAAAAAAAAAAAQAAAAEAAAABAAEAAAABAAAAAQAAAAAAAAAAAP//AAAAAP7//////wEA/P8AAAAAAgD7/wMAAQADAP3/BAABAAIA/v///////f/9/////v/9//7/AAD///3///8BAAAA/v8AAAEAAAD//wAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AQAAAP///v8DAP///f///wMA/f/+////AQD9/wIAAgABAAEAAwACAAAAAAADAAEAAAAAAAIAAQAAAAAAAQABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA//8AAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAABAAEAAAAAAAIAAAD//wAAAgD/////AAACAP7///8AAAEA//8AAP///v8BAP///v/9/wEA//////7/AQAAAP///v8AAAAA/////wAAAAAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAEAAAAAAAEAAAAAAAAAAAD/////AAD///////8AAP7/AAAAAAEA/v8CAAEAAQD//wMAAgABAAEAAgACAAAAAQAAAAIAAAABAP//AgAAAAEA//8CAAAAAAAAAAEAAQAAAAAAAQABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAD//wAAAAD/////AQAAAP//AAABAP////8BAAAA/v///wEA//////7/AAD//wAA/v8BAP//AAD+/wEAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAAAA//8AAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAQAAAAAAAAABAAAAAAABAAAAAAD//wEA/////wAAAQD/////AAAAAP7/AAABAAAA//8BAAAAAAD//wEAAAAAAP//AQAAAAAA//8BAAAAAQD//wEAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAD//wAAAAABAP//AQABAAAAAAABAAEAAAABAAEAAQD//wEAAAABAP//AAAAAP//AQAAAAAA//8BAAAAAAD//wEAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAP//AQAAAAAAAAABAAAAAAAAAAEAAAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="};
+function makeQG(NX,NY,rnd){
+
+var LX=4*Math.PI, LY=2*Math.PI, N2=NX*NY;
+var BETA=2.2, U0=0.55, UJ=1.0, MU=0.14, NU=2.5e-3, NU4=6e-6;   /* tuned: gentle meanders, coherent jets */
+function makeFFT(n){
+  var rev=new Uint32Array(n), bits=Math.round(Math.log(n)/Math.LN2), i, b, r, x;
+  for(i=0;i<n;i++){r=0;x=i;for(b=0;b<bits;b++){r=(r<<1)|(x&1);x>>=1;}rev[i]=r;}
+  var c=new Float64Array(n/2), s=new Float64Array(n/2);
+  for(i=0;i<n/2;i++){c[i]=Math.cos(2*Math.PI*i/n);s[i]=Math.sin(2*Math.PI*i/n);}
+  return {n:n,rev:rev,c:c,s:s};
+}
+var PX=makeFFT(NX), PY=makeFFT(NY);
+var tx=new Float64Array(NX), txi=new Float64Array(NX), ty=new Float64Array(NY), tyi=new Float64Array(NY);
+function fft1(re,im,off,stride,P,inv,tr,ti){
+  var n=P.n,i,j,len,half,step,a,b,wr,wi,p,q,xr,xi,sg=inv?1:-1,sc=inv?1/n:1;
+  for(i=0;i<n;i++){j=P.rev[i];tr[i]=re[off+j*stride];ti[i]=im[off+j*stride];}
+  for(len=2;len<=n;len<<=1){
+    half=len>>1;step=n/len;
+    for(a=0;a<n;a+=len){
+      for(b=0;b<half;b++){
+        wr=P.c[b*step];wi=sg*P.s[b*step];p=a+b;q=p+half;
+        xr=tr[q]*wr-ti[q]*wi;xi=tr[q]*wi+ti[q]*wr;
+        tr[q]=tr[p]-xr;ti[q]=ti[p]-xi;tr[p]+=xr;ti[p]+=xi;
+      }
+    }
+  }
+  for(i=0;i<n;i++){re[off+i*stride]=tr[i]*sc;im[off+i*stride]=ti[i]*sc;}
+}
+function fft2(re,im,inv){
+  var i,j;
+  for(j=0;j<NY;j++) fft1(re,im,j*NX,1,PX,inv,tx,txi);
+  for(i=0;i<NX;i++) fft1(re,im,i,NX,PY,inv,ty,tyi);
+}
+var kxv=new Float64Array(NX), kyv=new Float64Array(NY), K2=new Float64Array(N2), MASK=new Float64Array(N2);
+(function(){
+  var i,j,ix;
+  for(i=0;i<NX;i++) kxv[i]=(2*Math.PI/LX)*(i<=NX/2?i:i-NX);
+  for(j=0;j<NY;j++) kyv[j]=(2*Math.PI/LY)*(j<=NY/2?j:j-NY);
+  for(j=0;j<NY;j++) for(i=0;i<NX;i++){
+    ix=j*NX+i; K2[ix]=kxv[i]*kxv[i]+kyv[j]*kyv[j];
+    MASK[ix]=(Math.abs(i<=NX/2?i:i-NX)<=NX/3 && Math.abs(j<=NY/2?j:j-NY)<=NY/3)?1:0;
+  }
+})();
+function F(){return new Float64Array(N2);}
+var zr=F(), zi=F(), ztr=F(), zti=F();                 // vorticity spectrum and relaxation target
+var pr=F(),pi_=F(), ar=F(),ai=F(), br=F(),bi=F(), cr=F(),ci=F(), dr=F(),di=F(), nr=F(),ni=F();
+var k1r=F(),k1i=F(),k2r=F(),k2i=F(),sr=F(),si=F();
+var UPH=new Float32Array(N2), VPH=new Float32Array(N2);   // current velocity (model units), physical space
+function rhs(wr,wi,outr,outi,keep){
+  var ix,i,j,kx,ky,k2,u0=U0;
+  for(j=0;j<NY;j++){ky=kyv[j];for(i=0;i<NX;i++){
+    ix=j*NX+i;kx=kxv[i];k2=K2[ix];
+    if(k2===0){pr[ix]=0;pi_[ix]=0;}else{pr[ix]=-wr[ix]/k2;pi_[ix]=-wi[ix]/k2;}
+    ar[ix]=ky*pi_[ix]; ai[ix]=-ky*pr[ix];            // u = -psi_y
+    br[ix]=-kx*pi_[ix]; bi[ix]=kx*pr[ix];            // v = psi_x
+    cr[ix]=-kx*wi[ix]; ci[ix]=kx*wr[ix];             // zeta_x
+    dr[ix]=-ky*wi[ix]; di[ix]=ky*wr[ix];             // zeta_y
+  }}
+  for(ix=0;ix<N2;ix++){sr[ix]=br[ix];si[ix]=bi[ix];}
+  fft2(ar,ai,true);fft2(br,bi,true);fft2(cr,ci,true);fft2(dr,di,true);
+  for(ix=0;ix<N2;ix++){
+    nr[ix]=(u0+ar[ix])*cr[ix]+br[ix]*dr[ix]; ni[ix]=0;
+    if(keep){UPH[ix]=u0+ar[ix];VPH[ix]=br[ix];}
+  }
+  fft2(nr,ni,false);
+  for(ix=0;ix<N2;ix++){
+    var m=MASK[ix];
+    outr[ix]=m*(-nr[ix]-BETA*sr[ix]-MU*(wr[ix]-ztr[ix])-NU*K2[ix]*wr[ix]-NU4*K2[ix]*K2[ix]*wr[ix]);
+    outi[ix]=m*(-ni[ix]-BETA*si[ix]-MU*(wi[ix]-zti[ix])-NU*K2[ix]*wi[ix]-NU4*K2[ix]*K2[ix]*wi[ix]);
+  }
+}
+function addMode(re,im,m,n,amp,ph){      // add a real-field Fourier mode (and its conjugate)
+  var i=(m+NX)%NX, j=(n+NY)%NY, i2=(-m+NX)%NX, j2=(-n+NY)%NY, a=amp*N2/2;
+  re[j*NX+i]+=a*Math.cos(ph); im[j*NX+i]+=a*Math.sin(ph);
+  re[j2*NX+i2]+=a*Math.cos(ph); im[j2*NX+i2]-=a*Math.sin(ph);
+}
+function initQG(rnd){
+  var ix,i,j,y,r=F(),q=F();
+  var y0=0.27*LY;                                     // jet axes at 27% and 77% of the height
+  for(j=0;j<NY;j++){y=j*LY/NY;for(i=0;i<NX;i++){r[j*NX+i]=2*UJ*Math.sin(2*(y-y0));q[j*NX+i]=0;}}
+  fft2(r,q,false);
+  for(ix=0;ix<N2;ix++){ztr[ix]=r[ix]*MASK[ix];zti[ix]=q[ix]*MASK[ix];zr[ix]=ztr[ix];zi[ix]=zti[ix];}
+  for(i=0;i<40;i++) addMode(zr,zi,1+Math.floor(rnd()*10),Math.floor(rnd()*13)-6,0.06*rnd(),rnd()*6.283);
+}
+function stepQG(dt,rnd){
+  var ix;
+  rhs(zr,zi,k1r,k1i,true);
+  for(ix=0;ix<N2;ix++){k2r[ix]=zr[ix]+dt*k1r[ix];k2i[ix]=zi[ix]+dt*k1i[ix];}
+  rhs(k2r,k2i,sr_,si_,false);
+  for(ix=0;ix<N2;ix++){zr[ix]+=0.5*dt*(k1r[ix]+sr_[ix]);zi[ix]+=0.5*dt*(k1i[ix]+si_[ix]);}
+  for(var q=0;q<2;q++) addMode(zr,zi,1+Math.floor(rnd()*8),Math.floor(rnd()*9)-4,0.45*dt*rnd(),rnd()*6.283);   /* weak stochastic forcing */
+}
+var sr_=F(), si_=F();
+
+  function loadSnap(sn,shift){                          /* start from a pre-computed equilibrium state */
+    var raw=atob(sn.b64), n=raw.length/2, q=new Int16Array(n), k;
+    for(k=0;k<n;k++){var lo=raw.charCodeAt(2*k), hi=raw.charCodeAt(2*k+1); var v=lo|(hi<<8); q[k]=v>32767?v-65536:v;}
+    var s=sn.scale*N2/(sn.NX*sn.NY), MXs=Math.min(sn.MX,Math.floor(NX/3)), MYs=Math.min(sn.MY,Math.floor(NY/3)), idx=0, m, nn;
+    for(var ix=0;ix<N2;ix++){zr[ix]=0;zi[ix]=0;}
+    initQG(rnd);                                          /* sets the jet relaxation target */
+    for(ix=0;ix<N2;ix++){zr[ix]=0;zi[ix]=0;}
+    for(m=0;m<=sn.MX;m++) for(nn=-sn.MY;nn<=sn.MY;nn++){
+      var re=q[idx++]*s, im=q[idx++]*s;
+      if(m>MXs||Math.abs(nn)>MYs) continue;
+      var ph=-(2*Math.PI/LX)*m*shift, c=Math.cos(ph), si=Math.sin(ph), r2=re*c-im*si, i2=re*si+im*c;
+      var j=(nn+NY)%NY; zr[j*NX+m]=r2; zi[j*NX+m]=i2;
+      if(m>0){ var j2=(-nn+NY)%NY; zr[j2*NX+(NX-m)]=r2; zi[j2*NX+(NX-m)]=-i2; }
+    }
+  }
+  function inject(x0,y0,amp,sig){                       /* add a Gaussian vorticity blob (a cyclone) */
+    var c0=amp*N2*2*Math.PI*sig*sig/(LX*LY), i, j, ix;
+    for(j=0;j<NY;j++){ var ky=kyv[j];
+      for(i=0;i<NX;i++){ ix=j*NX+i; if(!MASK[ix]) continue;
+        var kx=kxv[i], g=c0*Math.exp(-0.5*K2[ix]*sig*sig), ph=-(kx*x0+ky*y0);
+        zr[ix]+=g*Math.cos(ph); zi[ix]+=g*Math.sin(ph); } }
+  }
+  function umax(){var m=0,i;for(i=0;i<N2;i++){var a=UPH[i]*UPH[i]+VPH[i]*VPH[i];if(a>m)m=a;}return Math.sqrt(m);}
+  function vortAt(x,y){                                 /* local vorticity from the velocity grid */
+    var dx=LX/NX, dy=LY/NY, i=((Math.round(x/dx)%NX)+NX)%NX, j=((Math.round(y/dy)%NY)+NY)%NY;
+    var ip=(i+1)%NX, im=(i-1+NX)%NX, jp=(j+1)%NY, jm=(j-1+NY)%NY;
+    return (VPH[j*NX+ip]-VPH[j*NX+im])/(2*dx)-(UPH[jp*NX+i]-UPH[jm*NX+i])/(2*dy);
+  }
+
+  return {NX:NX,NY:NY,LX:LX,LY:LY,UPH:UPH,VPH:VPH,init:function(){initQG(rnd);},loadSnap:loadSnap,inject:inject,vortAt:vortAt,umax:umax,step:function(dt){stepQG(dt,rnd);}};
+}
+
+  var qg=null, NXg=0, NYg=0;
+  function speedAt(x,y,out){
+    var gx=x/W*NXg-0.5, gy=y/H*NYg-0.5, i0=Math.floor(gx), j0=Math.floor(gy), fx=gx-i0, fy=gy-j0;
+    var i1=(i0+1+NXg)%NXg, j1=(j0+1+NYg)%NYg; i0=(i0+NXg)%NXg; j0=(j0+NYg)%NYg;
+    var U=qg.UPH, V=qg.VPH, a=j0*NXg+i0, b=j0*NXg+i1, c=j1*NXg+i0, d=j1*NXg+i1;
+    var w00=(1-fx)*(1-fy), w10=fx*(1-fy), w01=(1-fx)*fy, w11=fx*fy;
+    out[0]=(U[a]*w00+U[b]*w10+U[c]*w01+U[d]*w11)*R*SX;
+    out[1]=(V[a]*w00+V[b]*w10+V[c]*w01+V[d]*w11)*R*SY;
+  }
+  var v=[0,0];
+  function spawn(any){
+    var x=0,y=0,k;
+    for(k=0;k<5;k++){
+      x=rnd(0,W); y=rnd(0,H);
+      speedAt(x,y,v); var s=Math.sqrt(v[0]*v[0]+v[1]*v[1]);
+      if(Math.random()<Math.min(1,0.2+Math.pow(s/70,0.8))) break;
+    }
+    return {x:x,y:y,age:any?rnd(0,8):0,life:rnd(6,14),hx:new Float32Array(L),hy:new Float32Array(L),n:0,i:0};
+  }
+  function resize(){
+    dpr=Math.min(window.devicePixelRatio||1,1.5);
+    var r=cv.getBoundingClientRect(); W=r.width; H=r.height;
+    cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr);
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    if(!qg){
+      var small=(window.innerWidth<700);
+      NXg=small?64:128; NYg=small?32:64;
+      qg=makeQG(NXg,NYg,Math.random);
+      try{ qg.loadSnap(SNAP,Math.random()*4*Math.PI); }catch(e){ qg.init(); }
+      qg.step(0.012);                                   /* fill the velocity grid */
+    }
+    SX=W/qg.LX; SY=H/qg.LY;
+    var n=Math.round(0.75*Math.min(900,Math.max(180,W*H/1700)));   /* 25% fewer tracers */
+    parts=[]; for(var i=0;i<n;i++) parts.push(spawn(true));
+  }
+  /* pointer: a moving cursor spins up a cyclone (anticlockwise on screen, as in the northern hemisphere) */
+  var px=-1,py=-1,lastMove=-1e9;
+  window.addEventListener('pointermove',function(e){var r=cv.getBoundingClientRect();px=e.clientX-r.left;py=e.clientY-r.top;lastMove=performance.now();},{passive:true});
+  document.addEventListener('pointerleave',function(){lastMove=-1e9;});
+  function cyclone(dtm){
+    if(performance.now()-lastMove>1200 || px<0||py<0||px>W||py>H) return;
+    if(qg.umax()>2.2) return;                            /* keep the whole flow in a stable range */
+    var xm=px/SX, ym=py/SY, z=qg.vortAt(xm,ym), target=-4;   /* negative = anticlockwise on a y-down screen */
+    if(z>target) qg.inject(xm,ym,-12*dtm,0.38);
+  }
+  function draw(dt){
+    var pal=document.documentElement.classList.contains('dark')?DARK:LIGHT;
+    var body=[new Path2D(),new Path2D(),new Path2D(),new Path2D()], tail=[new Path2D(),new Path2D(),new Path2D(),new Path2D()];
+    for(var i=0;i<parts.length;i++){
+      var p=parts[i];
+      speedAt(p.x,p.y,v); p.x+=v[0]*dt; p.y+=v[1]*dt; p.age+=dt;
+      var sp=Math.sqrt(v[0]*v[0]+v[1]*v[1]);
+      if(p.x>=W||p.x<0||p.y>=H||p.y<0){ p.x=(p.x+W)%W; p.y=(p.y+H)%H; p.n=0; }      /* doubly periodic */
+      if(p.age>p.life){parts[i]=spawn(false);continue;}
+      p.hx[p.i]=p.x; p.hy[p.i]=p.y; p.i=(p.i+1)%L; if(p.n<L)p.n++;
+      if(p.n<3) continue;
+      var fade=Math.sin(Math.PI*Math.min(1,p.age/p.life));
+      var vis=Math.max(2,Math.round(p.n*Math.min(1,fade*2)));
+      var b=sp<18?0:sp<34?1:sp<54?2:3, P=body[b], T=tail[b];
+      var start=(p.i-vis+L*2)%L, k=0, idx=start;
+      for(;k<vis;k++){
+        var X=p.hx[idx],Y=p.hy[idx];
+        if(k===0)P.moveTo(X,Y); else P.lineTo(X,Y);
+        if(k===vis-TAIL-1 || (vis<=TAIL&&k===0)) T.moveTo(X,Y); else if(k>vis-TAIL-1) T.lineTo(X,Y);
+        idx=(idx+1)%L;
+      }
+    }
+    ctx.clearRect(0,0,W,H);
+    ctx.lineWidth=1; ctx.lineCap='round'; ctx.lineJoin='round';
+    for(var c=0;c<4;c++){
+      ctx.strokeStyle=pal[c]+'0.22)'; ctx.stroke(body[c]);
+      ctx.strokeStyle=pal[c]+'0.4)'; ctx.stroke(tail[c]);
+    }
+  }
+  function frame(ts){
+    raf=requestAnimationFrame(frame);
+    if(!visible){last=ts;return;}
+    var dt=Math.min(0.05,(ts-last)/1000||0.016); last=ts;
+    var dtm=Math.min(0.02,R*dt,0.4*(qg.LX/NXg)/Math.max(qg.umax(),1e-3));
+    cyclone(dtm);
+    qg.step(dtm);
+    if(!isFinite(qg.UPH[0])){ qg.loadSnap(SNAP,Math.random()*4*Math.PI); qg.step(0.012); }
+    draw(dt);
+    if(++frames===20) cv.style.opacity='';               /* fade in once trails have formed */
+  }
+  function start(){
+    if(reduce){ for(var f=0;f<80;f++) draw(0.016); cv.style.opacity=''; visible=false; return; }
+    raf=requestAnimationFrame(frame);
+  }
+  cv.style.opacity='0';
+  resize(); start();
+  var rt; window.addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(function(){ctx.clearRect(0,0,W,H);resize();},150);});
+  document.addEventListener('visibilitychange',function(){visible=!document.hidden;});
 })();
 </script>
 </body>
